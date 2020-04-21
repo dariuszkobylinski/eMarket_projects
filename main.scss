@@ -75,16 +75,19 @@ body {
 }
 
 .classLogoContact {
+display: flex;
+justify-content: center;
+align-items: center;
 position:absolute;
-top: 0px;
-right: 15%;
+top: 10px;
+right: 13%;
 }
 
 .box_image {
   background-size: cover;
   width: 100%;
-  // width: 225px;
-  // height: 225px;
+  width: 100px;
+  height: 100px;
   margin: auto;
   //cursor: url("..//index.html");
 }
@@ -99,9 +102,9 @@ right: 15%;
 }
 
 .contact {
-  background-color: white;
-  width: 225px;
-  height: 225px;
+  display: flex;
+  width: 350px;
+  height: 100%;
   // position: absolute;
   // top:0px;
   // right: 500px;
@@ -122,8 +125,8 @@ right: 15%;
 .page-nav {
   position: relative;
   bottom: 60px;
-  right: -65%;
-  width: 35%;
+  right: -45%;
+  width: 55%;
   border-top: 3px solid darkgray;
 }
 .classItem {
@@ -177,10 +180,11 @@ right: 15%;
 }
 
 .text_contact {
-  margin: 8px;
+  margin: auto;
   padding: $padding_main / 2;
   text-align: center;
   font-size: 1.2em;
+  height: 100%;
 }
 
 .classLink {
@@ -231,12 +235,43 @@ right: 15%;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
+  border-bottom: #968173 1px solid;
   //border-top: 3px solid darkgrey;
   //gap:10px;
   //grid-template-areas: "message" "advertasing" "footer_summmary" "footer_summary";
   //display: flex;
   //justify-content: center;
   //align-items: center;
+
+}
+.footerMain {
+  padding: $padding_main;
+  background-color: coral;
+  height: 400px;
+  max-width: 100%;
+  display: flex;
+  
+}
+.footerPartLeftDetail,
+.footerPartRightDetail {
+display: block;
+list-style: none;
+font-size: 1.5em;
+text-decoration: none;
+color: black;
+font-weight: bold;
+padding: $padding_main/2;
+}
+
+.footerPartLeft,
+.footerPartRight {
+display: block;
+width: 250px;
+height: 300px;
+margin: auto;
+
+
+
 
 }
 
@@ -263,7 +298,7 @@ right: 15%;
 
 .h3TextLeft {
   grid-area: textFooterH3;
-  font-size: 20px;
+  font-size: 1.2em;
   padding: $padding_main;
   margin: 0px;
   text-align: center;
@@ -433,11 +468,12 @@ right: 15%;
 
 .footer_summary {
   padding: $padding_main;
-  background-color: $background_main;
+  background-color:rgb(255, 255, 255);
   max-width: 100%;
   height: 15px;
   color: black;
   font-size: 16px;
+  height: 350px;
 }
 
 .box_image_ONas {
@@ -492,19 +528,30 @@ right: 15%;
   border-radius: 2px;
 }
 
-.classContactDetail,
 .classContactOpening {
   //padding: $padding_main;
   font-size: 16px;
   min-width: 80%;
   border: 1px solid darkgray;
   text-shadow: 1px 1px grey;
-
+  // width: 425px;
+}
+.classContactDetail
+ {
+  //padding: $padding_main;
+  font-size: 16px;
+  min-width: 80%;
+  border: 1px solid darkgray;
+  text-shadow: 1px 1px grey;
+  width: 425px;
 }
 
+
 .pClassContactDetail {
-  padding: $padding_main;
+  padding: $padding_main/2;
+  padding-left: $padding_main;
   margin: 0px;
+  font-size: 1.2em;
 }
 
 @media (max-width: 1700px) {
@@ -608,21 +655,7 @@ right: 15%;
   }
   .page-footer {
     display: block;
-  }
-  .classAdvertising_right {
-    //display: block;
-    //width: calc(100% -20px);
-    //width: 400px;
-    display: block;
-    top: -48px;
-  }
-  .classAdvertising_left, classAdvertasing_right {
-    position: relative;
-    padding: 5px;
-    width: calc((100% - 40px) / 2);
-    height: 325px;
-    top: 0px;
-    left: 0px;
+    
   }
 
   .text_contact {
@@ -723,68 +756,6 @@ right: 15%;
     height: 200px;
   }
 }
-
-//@media (max-width: 105px) {
-//  .main-header {
-//    //height: 100%;
-//    //display: flex;
-//    //flex-grow: 1;
-//    //flex-direction: column-reverse;
-//    //justify-content: center;
-//    //align-items: center;
-//  }
-//  .slider_left {
-//    width: 100%;
-//    height: 425px;
-//
-//  }
-
-//  .box_image{
-//    width: 150px;
-//    height: 150px;
-//    //margin-top: 10px;
-//    //position: absolute;
-//    //top:560px;
-//    //right: 5px;
-//  }
-//  .page-logo {
-//       margin: -30px 0px 30px 0px;
-//     }
-//  .page-nav {
-//    display: block;
-//  }
-//  .page-header {
-//    position: relative;
-//    height: 700px;
-//
-//  }
-//  .burger {
-//    visibility: visible;
-//  }
-//  .slider {
-//    width: 100%;
-//    height: 350px;
-//    //top:0px;
-//  }
-//  .box_image_slider {
-//    width: 100%;
-//    height: 350px;
-//    //top:60px;
-//    //margin-top: 15px;
-//  }
-//  .main {
-//    display: block;
-//    border-top: 3px solid darkgrey;
-//  }
-//  .contact {
-//    //display: none;
-//    //position: absolute;
-//    //top:560px;
-//    width: 150px;
-//    height: 150px;
-//    //right: 155px;
-//  }
-//}
 
 @media (max-width: 900px) {
   .box_image_advertising {
@@ -1026,9 +997,7 @@ right: 15%;
   .classAdvertising_left {
     height: 250px;
   }
-  //.footer_summary {
-  //  height: 80px;
-  //}
+
   .box_image_slider {
     height: 225px;
   }
