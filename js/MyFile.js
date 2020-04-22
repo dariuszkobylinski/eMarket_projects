@@ -207,9 +207,6 @@ const FooterMain = () => {
                     <a href="" className="footerPartLeftDetail">Rejsy turystyczne</a>
                     <a href="" className="footerPartLeftDetail">Kolonie, obozy</a>
                     <a href="" className="footerPartLeftDetail">Kontakt</a>
-                    {/* <a href="" className="footerPartLeftDetail"></a>
-                    <a href="" className="footerPartLeftDetail"></a> */}
-
                 </div>
                 <div className="footerPartRight">
                     <a href="" className="footerPartRightDetail">Regulamin</a>
@@ -217,8 +214,8 @@ const FooterMain = () => {
                     <a href="" className="footerPartRightDetail">Informacje o cookies</a>
                     <a href="" className="footerPartRightDetail">Metody płatności</a>
                     <a href="" className="footerPartRightDetail">Jak kupować</a>
-                    <a href="" className="footerPartRightDetail"></a>
                 </div>
+                <div className="classSocialContact">
                 <p>Centrum informacji <br></br>+48 518 836 336</p>
                 <div className="classSocialLink">
                     <a href="http://www.facebook.com">
@@ -233,6 +230,7 @@ const FooterMain = () => {
                     <a href="http://www.twitter.com">
                         <div className="classSocialLinkYouTwitter"></div>
                     </a>
+                </div>
                 </div>
             </div>
                 <div className="classLogoFooter">Copyright ©2019 MD Projects. Wszelkie prawa zastrzeżone</div>
