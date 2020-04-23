@@ -216,7 +216,7 @@ const FooterMain = () => {
                     <a href="" className="footerPartRightDetail">Jak kupować</a>
                 </div>
                 <div className="classSocialContact">
-                <p>Centrum informacji <br></br>+48 518 836 336</p>
+                <p className="centerOfInformation">Centrum informacji <br></br>+48 518 836 336</p>
                 <div className="classSocialLink">
                     <a href="http://www.facebook.com">
                         <div className="classSocialLinkFacebook"></div>
