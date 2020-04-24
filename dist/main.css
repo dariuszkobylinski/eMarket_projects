@@ -10,14 +10,21 @@ body {
   justify-content: center;
   align-items: center; }
 
-.page-header {
-  display: block; }
+.container {
+  background-color: #F5F5F5;
+  width: 75%;
+  min-height: 100px;
+  margin: auto;
+  box-shadow: 10px 3px 10px darkgray, darkgrey -3px 3px 10px, 3px -3px 10px; }
 
-.main-header {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  background-image: image("images/piano-4841121_1920.jpg"); }
+.page-header {
+  height: 400px; }
+
+.classLogoFooter {
+  padding-left: 10px;
+  background-color: #4299ce;
+  font-size: 0.8em;
+  text-align: center; }
 
 .burger {
   visibility: hidden;
@@ -37,42 +44,64 @@ body {
   margin: auto;
   margin-top: 8px; }
 
-.container {
-  padding: 10px;
-  background-color: #F5F5F5;
-  width: 75%;
-  min-height: 100px;
-  margin: auto;
-  box-shadow: 10px 3px 10px darkgray, darkgrey -3px 3px 10px, 3px -3px 10px; }
+.classLogoContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 13%; }
 
 .box_image {
   background-size: cover;
   width: 100%;
+  width: 100px;
+  height: 100px;
   margin: auto; }
 
 .slider {
-  width: calc(100% - 450px);
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  max-width: 100%;
+  height: 400px; }
 
 .contact {
-  background-color: white;
-  width: 225px;
-  height: 225px;
-  margin: auto; }
+  display: flex;
+  width: 350px;
+  height: 100%; }
 
 .box_image_slider {
-  width: calc(100% - 0px);
-  height: 310px;
+  width: calc(75% - 12px);
+  height: 400px;
   position: absolute;
+  top: 0px;
   visibility: hidden;
-  opacity: 0.8; }
+  opacity: 0.65; }
 
-.page-header {
-  padding: 10px;
-  max-width: 100%;
-  min-height: 100px; }
+.page-nav {
+  position: relative;
+  bottom: 60px;
+  right: -45%;
+  width: 55%;
+  border-top: 3px solid darkgray; }
+
+.classItem {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px;
+  padding: 10px; }
+
+.classLinkHref {
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-right: 40px;
+  color: black;
+  font-weight: bold; }
+
+.classLinkHref:hover {
+  color: darkorange;
+  font-style: italic;
+  transition: 0.25s;
+  cursor: pointer; }
 
 .main {
   padding: 10px;
@@ -95,21 +124,12 @@ body {
   border: 1px darkgray solid;
   font-size: 1.5rem; }
 
-.classItem {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
-  padding: 10px;
-  border-bottom: 3px solid darkgrey;
-  border-top: 3px solid darkgray;
-  margin-top: 16px; }
-
 .text_contact {
-  margin: 8px;
+  margin: auto;
   padding: 5px;
   text-align: center;
-  font-size: 24px; }
+  font-size: 1.2em;
+  height: 100%; }
 
 .classLink {
   padding: 5px;
@@ -120,19 +140,6 @@ body {
 .textForImage {
   position: absolute;
   top: -50px; }
-
-.classLinkHref {
-  text-decoration: none;
-  font-size: 1.75em;
-  margin-right: 40px;
-  color: black;
-  font-weight: bold; }
-
-.classLinkHref:hover {
-  color: darkorange;
-  font-style: italic;
-  transition: 0.25s;
-  cursor: pointer; }
 
 .slider_left,
 .slider_right {
@@ -162,7 +169,47 @@ body {
   padding: 10px;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+  border-bottom: #968173 1px solid; }
+
+.footerMain {
+  background-color: #4299ce;
+  height: 255px;
+  max-width: 100%;
+  display: flex; }
+
+.footerPartLeftDetail,
+.footerPartRightDetail {
+  display: block;
+  list-style: none;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 5px; }
+
+.footerPartLeftDetail:hover,
+.footerPartRightDetail:hover {
+  font-size: 1.4em;
+  color: red;
+  transition: 0.25s;
+  cursor: pointer; }
+
+.footerPartLeft,
+.footerPartRight {
+  display: block;
+  width: 250px;
+  height: 200px;
+  margin-top: 50px;
+  margin-bottom: auto; }
+
+.footerPartLeft {
+  margin-left: 200px; }
+
+.centerOfInformation {
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold; }
 
 .main-footer {
   background-color: grey;
@@ -182,7 +229,7 @@ body {
 
 .h3TextLeft {
   grid-area: textFooterH3;
-  font-size: 20px;
+  font-size: 1.2em;
   padding: 10px;
   margin: 0px;
   text-align: center;
@@ -355,12 +402,12 @@ body {
   visibility: hidden; }
 
 .footer_summary {
-  padding: 10px;
-  background-color: #F5F5F5;
+  background-color: white;
   max-width: 100%;
   height: 15px;
   color: black;
-  font-size: 16px; }
+  font-size: 16px;
+  height: 285px; }
 
 .box_image_ONas {
   float: left;
@@ -398,6 +445,13 @@ body {
 .pClassONas {
   margin: 0px; }
 
+.classSocialContact {
+  display: block;
+  width: 250px;
+  height: 200px;
+  margin: auto;
+  margin-top: 50px; }
+
 .classContact {
   margin: auto;
   display: flex;
@@ -406,16 +460,24 @@ body {
   background-color: lightgray;
   border-radius: 2px; }
 
-.classContactDetail,
 .classContactOpening {
   font-size: 16px;
   min-width: 80%;
   border: 1px solid darkgray;
   text-shadow: 1px 1px grey; }
 
+.classContactDetail {
+  font-size: 16px;
+  min-width: 80%;
+  border: 1px solid darkgray;
+  text-shadow: 1px 1px grey;
+  width: 425px; }
+
 .pClassContactDetail {
-  padding: 10px;
-  margin: 0px; }
+  padding: 5px;
+  padding-left: 10px;
+  margin: 0px;
+  font-size: 1.2em; }
 
 @media (max-width: 1700px) {
   .container {
@@ -480,16 +542,6 @@ body {
     width: calc(100% - 400px); }
   .page-footer {
     display: block; }
-  .classAdvertising_right {
-    display: block;
-    top: -48px; }
-  .classAdvertising_left, classAdvertasing_right {
-    position: relative;
-    padding: 5px;
-    width: calc((100% - 40px) / 2);
-    height: 325px;
-    top: 0px;
-    left: 0px; }
   .text_contact {
     margin: 3px; }
   .message-footer {
