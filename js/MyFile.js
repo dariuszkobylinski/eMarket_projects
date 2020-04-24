@@ -2,7 +2,6 @@ import React,{Component, useState, useEffect} from "react";
 import ReactDOM from "react-dom";
 import "../main.scss";
 import "../js/slider_manager";
-// import "../js/main";
 import "../normalize.css";
 
 const Header = () => {
@@ -37,7 +36,7 @@ const Header = () => {
                 </div>
                 <ul className="classItem">
                     <li className="classLink">
-                        <a href="../O_Nas.html" className="classLinkHref" target="_parent">O Nas</a>
+                        <a href="../O_Nas.html" className="classLinkHref" target="_parent" style={{color:"darkorange"}}>O Nas</a>
                     </li>
                     <li className="classLink">
                         <a href="../index.html" className="classLinkHref" id="keyPageWord"
@@ -50,7 +49,7 @@ const Header = () => {
                         <a href="../cennik.html" className="classLinkHref" target="_parent">Bezpieczeństwo</a>
                     </li>
                     <li className="classLink">
-                        <a href="../Dane_firmy.html" className="classLinkHref" target="_parent" style={{color:"darkorange"}}>Kontakt</a>
+                        <a href="../Dane_firmy.html" className="classLinkHref" target="_parent">Kontakt</a>
                     </li>
                 </ul>
             </nav>
@@ -58,142 +57,16 @@ const Header = () => {
         )
 };
 
-class ContactMain extends React.Component {
-
-    constructor() {
-    super();
-    this.state = {
-        fontSize: "24",
-        z:"0"
-    };
-    }
-
-    componentDidMount() {
-        const myChange = () => {
-        if (parseInt(window.innerWidth)<="370") {
-            console.log(window.innerWidth);
-            this.setState({
-                    z:"-9"
-                }
-            )
-        }
-        else {
-            if((parseInt(window.innerWidth)<"460") && (parseInt(window.innerWidth)>"370")) {
-                console.log(window.innerWidth);
-                this.setState({
-                        z:"-6"
-                    }
-                )
-            }
-            else {
-                console.log(window.innerWidth);
-                this.setState(
-                    {
-                        z:"0"
-                    }
-                )
-            }
-
-        }
-    };
-        const myResize = () => {
-        window.addEventListener("resize", myChange);
-        window.addEventListener("load",myChange);
-
-    };
-        myResize();
-    }
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        console.log("update zrobiony");
-        console.log(this.state.z, this.state.fontSize);
-    }
-
-    render() {
+const mainONas = () => {
     return (
-        <>
-                <div  className="classContact">
-                    <div className="classContactDetail">
-                        <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>MD Investments Monika Kobylińska</p>
-                        <p className="pClassContactDetail">ul. M. Drzymały 18</p>
-                        <p className="pClassContactDetail">02-495 Warszawa</p>
-                        <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>NIP: 849 111 11 11</p>
-                        <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>Telefon kontaktowy: <br></br>+48 518 836 336</p>
-                        <p className="pClassContactDetail">Poniedziałek - Piątek</p>
-                        <p className="pClassContactDetail">9:00 - 18:00</p>
-                        <p className="pClassContactDetail" style={{fontSize:parseInt(this.state.fontSize)+parseInt(this.state.z)+"px"}}>Email:</p>
-                        <p className="pClassContactDetail">mdinvestments2018@gmail.com</p>
-                    </div>
-                </div>
-     
-        </>
+    <>
+    <div className="mainONas">
+       <p className="pclassONas" style={{fontSize:"10px"}}>lorem10</p>
+       {/* <image className="box_image_ONas"></image> */}
+    </div>
+    </>
     )
 }
-};
-
-const ContactForm = () => {
-    const [formData, setFormData] = useState({
-        imienazwisko: "",
-        adresEmail: "",
-        temat:"",
-        message:"",
-    });
-    const [validation, setValidation] = useState([]);
-    const handleChange = (event) => {
-        setFormData({
-            ...formData,
-            [event.currentTarget.name]: event.currentTarget.value
-        })
-    };
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        let correct = true;
-        let error = [];
-        if(formData.imienazwisko.length < 2) {
-            correct = false;
-            error.push("Pole Imię i Nazwisko musi zawierać co najmniej 2 znaki")
-        }
-        if((formData.adresEmail.length < 3) && !(formData.adresEmail.includes("@"))) {
-            correct = false;
-            error.push("Pole Email musi zawierać znak @ i co najmniej 3 znaki")
-        }
-        if(formData.temat.length < 2) {
-            correct = false;
-            error.push("Pole Temat musi zawierać co najmniej 2 znaki")
-        }
-        if(formData.message==="") {
-            correct = false;
-            error.push("Pole wiadomość musi zostać uzupełnione")
-        }
-        if(!correct) {
-            setValidation(error);
-
-        }
-        else {
-            MyForm.submit();
-            alert("działa");
-
-        }
-
-    };
-    return (
-        <form name="MyForm" action="https://formspree.io/xzbgalwz" onSubmit={handleSubmit} method="POST" className="message-footer">
-                <h3 className="h3TextLeft">Masz pytania, napisz do nas e-mail lub zadzwoń.</h3>
-                <input type="text" name="imienazwisko" className="classImieNazwisko"
-                       placeholder="Imię i Nazwisko*" value={formData.imienazwisko} onChange={handleChange}/>
-                <input type="email" name="adresEmail" className="classEmail" placeholder="E-mail*" value={formData.adresEmail} onChange={handleChange}/>
-                <input type="text" name="temat" className="classTitle" placeholder="Tytuł" value={formData.temat} onChange={handleChange}/>
-                <textarea rows="8" name="message" className="classMessage" placeholder="Tekst wiadomości" value={formData.message} onChange={handleChange}/>
-                <button className="classBtn_footer" type="submit">Wyślij</button>
-            <ul className="classErrorMessage">
-                {
-                    validation.map((e,i) => {
-                        return <li key={i} style={{visibility:"visible", listStyle:"none"}}>{e}</li>
-                    })
-                }
-            </ul>
-            </form>
-    )
-};
 
 const FooterMain = () => {
     return (
@@ -245,13 +118,8 @@ function App() {
     return (
         <>
             <div className="container">
-                <Header />
-
-            <footer className="page-footer">
-                <ContactForm />
-                <ContactMain />
-                
-            </footer>
+            <Header />
+            <mainONas/>
             <FooterMain/>
             </div>
         </>
@@ -263,10 +131,8 @@ ReactDOM.render(
 );
 export {
     App,
-    ContactForm
+    Header,
+    mainONas,
+    FooterMain
 
 };
-
-
-
-
