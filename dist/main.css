@@ -114,7 +114,8 @@ body {
 
 .h2Text {
   margin: 20px 0px;
-  text-shadow: 4px 1px grey; }
+  text-shadow: 4px 1px grey;
+  font-size: 1.0em; }
 
 .info {
   padding: 10px;
@@ -419,7 +420,6 @@ body {
   padding: 10px;
   max-width: calc(100% - 40px);
   height: auto;
-  border: 1px darkgray solid;
   font-size: 1.5rem;
   margin: auto;
   margin-bottom: 10px;
@@ -443,7 +443,8 @@ body {
   background-position: center; }
 
 .pClassONas {
-  margin: 0px; }
+  margin: 0px;
+  font-size: 0.8em; }
 
 .classSocialContact {
   display: block;

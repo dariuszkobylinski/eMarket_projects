@@ -166,7 +166,7 @@ right: 13%;
 .h2Text {
   margin: 20px 0px;
   text-shadow: 4px 1px grey;
-  font-size: 1.2em;
+  font-size: 1.0em;
 }
 
 .info {
@@ -505,7 +505,7 @@ margin-bottom: auto;
   padding: $padding_main;
   max-width: calc(100% - 40px);
   height: auto;
-  border: 1px darkgray solid;
+  // border: 1px darkgray solid;
   font-size: 1.5rem;
   margin: auto;
   margin-bottom: 10px;
@@ -534,7 +534,9 @@ margin-bottom: auto;
 
 .pClassONas {
   margin: 0px;
-}
+  font-size: 0.8em;
+} 
+
 .classSocialContact{
 display: block;
 width: 250px;
