@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "../main.scss";
 import "../js/slider_manager";
 import "../normalize.css";
-import {FooterMain} from "../js/kontakt";
+import {FooterMain} from "../js/contact";
 // import FooterMain from "../dist/main.kontakt"; 
 
 const Header = () => {
