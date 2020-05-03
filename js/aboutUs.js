@@ -4,7 +4,6 @@ import "../normalize.css";
 import "../main.scss";
 import "./slider_manager";
 import {FooterMain} from "./contact";
-import {textTable} from "./data/texts";
 
 
 
@@ -36,20 +35,20 @@ const Header = () => {
                 </div>
                 <ul className="classItem">
                     <li className="classLink">
-                        <a href="../aboutUs.html" className="classLinkHref" target="_parent" style={{color:"darkorange"}}>O Nas</a>
+                        <a href="ONas.html" className="classLinkHref" target="_parent" style={{color:"darkorange"}}>O Nas</a>
                     </li>
                     <li className="classLink">
-                        <a href="../index.html" className="classLinkHref" id="keyPageWord"
+                        <a href="index.html" className="classLinkHref" id="keyPageWord"
                            target="_parent">Oferta</a>
                     </li>
                     <li className="classLink">
-                        <a href="../howToBuy.html" className="classLinkHref" target="_parent">Jak kupować</a>
+                        <a href="JakKupowac.html" className="classLinkHref" target="_parent">Jak kupować</a>
                     </li>
                     <li className="classLink">
-                        <a href="../security.html" className="classLinkHref" target="_parent">Bezpieczeństwo</a>
+                        <a href="Bezpieczenstwo.html" className="classLinkHref" target="_parent">Bezpieczeństwo</a>
                     </li>
                     <li className="classLink">
-                        <a href="../contact.html" className="classLinkHref" target="_parent">Kontakt</a>
+                        <a href="Kontakt.html" className="classLinkHref" target="_parent">Kontakt</a>
                     </li>
                 </ul>
             </nav>

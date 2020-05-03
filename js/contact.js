@@ -36,20 +36,20 @@ const Header = () => {
                 </div>
                 <ul className="classItem">
                     <li className="classLink">
-                        <a href="../O_Nas.html" className="classLinkHref" target="_parent">O Nas</a>
+                        <a href="ONas.html" className="classLinkHref" target="_parent">O Nas</a>
                     </li>
                     <li className="classLink">
-                        <a href="../index.html" className="classLinkHref" id="keyPageWord"
+                        <a href="index.html" className="classLinkHref" id="keyPageWord"
                            target="_parent">Oferta</a>
                     </li>
                     <li className="classLink">
-                        <a href="../cennik.html" className="classLinkHref" target="_parent">Jak kupować</a>
+                        <a href="JakKupowac.html" className="classLinkHref" target="_parent">Jak kupować</a>
                     </li>
                     <li className="classLink">
-                        <a href="../cennik.html" className="classLinkHref" target="_parent">Bezpieczeństwo</a>
+                        <a href="Bezpieczenstwo.html" className="classLinkHref" target="_parent">Bezpieczeństwo</a>
                     </li>
                     <li className="classLink">
-                        <a href="../Dane_firmy.html" className="classLinkHref" target="_parent" style={{color:"darkorange"}}>Kontakt</a>
+                        <a href="Kontakt.html" className="classLinkHref" target="_parent" style={{color:"darkorange"}}>Kontakt</a>
                     </li>
                 </ul>
             </nav>
