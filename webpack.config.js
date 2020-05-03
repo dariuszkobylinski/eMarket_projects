@@ -62,7 +62,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, 'security.html'),
+      template: path.join(__dirname, 'index.html'),
       hash: true
     }),
     new MiniCssExtractPlugin({filename: "[name].css", chunkFilename: "[id].css"})
