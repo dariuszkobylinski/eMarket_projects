@@ -73,7 +73,7 @@ const AboutUs = () => {
                         <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}} >• dostarczyć proste i intuicyjne rozwiązania dla Klientów<br></br></ul>
                         <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}}>• zapewnić możliwość najlepszego wyboru kursu/szkolenia dzięki możliwości porównania ofert w jednym miejscu oraz przez zgromadzone rekomendacje<br></br></ul>
                         <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}}>• poprawiać jakość dostawców przez stałe zbieranie informacji zwrotnej od Klientów<br></br></ul>
-                        <a style={{marginLeft:"25px"}}>Nasz</a> serwis e-market.edu.pl pozwala na wybór najkorzystniejszej oferty i szybką jej rezerwację w dowolnym miejscu i czasie. Wystarczy wejść na portal, 
+                        <a style={{marginLeft:"20px"}}>Nasz</a> serwis e-market.edu.pl pozwala na wybór najkorzystniejszej oferty i szybką jej rezerwację w dowolnym miejscu i czasie. Wystarczy wejść na portal, 
                         prześledzić oferty i kliknąć rezerwuję oraz potwierdzić zamówienie zaliczką. Nie pobieramy od naszych Klientów dodatkowych opłat. Prezentowane ceny to 
                         ceny oferowane przez naszych Partnerów w bezpośrednim kontakcie. Najważniejszy jest komfort i wygoda Klientów, dlatego też w celu zapewnienia najwyższej jakości świadczonych usług udostępniamy dla Państwa Centrum 
                         Informacji, gdzie nasz doświadczony personel pomoże rozwiązywać problemy, jeśli je Państwo napotkają przy wyborze kursu. Dzięki dostarczanej informacji 
