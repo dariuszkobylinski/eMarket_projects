@@ -41,10 +41,10 @@ const Header = () => {
                     </li>
                     <li className="classLink">
                         <a href="index.html" className="classLinkHref" id="keyPageWord"
-                           target="_parent">Oferta</a>
+                           target="_parent" style={{color:"darkorange"}}>Oferta</a>
                     </li>
                     <li className="classLink">
-                        <a href="JakKupowac.html" className="classLinkHref" target="_parent" style={{color:"darkorange"}}>Jak kupować</a>
+                        <a href="JakKupowac.html" className="classLinkHref" target="_parent" >Jak kupować</a>
                     </li>
                     <li className="classLink">
                         <a href="Bezpieczenstwo.html" className="classLinkHref" target="_parent" >Bezpieczeństwo</a>
@@ -58,42 +58,159 @@ const Header = () => {
         )
 };
 
-const MainHowToBuy = () => {
+const MainOffer = () => {
     return (
         <>
-        <div className="mainONas">
-            <article className="info_ONas">
-            <h2 className="h2Text" style={{margin:"10px 0px"}}>Jak rezerwować kursy i szkolenia (w razie pytań zadzwoń +48 518 836 336)</h2>
-                    <p className="pClassONas">Rezerwując szkolenia i kursy na naszym Serwisie nie ponosisz żadnych dodatkowych opłat. Dostawcy gwarantują 
-                    równość cen. Dokonanie rezerwacji w naszym Serwisie jest bardzo proste i intuicyjne, a dodatkowo oszczędzasz czas wybierając najlepszą 
-                    dla Ciebie ofertę w jednym miejscu.<br></br>
-                    <br></br>
-                    <a style={{fontWeight:"bold"}}>Jak to zrealizujesz:<br></br></a>
-                    <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}} >1. Wybierz szkolenie lub kurs, który Cię interesuje klikając na nim, 
-                    a następnie naciśnij przycisk „Rezerwuj".<br></br></ul>
-                    <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}} >2. Po wybraniu oferty wybrany kurs/szkolenie trafi do Twojego koszyka, 
-                    naciśnij "Przejdź do koszyka" i jeszcze raz zweryfikuj czy wybrałeś odpowiednie produkty<br></br></ul>
-                    <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}} >3. Wciśnij przycisk „Kup” a zostaniesz przekierowany na formularz, na 
-                    którym wprowadzisz dane niezbędne do przeprowadzenia rezerwacji.<br></br></ul>
-                    <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}} >4. Zapoznaj się z Regulaminem Serwisu i Polityką Prywatności e-Market.edu.pl i zatwierdź 
-                    zamówienie<br></br></ul>
-                    <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}} >5. Po zatwierdzeniu otrzymasz potwierdzenie na swój e-mail z danymi do realizacji 
-                    Przedpłaty (30% ceny kursu/szkolenia)<br></br></ul>
-                    <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}} >6.Zrealizuj przelew w ciągu 48h od potwierdzenia rezerwacji, brak zaksięgowania 
-                    Przedpłaty we wskazanym terminie jest równoznaczne z anulacją rezerwacji<br></br></ul>
-                    <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}} >7. Po zaksięgowaniu Przedpłaty na koncie bankowym otrzymasz finalne 
-                    potwierdzenie rezerwacji na e-mail z dodatkowymi informacjami niezbędnymi do realizacji kursu/szkolenia.<br></br></ul>
-                    <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}} >8.Pamiętaj rezerwacja potwierdzona dokonaniem przedpłaty jest wiążąca.<br></br></ul>
-                    Powodzenia !<br></br>
-                    <br></br>
-                    Rezerwuj i dokonaj przedpłaty na konto:<br></br>
-                    MD Investments Monika Kobylińska,<br></br>
-                    Tytuł przelewu: e-Market/ nr oferty, <br></br>
-                    mBank S.A.<br></br>
-                    Nr rachunku: 32 1140 2004 0000 3202 6243 1734
-                    </p>
-            </article>
+    <div className="mainOffer">
+        <div class="classParametersofChoose">
+            {/* <div class="classDivCategoryofChoose">
+                <h2 class="classH2CategoryofChoose">Filtruj według:</h2>
+                <h3 class="classH3CategoryofChoose">Kategorii kursu</h3>
+                <select class="classCategoryofChoose">
+                    <option>Wszystkie kategorie</option>
+                    <option>Żeglarstwo</option>
+                    <option>Nurkowanie</option>
+                    <option>Programowanie</option>
+                </select>
+            </div> */}
+            <div class="classKindofChoose">
+                <h3 class="h3TextFilter">Rodzaju kursu</h3>
+                <select class="classCategoryofChoose">
+                    <option>Wszystkie rodzaje</option>
+                    <option>Żeglarz Jachtowy</option>
+                    <option>Sternik Morski</option>
+                    <option>Sternik Motorowodny</option>
+                    <option>Holowanie narciarza</option>
+                    <option>Narty wodne</option>
+                </select>
+            </div>
+            <div class="classPlaceofChoose">
+                <h3 class="h3TextFilter">Miejsca kursu</h3>
+                <select class="classCategoryofChoose">
+                    <option>Wszystkie miejsca</option>
+                    <option>Mazury</option>
+                    <option>Zalew Sulejowski</option>
+                    <option>Zalew Zek</option>
+                    <option>Zalew Zegrzyński</option>
+                    <option>Kraków</option>
+                </select>
+            </div>
+            <div class="classTimeofChoose">
+            <h3 class="h3TextFilter">Cena kursu</h3>
+            <select class="classCategoryofChoose">
+                <option>Styczeń</option>
+                <option>Luty</option>
+                <option>Marzec</option>
+                <option>Kwiecień</option>
+            </select>
+            </div>
+
+            <div class="classPriceofChoose">
+                <h3 class="h3TextFilter">Cena kursu</h3>
+                <select class="classCategoryofChoose">
+                    <option>poniżej 500zł</option>
+                    <option>500zł - 1000zł</option>
+                    <option>1000zł - 2000zł</option>
+                    <option>powyżej 2000zł</option>
+                </select>
+            </div>
+            <button class="classBtnCategoryofChoose">Filtruj</button>
         </div>
+        {/* <div class="classViewofProduct">
+            <div class="classProductDetail">
+                <div>
+                <img class="classProductImg" src="images/people-2557396_1920.jpg">
+                <p class="classImgPromotion">Promocja</p>
+                </div>
+
+                <p class="classCategoryStyle">Kategoria</p>
+                <p class="classCategoryStyle">Rodzaj</p>
+                <p class="classCategoryStyle">Miejscowość</p>
+                <p class="classCategoryStyle">Termin</p>
+                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+            </div>
+            <div class="classProductDetail">
+                <img class="classProductImg" src="images/logo_2.jpg">
+                <p class="classCategoryStyle">Kategoria</p>
+                <p class="classCategoryStyle">Rodzaj</p>
+                <p class="classCategoryStyle">Miejscowość</p>
+                <p class="classCategoryStyle">Termin</p>
+                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+            </div>
+            <div class="classProductDetail">
+                <img class="classProductImg" src="images/logo_2.jpg">
+                <p class="classCategoryStyle">Kategoria</p>
+                <p class="classCategoryStyle">Rodzaj</p>
+                <p class="classCategoryStyle">Miejscowość</p>
+                <p class="classCategoryStyle">Termin</p>
+                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+            </div>
+            <div class="classProductDetail">
+                <img class="classProductImg" src="images/logo_2.jpg">
+                <p class="classCategoryStyle">Kategoria</p>
+                <p class="classCategoryStyle">Rodzaj</p>
+                <p class="classCategoryStyle">Miejscowość</p>
+                <p class="classCategoryStyle">Termin</p>
+                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+            </div>
+            <div class="classProductDetail">
+                <img class="classProductImg" src="images/logo_2.jpg">
+                <p class="classCategoryStyle">Kategoria</p>
+                <p class="classCategoryStyle">Rodzaj</p>
+                <p class="classCategoryStyle">Miejscowość</p>
+                <p class="classCategoryStyle">Termin</p>
+                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+            </div>
+        </div> */}
+       <div class="classViewofProduct">
+            <div class="classProductDetail">
+                <div>
+                <img class="classProductImg" src="images/logo_2.jpg"/>
+                <p class="classImgPromotion">Promocja</p>
+                </div>
+
+                <p class="classCategoryStyle">Kategoria</p>
+                <p class="classCategoryStyle">Rodzaj</p>
+                <p class="classCategoryStyle">Miejscowość</p>
+                <p class="classCategoryStyle">Termin</p>
+                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+            </div>
+            <div class="classProductDetail">
+                <img class="classProductImg" src="images/logo_2.jpg"/>
+                <p class="classCategoryStyle">Kategoria</p>
+                <p class="classCategoryStyle">Rodzaj</p>
+                <p class="classCategoryStyle">Miejscowość</p>
+                <p class="classCategoryStyle">Termin</p>
+                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+            </div>
+            <div class="classProductDetail">
+                <img class="classProductImg" src="images/logo_2.jpg"/>
+                <p class="classCategoryStyle">Kategoria</p>
+                <p class="classCategoryStyle">Rodzaj</p>
+                <p class="classCategoryStyle">Miejscowość</p>
+                <p class="classCategoryStyle">Termin</p>
+                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+            </div>
+            <div class="classProductDetail">
+                <img class="classProductImg" src="images/logo_2.jpg"/>
+                <p class="classCategoryStyle">Kategoria</p>
+                <p class="classCategoryStyle">Rodzaj</p>
+                <p class="classCategoryStyle">Miejscowość</p>
+                <p class="classCategoryStyle">Termin</p>
+                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+            </div>
+            <div class="classProductDetail">
+                <img class="classProductImg" src="images/logo_2.jpg"/>
+                <p class="classCategoryStyle">Kategoria</p>
+                <p class="classCategoryStyle">Rodzaj</p>
+                <p class="classCategoryStyle">Miejscowość</p>
+                <p class="classCategoryStyle">Termin</p>
+                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+            </div>
+        </div>
+            
+    </div>
+       
         </>
     )
 };
@@ -102,7 +219,7 @@ function App() {
         <>
             <div className="container">
             <Header />
-            <MainHowToBuy/>
+            <MainOffer/>
             <FooterMain/>
             </div>
         </>
@@ -115,7 +232,7 @@ ReactDOM.render(
 export {
     App,
     Header,
-    MainHowToBuy,
+    MainOffer,
     FooterMain
 
 };

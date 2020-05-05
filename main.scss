@@ -51,6 +51,31 @@ body {
   font-size: 0.8em;
   text-align: center;
 }
+.h3TextFilter {
+  margin:0px;
+  // padding: $padding_main;
+  padding-top: $padding_main;
+  padding-bottom: 5px;
+  font-weight: normal;
+  font-size: 1.1em;
+  margin-left: 10%;
+
+}
+.classCategoryofChoose {
+  font-size: 13px1;
+  height: 34px;
+  width: 80%;
+  border-radius: 5%;
+  margin-left: 10%;
+}
+
+.classPriceofChoose, 
+.classTimeofChoose,
+.classPlaceofChoose,
+.classKindofChoose {
+  width: 100%;
+  background-color:#febb02;
+}
 
 .burger {
   visibility: hidden;
@@ -1040,4 +1065,25 @@ margin-top: 50px;
 
 .visible {
   visibility: visible;
+}
+
+.mainOffer {
+  width: 100%;
+  height: 100%;
+  background: brown;
+  display: flex;
+
+}
+
+.classViewofProduct {
+  background: grey;
+}
+
+.classParametersofChoose {
+  width: 20%;
+}
+
+.classProductDetail {
+  border: grey 1px solid;
+  padding: $padding_main;
 }
