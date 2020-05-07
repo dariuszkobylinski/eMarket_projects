@@ -116,14 +116,14 @@ const MainOffer = () => {
             </div>
             <button class="classBtnCategoryofChoose">Filtruj</button>
         </div>
-
-       <div className="classViewofProduct">
-            <div className="classProductDetail">
-                <div className="classProductImg">
+        <div className="classProductImgMain">
                 <img className="classProductImg" src="images/logo_2.jpg"/>
-                <p className="classImgPromotion">Kurs weekendowy</p>
+                {/* <p className="classImgPromotion">Kurs weekendowy</p> */}
                 {/* <p className="classImgPromotion">Promocja</p> */}
-                </div>
+        </div>
+        <div className="classViewofProduct">
+            <div className="classProductDetail">
+
                 <div className="classInformationOffer">
                 <div className="classMainProductInformation">
                 <p className="classCategoryStyle">Kategoria kursu:<br></br> Żeglarz Jachtowy</p>
@@ -133,7 +133,7 @@ const MainOffer = () => {
                 {/* <p className="classCategoryStyle"></p> */}
                  </div>
                 <div className="classInformationOfProductDetail"></div>
-                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+                <button class="classBtnProduct">Rezerwuj</button>
                 </div>
                 
             </div>
