@@ -1077,6 +1077,8 @@ margin-top: 50px;
 
 .classViewofProduct {
   background: grey;
+  width: 80%;
+  border: red 1px solid;
 }
 
 .classParametersofChoose {
@@ -1086,4 +1088,68 @@ margin-top: 50px;
 .classProductDetail {
   border: grey 1px solid;
   padding: $padding_main;
+  display: flex;
+  
+}
+
+
+.classProductImg {
+  width: 150px;
+  height: 150px;
+
+}
+
+.classMainProductInformation {
+  display: flex;
+  width: 100%;
+  
+}
+
+.classImgPromotion {
+  // visibility: hidden;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.0em;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.classCategoryStyle {
+ flex-grow: 1;
+ height: 45px;
+ text-align: center;
+ font-size: 1.0em;
+ font-weight: bold;
+ font-style: italic;
+ color:darkblue;
+ margin: 0px;
+
+}
+
+.classInformationOfProductDetail {
+  height: calc(100% - 20px);
+  width: calc(100% - 40px);
+  background: darkkhaki;
+  padding: 2*$padding_main;
+}
+
+.classInformationOffer {
+  display: block;
+  width: 100%;
+}
+
+.classBtnCategoryofChoose {
+  position: relative;
+  right: -125px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px 25px;
+  line-height: 20px;
+  font-size: 1.1em;
+  border: 0;
+  color: #fff;
+  background-color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

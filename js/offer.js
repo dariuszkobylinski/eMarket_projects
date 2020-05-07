@@ -116,96 +116,26 @@ const MainOffer = () => {
             </div>
             <button class="classBtnCategoryofChoose">Filtruj</button>
         </div>
-        {/* <div class="classViewofProduct">
-            <div class="classProductDetail">
-                <div>
-                <img class="classProductImg" src="images/people-2557396_1920.jpg">
-                <p class="classImgPromotion">Promocja</p>
-                </div>
 
-                <p class="classCategoryStyle">Kategoria</p>
-                <p class="classCategoryStyle">Rodzaj</p>
-                <p class="classCategoryStyle">Miejscowość</p>
-                <p class="classCategoryStyle">Termin</p>
-                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
-            </div>
-            <div class="classProductDetail">
-                <img class="classProductImg" src="images/logo_2.jpg">
-                <p class="classCategoryStyle">Kategoria</p>
-                <p class="classCategoryStyle">Rodzaj</p>
-                <p class="classCategoryStyle">Miejscowość</p>
-                <p class="classCategoryStyle">Termin</p>
-                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
-            </div>
-            <div class="classProductDetail">
-                <img class="classProductImg" src="images/logo_2.jpg">
-                <p class="classCategoryStyle">Kategoria</p>
-                <p class="classCategoryStyle">Rodzaj</p>
-                <p class="classCategoryStyle">Miejscowość</p>
-                <p class="classCategoryStyle">Termin</p>
-                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
-            </div>
-            <div class="classProductDetail">
-                <img class="classProductImg" src="images/logo_2.jpg">
-                <p class="classCategoryStyle">Kategoria</p>
-                <p class="classCategoryStyle">Rodzaj</p>
-                <p class="classCategoryStyle">Miejscowość</p>
-                <p class="classCategoryStyle">Termin</p>
-                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
-            </div>
-            <div class="classProductDetail">
-                <img class="classProductImg" src="images/logo_2.jpg">
-                <p class="classCategoryStyle">Kategoria</p>
-                <p class="classCategoryStyle">Rodzaj</p>
-                <p class="classCategoryStyle">Miejscowość</p>
-                <p class="classCategoryStyle">Termin</p>
-                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
-            </div>
-        </div> */}
-       <div class="classViewofProduct">
-            <div class="classProductDetail">
-                <div>
-                <img class="classProductImg" src="images/logo_2.jpg"/>
-                <p class="classImgPromotion">Promocja</p>
+       <div className="classViewofProduct">
+            <div className="classProductDetail">
+                <div className="classProductImg">
+                <img className="classProductImg" src="images/logo_2.jpg"/>
+                <p className="classImgPromotion">Kurs weekendowy</p>
+                {/* <p className="classImgPromotion">Promocja</p> */}
                 </div>
-
-                <p class="classCategoryStyle">Kategoria</p>
-                <p class="classCategoryStyle">Rodzaj</p>
-                <p class="classCategoryStyle">Miejscowość</p>
-                <p class="classCategoryStyle">Termin</p>
+                <div className="classInformationOffer">
+                <div className="classMainProductInformation">
+                <p className="classCategoryStyle">Kategoria kursu:<br></br> Żeglarz Jachtowy</p>
+                <p className="classCategoryStyle">Miejsce: <br></br> Zalew Zegrzyński</p>
+                <p className="classCategoryStyle">Termin: <br></br>2020-05-09 - 2020-05-20</p>
+                <p className="classCategoryStyle">Cena: <br></br>1299 zł</p>
+                {/* <p className="classCategoryStyle"></p> */}
+                 </div>
+                <div className="classInformationOfProductDetail"></div>
                 <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
-            </div>
-            <div class="classProductDetail">
-                <img class="classProductImg" src="images/logo_2.jpg"/>
-                <p class="classCategoryStyle">Kategoria</p>
-                <p class="classCategoryStyle">Rodzaj</p>
-                <p class="classCategoryStyle">Miejscowość</p>
-                <p class="classCategoryStyle">Termin</p>
-                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
-            </div>
-            <div class="classProductDetail">
-                <img class="classProductImg" src="images/logo_2.jpg"/>
-                <p class="classCategoryStyle">Kategoria</p>
-                <p class="classCategoryStyle">Rodzaj</p>
-                <p class="classCategoryStyle">Miejscowość</p>
-                <p class="classCategoryStyle">Termin</p>
-                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
-            </div>
-            <div class="classProductDetail">
-                <img class="classProductImg" src="images/logo_2.jpg"/>
-                <p class="classCategoryStyle">Kategoria</p>
-                <p class="classCategoryStyle">Rodzaj</p>
-                <p class="classCategoryStyle">Miejscowość</p>
-                <p class="classCategoryStyle">Termin</p>
-                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
-            </div>
-            <div class="classProductDetail">
-                <img class="classProductImg" src="images/logo_2.jpg"/>
-                <p class="classCategoryStyle">Kategoria</p>
-                <p class="classCategoryStyle">Rodzaj</p>
-                <p class="classCategoryStyle">Miejscowość</p>
-                <p class="classCategoryStyle">Termin</p>
-                <button class="classBtnProduct">Rezerwuj / Więcej informacji</button>
+                </div>
+                
             </div>
         </div>
             
