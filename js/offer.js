@@ -59,8 +59,10 @@ const Header = () => {
 };
 
 const MainOffer = () => {
-    return (
-        <>
+  
+
+    return (   
+    <>
     <div className="mainOffer">
         <div class="classParametersofChoose">
             {/* <div class="classDivCategoryofChoose">
@@ -116,12 +118,15 @@ const MainOffer = () => {
             </div>
             <button class="classBtnCategoryofChoose">Filtruj</button>
         </div>
-        <div className="classProductImgMain">
-                <img className="classProductImg" src="images/logo_2.jpg"/>
-                {/* <p className="classImgPromotion">Kurs weekendowy</p> */}
-                {/* <p className="classImgPromotion">Promocja</p> */}
-        </div>
+        
+        
+       
         <div className="classViewofProduct">
+             <div className="classProductImgMain">
+                <img className="classProductImg" src="images/logo_2.jpg"/>
+                <p className="classImgPromotion">Kurs weekendowy</p>
+                {/* <p className="classImgPromotion">Promocja</p> */}
+            </div>
             <div className="classProductDetail">
 
                 <div className="classInformationOffer">
@@ -138,10 +143,9 @@ const MainOffer = () => {
                 
             </div>
         </div>
-            
-    </div>
-       
-        </>
+
+    </div>   
+    </>
     )
 };
 function App() {

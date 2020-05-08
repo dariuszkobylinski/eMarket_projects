@@ -1072,6 +1072,7 @@ margin-top: 50px;
   height: 330px;
   background:#febb02;
   display: flex;
+  justify-content: center;
 
 }
 
@@ -1079,31 +1080,35 @@ margin-top: 50px;
   background: grey;
   width: 80%;
   border: red 1px solid;
+  display: flex;
+  min-height: 330px;
+  position: relative;
+
 }
 
 .classParametersofChoose {
   width: 20%;
+  position: relative;
 }
 
 .classProductDetail {
   border: grey 1px solid;
   padding: $padding_main;
   display: flex;
+  width: 80%;
   height: 200px;
 
 }
 
 
 .classProductImg {
-  // width: 150px;
-  // height: 150px;
-
+  width: 170px;
+  height: 170px;
 }
 
 .classMainProductInformation {
   display: flex;
   width: 100%;
-  
 }
 
 .classImgPromotion {
@@ -1134,17 +1139,28 @@ margin-top: 50px;
   padding: 2*$padding_main;
 }
 
+.classInformationOfProductDetail:hover {
+background: $background_main;
+// height: 100%;
+border: green 3px solid;
+transition: 1s;
+
+}
+
 .classInformationOffer {
   display: block;
   width: 100%;
 }
 .classProductImgMain {
-  height: 100%;
+  margin: auto;
+  width: 20%;
+  text-align: center;
+  //height: 100%;
 }
 
 .classBtnCategoryofChoose {
-  position: relative;
-  right: -112px;
+  position: absolute;
+  right: 30px;
   height: 35px;
   cursor: pointer;
   border-radius: 6px;
@@ -1159,8 +1175,9 @@ margin-top: 50px;
 }
 
 .classBtnProduct {
-  position: relative;
-  right: -745px;
+  position: absolute;
+  right:$padding_main;
+  // right: -745px;
   height: 35px;
   cursor: pointer;
   border-radius: 6px;
