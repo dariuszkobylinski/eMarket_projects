@@ -5,7 +5,54 @@ import "./slider_manager";
 import "../normalize.css";
 import {FooterMain} from "./contact";
 
+const MyFunc = () => { 
+    let z=[]; 
+    for (let i=0;i<6;i++) {
+    
+    let y= <div className="classProductImgMain">ALAAAAAA</div>;
+     
+    z.push(y);
 
+    }
+   console.log(z);
+    return (
+        <div className="classViewofProduct">
+            {z}     
+               </div>
+    )
+   
+}
+    // let z="";
+    // for (let i=0;i<3;i++) {
+    //     z= z+
+        
+    // }
+//         
+//            '<img className="classProductImg" src="images/logo_2.jpg"/>'+
+//            '<p className="classImgPromotion">Kurs weekendowy</p>'+
+//        '</div>'+
+//        '<div className="classProductDetail">'+
+
+//            '<div className="classInformationOffer">'+
+//            '<div className="classMainProductInformation">'+
+//            '<p className="classCategoryStyle">Kategoria kursu:<br></br> Żeglarz Jachtowy</p>'+
+//            '<p className="classCategoryStyle">Miejsce: <br></br> Zalew Zegrzyński</p>'+
+//            '<p className="classCategoryStyle">Termin: <br></br>2020-05-09 - 2020-05-20</p>'+
+//            '<p className="classCategoryStyle">Cena: <br></br>1299 zł</p>'+
+//             '</div>'+
+//            '<div className="classInformationOfProductDetail">'+
+//            '<button className="classBtnProduct">Rezerwuj</button></div>'+
+//            '</div>'+
+           
+//        '</div>'+
+//    </div>)
+//     }
+
+
+    // return y;
+//     console.log(z);
+//     return z;
+// }   
 const Header = () => {
     return (
         <header className="page-header">
@@ -59,12 +106,11 @@ const Header = () => {
 };
 
 const MainOffer = () => {
-  
-
     return (   
     <>
+
     <div className="mainOffer">
-        <div class="classParametersofChoose">
+        <div className="classParametersofChoose">
             {/* <div class="classDivCategoryofChoose">
                 <h2 class="classH2CategoryofChoose">Filtruj według:</h2>
                 <h3 class="classH3CategoryofChoose">Kategorii kursu</h3>
@@ -75,9 +121,9 @@ const MainOffer = () => {
                     <option>Programowanie</option>
                 </select>
             </div> */}
-            <div class="classKindofChoose">
-                <h3 class="h3TextFilter">Rodzaju kursu</h3>
-                <select class="classCategoryofChoose">
+            <div className="classKindofChoose">
+                <h3 className="h3TextFilter">Rodzaju kursu</h3>
+                <select className="classCategoryofChoose">
                     <option>Wszystkie rodzaje</option>
                     <option>Żeglarz Jachtowy</option>
                     <option>Sternik Morski</option>
@@ -86,9 +132,9 @@ const MainOffer = () => {
                     <option>Narty wodne</option>
                 </select>
             </div>
-            <div class="classPlaceofChoose">
-                <h3 class="h3TextFilter">Miejsca kursu</h3>
-                <select class="classCategoryofChoose">
+            <div className="classPlaceofChoose">
+                <h3 className="h3TextFilter">Miejsca kursu</h3>
+                <select className="classCategoryofChoose">
                     <option>Wszystkie miejsca</option>
                     <option>Mazury</option>
                     <option>Zalew Sulejowski</option>
@@ -97,9 +143,9 @@ const MainOffer = () => {
                     <option>Kraków</option>
                 </select>
             </div>
-            <div class="classTimeofChoose">
-            <h3 class="h3TextFilter">Cena kursu</h3>
-            <select class="classCategoryofChoose">
+            <div className="classTimeofChoose">
+            <h3 className="h3TextFilter">Cena kursu</h3>
+            <select className="classCategoryofChoose">
                 <option>Styczeń</option>
                 <option>Luty</option>
                 <option>Marzec</option>
@@ -107,20 +153,18 @@ const MainOffer = () => {
             </select>
             </div>
 
-            <div class="classPriceofChoose">
-                <h3 class="h3TextFilter">Cena kursu</h3>
-                <select class="classCategoryofChoose">
+            <div className="classPriceofChoose">
+                <h3 className="h3TextFilter">Cena kursu</h3>
+                <select className="classCategoryofChoose">
                     <option>poniżej 500zł</option>
                     <option>500zł - 1000zł</option>
                     <option>1000zł - 2000zł</option>
                     <option>powyżej 2000zł</option>
                 </select>
             </div>
-            <button class="classBtnCategoryofChoose">Filtruj</button>
+            <button className="classBtnCategoryofChoose">Filtruj</button>
         </div>
         
-        
-       
         <div className="classViewofProduct">
              <div className="classProductImgMain">
                 <img className="classProductImg" src="images/logo_2.jpg"/>
@@ -137,13 +181,16 @@ const MainOffer = () => {
                 <p className="classCategoryStyle">Cena: <br></br>1299 zł</p>
                 {/* <p className="classCategoryStyle"></p> */}
                  </div>
-                <div className="classInformationOfProductDetail"></div>
-                <button class="classBtnProduct">Rezerwuj</button>
+                <div className="classInformationOfProductDetail">
+                <button className="classBtnProduct">Rezerwuj</button></div>
                 </div>
                 
             </div>
-        </div>
+            <MyFunc/>
 
+            
+
+        </div>
     </div>   
     </>
     )

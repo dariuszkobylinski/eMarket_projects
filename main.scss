@@ -1097,9 +1097,7 @@ margin-top: 50px;
   display: flex;
   width: 80%;
   height: 200px;
-
 }
-
 
 .classProductImg {
   width: 170px;
@@ -1141,16 +1139,16 @@ margin-top: 50px;
 
 .classInformationOfProductDetail:hover {
 background: $background_main;
-// height: 100%;
+height: 500px;
 border: green 3px solid;
 transition: 1s;
-
 }
 
 .classInformationOffer {
   display: block;
   width: 100%;
 }
+
 .classProductImgMain {
   margin: auto;
   width: 20%;
@@ -1177,6 +1175,8 @@ transition: 1s;
 .classBtnProduct {
   position: absolute;
   right:$padding_main;
+  bottom: 0px;
+  // -$padding_main/5;
   // right: -745px;
   height: 35px;
   cursor: pointer;
