@@ -4,55 +4,13 @@ import "../main.scss";
 import "./slider_manager";
 import "../normalize.css";
 import {FooterMain} from "./contact";
+var sourceTable=[{CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Styczeń", PlaceOfCourse:"Mazury"},
+{CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Luty", PlaceOfCourse: "Zalew Sulejowski"},
+{CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Luty", PlaceOfCourse: "Zalew Zek"},
+{CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Luty", PlaceOfCourse: "Mazury"}];
 
-const MyFunc = () => { 
-    let z=[]; 
-    for (let i=0;i<6;i++) {
-    
-    let y= <div className="classProductImgMain">ALAAAAAA</div>;
-     
-    z.push(y);
-
-    }
-   console.log(z);
-    return (
-        <div className="classViewofProduct">
-            {z}     
-               </div>
-    )
-   
-}
-    // let z="";
-    // for (let i=0;i<3;i++) {
-    //     z= z+
-        
-    // }
-//         
-//            '<img className="classProductImg" src="images/logo_2.jpg"/>'+
-//            '<p className="classImgPromotion">Kurs weekendowy</p>'+
-//        '</div>'+
-//        '<div className="classProductDetail">'+
-
-//            '<div className="classInformationOffer">'+
-//            '<div className="classMainProductInformation">'+
-//            '<p className="classCategoryStyle">Kategoria kursu:<br></br> Żeglarz Jachtowy</p>'+
-//            '<p className="classCategoryStyle">Miejsce: <br></br> Zalew Zegrzyński</p>'+
-//            '<p className="classCategoryStyle">Termin: <br></br>2020-05-09 - 2020-05-20</p>'+
-//            '<p className="classCategoryStyle">Cena: <br></br>1299 zł</p>'+
-//             '</div>'+
-//            '<div className="classInformationOfProductDetail">'+
-//            '<button className="classBtnProduct">Rezerwuj</button></div>'+
-//            '</div>'+
-           
-//        '</div>'+
-//    </div>)
-//     }
-
-
-    // return y;
-//     console.log(z);
-//     return z;
-// }   
+var tableOfFilter=sourceTable;
+      
 const Header = () => {
     return (
         <header className="page-header">
@@ -106,6 +64,92 @@ const Header = () => {
 };
 
 const MainOffer = () => {
+
+ 
+const MyValueFunc = () => {
+    
+    tableOfFilter=[];
+
+    let categoryOfChoose=document.querySelectorAll(".classCategoryofChoose");
+    
+    let kindOfChoose = categoryOfChoose[0].value;
+    let placeOfChoose=categoryOfChoose[1].value;
+    let timeOfChoose=categoryOfChoose[2].value;
+    let priceOfChoose=categoryOfChoose[3].value;
+
+    // console.log(kindOfChoose+" "+placeOfChoose+" "+timeOfChoose+" "+priceOfChoose);
+
+    for (let i=0;i<sourceTable.length;i++) {
+         if ((kindOfChoose===sourceTable[i].CategoryOfProduct || kindOfChoose==="Wszystkie rodzaje") && 
+         (placeOfChoose===sourceTable[i].PlaceOfCourse || placeOfChoose==="Wszystkie miejsca") && 
+         (timeOfChoose===sourceTable[i].TimingOfCourse || timeOfChoose==="Wszystkie miesiące")) 
+         {
+         tableOfFilter.push(sourceTable[i]);
+        }
+        
+    };
+    console.log("Tablica last: ",tableOfFilter);
+    return (
+        console.log("AAAAAA",MyFunc()),
+        ReactDOM.render(
+            <App />,
+            document.getElementById("app")
+        )
+
+
+        
+    )
+    
+}
+
+const myReservation = (e) => {
+    var tableOfSales=[];
+    let ids = e.target.getAttribute("id");
+    console.log(ids)
+    tableOfSales.push(tableOfFilter[ids])
+    console.log(tableOfSales)
+    } 
+
+const MyFunc = () => { 
+    
+    let z=[]; 
+    console.log("MyFuncPrzejście",tableOfFilter)
+    for (let i=0;i<tableOfFilter.length;i++) {
+
+    let y = 
+    <div className="classViewofProduct">
+                <div className="classProductImgMain">
+                    <img className="classProductImg" src="images/logo_2.jpg"/>
+                    <p className="classImgPromotion">Kurs weekendowy</p>
+                </div>
+                <div className="classProductDetail">
+                        <div className="classInformationOffer">
+                            <div className="classMainProductInformation">
+                            <p className="classCategoryStyle">Kategoria kursu:<br></br> {tableOfFilter[i].CategoryOfProduct}</p>
+                            <p className="classCategoryStyle">Miejsce: <br></br> {tableOfFilter[i].PlaceOfCourse}</p>
+                            <p className="classCategoryStyle">Termin: <br></br>2020-05-09 - 2020-05-20</p>
+                            <p className="classCategoryStyle">Cena: <br></br>1299 zł</p>
+                           
+                            </div>
+                            <div className="classInformationOfProductDetail">
+                                <p className="pclassInformationOfProductDetail"></p>
+                                <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>
+                            </div>
+                        </div>
+                </div> 
+            </div>;
+
+    z.push(y);
+    
+    }
+    return (
+        <>
+            {z} 
+        </>
+        
+    )
+   
+}
     return (   
     <>
 
@@ -146,6 +190,7 @@ const MainOffer = () => {
             <div className="classTimeofChoose">
             <h3 className="h3TextFilter">Cena kursu</h3>
             <select className="classCategoryofChoose">
+                <option>Wszystkie miesiące</option>
                 <option>Styczeń</option>
                 <option>Luty</option>
                 <option>Marzec</option>
@@ -156,40 +201,17 @@ const MainOffer = () => {
             <div className="classPriceofChoose">
                 <h3 className="h3TextFilter">Cena kursu</h3>
                 <select className="classCategoryofChoose">
+                    <option>Wszystkie ceny</option>
                     <option>poniżej 500zł</option>
                     <option>500zł - 1000zł</option>
                     <option>1000zł - 2000zł</option>
                     <option>powyżej 2000zł</option>
                 </select>
             </div>
-            <button className="classBtnCategoryofChoose">Filtruj</button>
+            <button className="classBtnCategoryofChoose" onClick={MyValueFunc}>Filtruj</button>
         </div>
-        
-        <div className="classViewofProduct">
-             <div className="classProductImgMain">
-                <img className="classProductImg" src="images/logo_2.jpg"/>
-                <p className="classImgPromotion">Kurs weekendowy</p>
-                {/* <p className="classImgPromotion">Promocja</p> */}
-            </div>
-            <div className="classProductDetail">
-
-                <div className="classInformationOffer">
-                <div className="classMainProductInformation">
-                <p className="classCategoryStyle">Kategoria kursu:<br></br> Żeglarz Jachtowy</p>
-                <p className="classCategoryStyle">Miejsce: <br></br> Zalew Zegrzyński</p>
-                <p className="classCategoryStyle">Termin: <br></br>2020-05-09 - 2020-05-20</p>
-                <p className="classCategoryStyle">Cena: <br></br>1299 zł</p>
-                {/* <p className="classCategoryStyle"></p> */}
-                 </div>
-                <div className="classInformationOfProductDetail">
-                <button className="classBtnProduct">Rezerwuj</button></div>
-                </div>
-                
-            </div>
+        <div className="classViewofProductMain">
             <MyFunc/>
-
-            
-
         </div>
     </div>   
     </>

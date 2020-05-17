@@ -303,14 +303,14 @@ cursor: pointer;
 .footerPartLeft,
 .footerPartRight {
 display: block;
-width: 250px;
+width: 300px;
 height: 200px;
 // margin: auto;
 margin-top: 50px;
 margin-bottom: auto;
 }
 .footerPartLeft {
-  margin-left: 200px;
+  margin-left: 20%;
 }
 
 .centerOfInformation {
@@ -711,12 +711,10 @@ margin-top: 50px;
     width: calc(100% - 400px);
   }
   .page-footer {
-    display: block;
-    
-  }
-
-  .text_contact {
-    margin: 3px;
+    display: block; .box_image_advertising {
+      //height: 275px;
+      //width: 400px;
+    }
   }
   .message-footer {
     border-bottom: 0px;
@@ -1069,7 +1067,7 @@ margin-top: 50px;
 
 .mainOffer {
   width: 100%;
-  height: 330px;
+  min-height: 330px;
   background:#febb02;
   display: flex;
   justify-content: center;
@@ -1078,14 +1076,19 @@ margin-top: 50px;
 
 .classViewofProduct {
   background: grey;
-  width: 80%;
+  width: 100%;
   border: red 1px solid;
   display: flex;
   min-height: 330px;
   position: relative;
 
 }
-
+.classViewofProductDetail{
+  display: block;
+}
+.classViewofProductMain{
+width: 80%;
+}
 .classParametersofChoose {
   width: 20%;
   position: relative;
@@ -1130,18 +1133,29 @@ margin-top: 50px;
 
 }
 
-.classInformationOfProductDetail {
-  height: calc(100% - 20px);
-  width: calc(100% - 40px);
-  background: darkkhaki;
-  padding: 2*$padding_main;
+.classInformationOfProductDetail 
+{
+  height: calc(100% - 5px);
+  width: calc(100% - 20px);
+  
+  
 }
 
-.classInformationOfProductDetail:hover {
+.pclassInformationOfProductDetail {
+  width: 100%;
+  height: 100%;
+  padding: $padding_main;
+  background: darkkhaki;
+  margin: 0px;
+}
+
+.pclassInformationOfProductDetail:hover {
 background: $background_main;
 height: 500px;
 border: green 3px solid;
 transition: 1s;
+position: relative;
+z-index: 2;
 }
 
 .classInformationOffer {
