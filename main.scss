@@ -25,6 +25,33 @@ body {
   align-items: center;
 }
 
+.classPopup {
+  background-color: black;
+  height: 100%;
+  opacity: 50%;
+  z-index: 5000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 3px solid #73AD21;
+  margin: auto;
+  // visibility: hidden;
+
+}
+
+.classPopupDetail {
+// background-color: blue;
+width: 50%;
+height: 300px;
+margin: auto;
+z-index: 6000;
+position:fixed;
+top:25%;
+left:25%;
+// visibility: hidden;
+
+}
 .container {
   // padding: $padding_main;
   background-color: $background_main;

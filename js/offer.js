@@ -4,6 +4,7 @@ import "../main.scss";
 import "./slider_manager";
 import "../normalize.css";
 import {FooterMain} from "./contact";
+import {Popup} from "./saleForm"
 var sourceTable=[{CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Styczeń", PlaceOfCourse:"Mazury"},
 {CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Luty", PlaceOfCourse: "Zalew Sulejowski"},
 {CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Luty", PlaceOfCourse: "Zalew Zek"},
@@ -224,6 +225,7 @@ function App() {
             <Header />
             <MainOffer/>
             <FooterMain/>
+            <Popup/>
             </div>
         </>
     )

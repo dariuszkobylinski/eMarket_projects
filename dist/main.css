@@ -10,6 +10,27 @@ body {
   justify-content: center;
   align-items: center; }
 
+.classPopup {
+  background-color: black;
+  height: 100%;
+  opacity: 50%;
+  z-index: 5000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 3px solid #73AD21;
+  margin: auto; }
+
+.classPopupDetail {
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  z-index: 6000;
+  position: fixed;
+  top: 25%;
+  left: 25%; }
+
 .container {
   background-color: #F5F5F5;
   width: 75%;
