@@ -1,13 +1,17 @@
 /*Slider górny*/
+    var numberOfOrders=[1000];
+    export  default numberOfOrders;
 
 document.addEventListener("DOMContentLoaded", () => {
+
     let mySlider = document.querySelectorAll(".box_image_slider");
+
     console.log(mySlider);
 
     let counter = 0;
-    console.log(counter);
+    // console.log(counter);
     setInterval(() => {
-        //console.log(counter);
+        console.log(numberOfOrders);
         if (counter <= mySlider.length - 2) {
             counter = counter + 1;
             mySlider[counter - 1].classList.toggle("visible");
@@ -19,8 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
             // mySlider[mySlider.length / 2 + 4 - 1].classList.toggle("visible");
             mySlider[0].classList.toggle("visible");
             // mySlider[4].classList.toggle("visible");
-
-
         }
     }, 8000);
 
