@@ -20,8 +20,7 @@ body {
   left: 0;
   width: 100%;
   border: 3px solid #73AD21;
-  margin: auto;
-  visibility: hidden; }
+  margin: auto; }
 
 .classPopupDetail {
   width: 50%;
@@ -30,8 +29,7 @@ body {
   z-index: 6000;
   position: fixed;
   top: 25%;
-  left: 25%;
-  visibility: hidden; }
+  left: 25%; }
 
 .container {
   background-color: #F5F5F5;
@@ -910,6 +908,25 @@ body {
   background-color: darkgoldenrod;
   margin-top: 10px;
   margin-bottom: 10px; }
+
+.classOrderForm {
+  width: 60%;
+  height: 300px;
+  padding: 10px;
+  display: block;
+  background-color: blueviolet;
+  margin: auto; }
+
+.classImieNazwiskoOrderForm,
+.classEmailOrderForm,
+.classTelephoneOrderForm {
+  padding: 5px;
+  background: #F5F5F5;
+  border: 1px solid black;
+  font-size: 1.25rem;
+  color: black;
+  border-radius: 2px;
+  max-width: 100%; }
 
 /* Document
  * ========================================================================== */

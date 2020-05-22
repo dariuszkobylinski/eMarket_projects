@@ -36,7 +36,7 @@ body {
   width: 100%;
   border: 3px solid #73AD21;
   margin: auto;
-  visibility: hidden;
+  // visibility: hidden;
 
 }
 
@@ -49,9 +49,11 @@ z-index: 6000;
 position:fixed;
 top:25%;
 left:25%;
-visibility: hidden;
+// visibility: hidden;
 
 }
+
+
 .container {
   // padding: $padding_main;
   background-color: $background_main;
@@ -1230,4 +1232,39 @@ z-index: 2;
   background-color: darkgoldenrod;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+// Klasy dla formularza zamówienia
+
+.classOrderForm {
+  width: 40%;
+  height: 300px;
+  padding: $padding_main;
+   display: block;
+  background-color: blueviolet;
+  margin: auto ;
+}
+.classImieNazwiskoOrderForm,
+.classEmailOrderForm,
+.classTelephoneOrderForm {
+  padding: $padding_main;
+  background: $background_main;
+  border: 1px solid black;
+  font-size: 1.25em;
+  color: black;
+  border-radius: 2px;
+  width: 320px;
+  margin: 5px;
+}
+
+.classCheckBox {
+  padding: $padding_main;
+  margin: 10px;
+}
+
+.classCheckBoxLebel {
+margin: -10px;
+padding: $padding_main/2;
+height: 20px;
+font-size: 20px;
 }
