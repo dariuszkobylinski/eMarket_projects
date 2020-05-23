@@ -88,32 +88,31 @@ const SaleFormDetail = () => {
         }
         else {
             MyForm.submit();
-            alert("Potwierdzenie do złożenego zamówienia zostało przyjęte i wysłane na podany e-mail");
+            alert("Dziękujemy, zamówienie zostało przyjęte i wysłane na podany e-mail");
 
         }
 
     };
     return (
         <form name="MyForm" action="https://formspree.io/xzbgalwz" onSubmit={handleSubmit} method="POST" className="classOrderForm">
-                <h3 className="h3TextLeft">Masz pytania, napisz do nas e-mail lub zadzwoń.</h3>
+                <h3 className="h3TextLeft">Sprawdź i potwierdż zamówienie</h3>
                 <input type="text" name="imienazwisko" className="classImieNazwiskoOrderForm"
                        placeholder="Imię i Nazwisko*" value={formData.imienazwisko} onChange={handleChange}/>
                 <input type="email" name="adresEmail" className="classEmailOrderForm" placeholder="E-mail*" value={formData.adresEmail} onChange={handleChange}/>
-                <input type="text" name="telefon" className="classTelephoneOrderForm" placeholder="Telefon kontaktowy" value={formData.telefon} onChange={handleChange}/>
+                <input type="text" name="telefon" className="classTelephoneOrderForm" placeholder="Telefon kontaktowy" value={formData.telefon} onChange={handleChange}/><br></br>
+                <div className="classCheckBox_Lebel">
                 <input type="checkbox" name="rulesCheckBox" className="classCheckBox" value={formData.rulesCheckBox.checked} onChange={handleChange} onChange={CheckboxChecked}/>
-                <label className="classCheckBoxLebel"> Zgadzam się na Regulamin portalu i Politykę Prywatności</label>
+                <label className="classCheckBoxLebel"> Zgadzam się na Regulamin portalu i Politykę Prywatności</label><br></br>
+                </div>
                 <textarea style={{visibility:"hidden"}} name="messageToCustomer" className="classMessageToCustomer" placeholder="Tekst wiadomości" value={formData.message} onChange={handleChange}/>
-                
                 <button className="classBtn_footer" type="submit">Potwierdź zamówienie</button>
-            <ul className="classErrorMessage">
-                {
+                    <ul className="classErrorMessage"> {
                     validation.map((e,i) => {
                         return <li key={i} style={{visibility:"visible", listStyle:"none"}}>{e}</li>
                     })
-                }
-            </ul>
-            </form>
-            
+                    }
+                    </ul>
+        </form>     
     )
     
 }
@@ -126,6 +125,14 @@ const Popup = ()  => {
         <div className="classPopup"></div>
         <div className="classPopupDetail">
         <SaleFormDetail/>
+        <div className="classOrderDetails">
+            <p>AAAAAAAAAA</p>
+            <p>AAAAAAAAAA</p>
+            <p>AAAAAAAAAA</p>
+            <p>AAAAAAAAAA</p>
+            <p>AAAAAAAAAA</p>
+            <p>AAAAAAAAAA</p>
+        </div>
         {/* <ContactForm/> */}
         </div>
     </>

@@ -25,34 +25,6 @@ body {
   align-items: center;
 }
 
-.classPopup {
-  background-color: black;
-  height: 100%;
-  opacity: 50%;
-  z-index: 5000;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border: 3px solid #73AD21;
-  margin: auto;
-  // visibility: hidden;
-
-}
-
-.classPopupDetail {
-// background-color: blue;
-width: 50%;
-height: 300px;
-margin: auto;
-z-index: 6000;
-position:fixed;
-top:25%;
-left:25%;
-// visibility: hidden;
-
-}
-
 
 .container {
   // padding: $padding_main;
@@ -1237,12 +1209,15 @@ z-index: 2;
 // Klasy dla formularza zamówienia
 
 .classOrderForm {
-  width: 40%;
-  height: 300px;
+  width: 50%;
   padding: $padding_main;
-   display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: blueviolet;
-  margin: auto ;
+  // height: 100%;
+  // margin: auto ;
 }
 .classImieNazwiskoOrderForm,
 .classEmailOrderForm,
@@ -1267,4 +1242,33 @@ margin: -10px;
 padding: $padding_main/2;
 height: 20px;
 font-size: 20px;
+width: 100%;
+}
+
+.classPopup {
+  background-color: black;
+  height: 100%;
+  opacity: 50%;
+  z-index: 5000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 3px solid #73AD21;
+  margin: auto;
+  // visibility: hidden;
+
+}
+.classPopupDetail {
+background-color: blue;
+width: 50%;
+height: 450px;
+margin: auto;
+z-index: 6000;
+position:fixed;
+top:25%;
+left:25%;
+display: flex;
+// visibility: hidden;
+
 }
