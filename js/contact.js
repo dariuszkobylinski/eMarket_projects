@@ -199,6 +199,7 @@ const FooterMain = () => {
 
             <div className="footer_summary">
             <div className="footerMain">
+                <div className="footerPartLeftRight">
                 <div className="footerPartLeft">
                     <a href="ONas.html.html" className="footerPartLeftDetail">O Nas</a>
                     <a href="index.html" className="footerPartLeftDetail">Żeglarstwo</a>
@@ -212,6 +213,7 @@ const FooterMain = () => {
                     <a href="Bezpieczeństwo.html" className="footerPartRightDetail">Informacje o cookies</a>
                     <a href="MetodyPłatności.html" className="footerPartRightDetail">Metody płatności</a>
                     <a href="JakKupować.html" className="footerPartRightDetail">Jak kupować</a>
+                </div>
                 </div>
                 <div className="classSocialContact">
                 <p className="centerOfInformation">Centrum informacji <br></br>+48 518 836 336</p>

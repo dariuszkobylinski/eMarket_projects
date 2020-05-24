@@ -476,7 +476,7 @@ body {
   height: 100%; }
 
 .burger_line {
-  background-color: darkgray;
+  background-color: black;
   width: 45px;
   height: 8px;
   display: flex;
@@ -497,7 +497,7 @@ body {
   width: 55px;
   height: 50px;
   position: absolute;
-  top: 170px;
+  top: -10px;
   left: 15px; }
 
 .classItem {
@@ -532,9 +532,7 @@ body {
 
 .pClassONas {
   margin: 0px;
-  font-size: 0.8em;
-  padding-right: 20px;
-  padding-left: 20px; }
+  font-size: 0.8em; }
 
 .footer_summary {
   background-color: white;
@@ -557,16 +555,17 @@ body {
   transition: 0.25s;
   cursor: pointer; }
 
+.footerPartLeftRight {
+  display: flex;
+  width: 65%; }
+
 .footerPartLeft,
 .footerPartRight {
   display: block;
-  width: 300px;
+  width: 50%;
   height: 200px;
   margin-top: 50px;
   margin-bottom: auto; }
-
-.footerPartLeft {
-  margin-left: 20%; }
 
 .footerPartLeftDetail,
 .footerPartRightDetail {
@@ -576,19 +575,25 @@ body {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  padding: 5px; }
+  padding: 5px;
+  margin-left: 20%; }
+
+.footerPartLeftDetail {
+  margin-left: 55%; }
 
 .classSocialContact {
   display: block;
-  width: 250px;
+  width: 35%;
   height: 200px;
   margin: auto;
   margin-top: 50px; }
 
 .centerOfInformation {
   font-size: 1.2em;
-  text-align: center;
-  font-weight: bold; }
+  text-align: left;
+  font-weight: bold;
+  margin-left: 12px;
+  max-width: 100%; }
 
 .classSocialLink {
   height: 40px;
@@ -596,7 +601,7 @@ body {
   padding: 10px;
   margin-top: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center; }
 
 .classSocialLinkFacebook {
@@ -870,29 +875,6 @@ body {
   position: absolute;
   visibility: hidden; }
 
-.classAdvertising_left,
-.classAdvertising_right {
-  position: relative;
-  padding: 5px;
-  width: calc((100% - 20px) / 2);
-  height: 250px;
-  top: 0px;
-  left: 0px; }
-
-.advertisingText {
-  z-index: 1;
-  font-size: 2em;
-  color: white;
-  position: absolute;
-  top: 75px;
-  left: calc((100% - 5em) / 2);
-  width: 150px;
-  height: 50px;
-  padding: 10px;
-  text-align: center;
-  margin: 0;
-  visibility: hidden; }
-
 .classContactOpening {
   font-size: 16px;
   min-width: 80%;
@@ -946,7 +928,9 @@ body {
 @media (max-width: 1275px) {
   .page-nav {
     width: 60%;
-    right: -40%; } }
+    right: -40%; }
+  .footerPartLeftDetail {
+    margin-left: 40%; } }
 
 @media (max-width: 1235px) {
   .page-nav {
@@ -986,7 +970,31 @@ body {
   .slider {
     height: 350px; }
   .page-header {
-    height: 350px; } }
+    height: 350px; }
+  .footerMain {
+    display: block;
+    height: 100%; }
+  .footer_summary {
+    height: 375px; }
+  .footerPartLeftRight {
+    width: 100%; }
+  .footerPartLeftDetail {
+    margin-left: 40%; }
+  .classSocialContact {
+    margin: 10px;
+    width: calc(100% - 30px);
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .classSocialLink {
+    margin: 0px; }
+  .footerPartLeft,
+  .footerPartRight {
+    height: 160px; }
+  .centerOfInformation {
+    text-align: center; } }
 
 @media (max-width: 865px) {
   .page-nav {
@@ -1011,12 +1019,8 @@ body {
     height: 300px; }
   .page-header {
     height: 300px; }
-  .classLogoContact {
-    width: 450px; }
   .classItem {
-    width: 96%; } }
-
-@media (max-width: 775px) {
+    width: 96%; }
   .classLinkHref {
     margin-right: 30px; } }
 
@@ -1031,15 +1035,91 @@ body {
   .classLogoContact {
     width: 425px; } }
 
+@media (max-width: 675px) {
+  .classItem {
+    visibility: visible;
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 42px;
+    background-color: grey;
+    border: none;
+    z-index: 1;
+    width: 150px; }
+  .page-nav {
+    border: none; }
+  .burger {
+    visibility: visible; } }
+
+@media (max-width: 605px) {
+  .footerPartLeftDetail {
+    margin-left: 25%; }
+  .box_image_slider {
+    height: 275px; }
+  .slider {
+    height: 275px; }
+  .page-header {
+    height: 275px; } }
+
+@media (max-width: 575px) {
+  .footerPartLeftDetail,
+  .footerPartRightDetail {
+    margin-left: 20%; } }
+
+@media (max-width: 535px) {
+  .footerPartLeftDetail,
+  .footerPartRightDetail {
+    font-size: 1.0em;
+    margin-left: 15%; }
+  .centerOfInformation {
+    font-size: 1.0em;
+    margin: 0px; }
+  .classSocialContact {
+    height: 55px; }
+  .footerPartLeft,
+  .footerPartRight {
+    margin-top: 15px; }
+  .footer_summary {
+    height: 270px; }
+  .box_image_slider {
+    height: 250px; }
+  .slider {
+    height: 250px; }
+  .page-header {
+    height: 250px; } }
+
 @media (max-width: 425px) {
-  .box_image_advertising {
-    height: 250px; }
-  .classAdvertising_left {
-    height: 250px; }
+  .footerPartRightDetail {
+    margin-left: 0%; }
   .box_image_slider {
     height: 225px; }
-  .slider_left {
-    height: 225px; } }
+  .slider {
+    height: 225px; }
+  .page-header {
+    height: 225px; }
+  .text_contact {
+    font-size: 1.0em; }
+  .classLogoContact {
+    width: 100%; } }
+
+@media (max-width: 375px) {
+  .footerPartRightDetail {
+    margin-left: 0%; }
+  .footerPartLeftRight {
+    height: 205px; }
+  .footerPartLeft,
+  .footerPartRight {
+    margin-top: 15px; }
+  .footer_summary {
+    height: 300px; }
+  .text_contact {
+    visibility: hidden; }
+  .slider {
+    width: 100%; }
+  .box_image_slider {
+    width: 94.5%; }
+  .classLogoContact {
+    width: 100%; } }
 
 .visible {
   visibility: visible; }
