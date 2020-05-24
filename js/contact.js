@@ -66,7 +66,6 @@ class ContactMain extends React.Component {
         z:"0"
     };
     }
-
     componentDidMount() {
         const myChange = () => {
         if (parseInt(window.innerWidth)<="370") {
@@ -115,7 +114,7 @@ class ContactMain extends React.Component {
                         <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>MD Investments Monika Kobylińska</p>
                         <p className="pClassContactDetail">ul. M. Drzymały 18</p>
                         <p className="pClassContactDetail">02-495 Warszawa</p>
-                        <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>NIP: 849 111 11 11</p>
+                        <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>NIP: 849-113-64-10</p>
                         <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>Telefon kontaktowy: <br></br>+48 518 836 336</p>
                         <p className="pClassContactDetail">Poniedziałek - Piątek</p>
                         <p className="pClassContactDetail">9:00 - 18:00</p>
@@ -201,18 +200,18 @@ const FooterMain = () => {
             <div className="footer_summary">
             <div className="footerMain">
                 <div className="footerPartLeft">
-                    <a href="" className="footerPartLeftDetail">O Nas</a>
-                    <a href="" className="footerPartLeftDetail">Żeglarstwo</a>
-                    <a href="" className="footerPartLeftDetail">Rejsy turystyczne</a>
-                    <a href="" className="footerPartLeftDetail">Kolonie, obozy</a>
-                    <a href="" className="footerPartLeftDetail">Kontakt</a>
+                    <a href="ONas.html.html" className="footerPartLeftDetail">O Nas</a>
+                    <a href="index.html" className="footerPartLeftDetail">Żeglarstwo</a>
+                    <a href="index.html" className="footerPartLeftDetail">Rejsy turystyczne</a>
+                    <a href="index.html" className="footerPartLeftDetail">Kolonie, obozy</a>
+                    <a href="Kontakt.html" className="footerPartLeftDetail">Kontakt</a>
                 </div>
                 <div className="footerPartRight">
-                    <a href="" className="footerPartRightDetail">Regulamin</a>
-                    <a href="" className="footerPartRightDetail">Polityka prywatności</a>
-                    <a href="" className="footerPartRightDetail">Informacje o cookies</a>
-                    <a href="" className="footerPartRightDetail">Metody płatności</a>
-                    <a href="" className="footerPartRightDetail">Jak kupować</a>
+                    <a href="Regulamin.html" className="footerPartRightDetail">Regulamin</a>
+                    <a href="Bezpieczeństwo.html" className="footerPartRightDetail">Polityka prywatności</a>
+                    <a href="Bezpieczeństwo.html" className="footerPartRightDetail">Informacje o cookies</a>
+                    <a href="MetodyPłatności.html" className="footerPartRightDetail">Metody płatności</a>
+                    <a href="JakKupować.html" className="footerPartRightDetail">Jak kupować</a>
                 </div>
                 <div className="classSocialContact">
                 <p className="centerOfInformation">Centrum informacji <br></br>+48 518 836 336</p>

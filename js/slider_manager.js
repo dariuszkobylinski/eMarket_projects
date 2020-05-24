@@ -5,7 +5,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     let mySlider = document.querySelectorAll(".box_image_slider");
-
     console.log(mySlider);
 
     let counter = 0;
@@ -20,9 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             counter = 0;
             mySlider[mySlider.length - 1].classList.toggle("visible");
-            // mySlider[mySlider.length / 2 + 4 - 1].classList.toggle("visible");
             mySlider[0].classList.toggle("visible");
-            // mySlider[4].classList.toggle("visible");
         }
     }, 8000);
 

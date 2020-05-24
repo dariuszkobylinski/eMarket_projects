@@ -61,8 +61,6 @@ const AboutUs = () => {
         <>
         <div className="mainONas">
             <article className="info_ONas">
-                {/* <h2 className="h2Text" style={{margin:"10px 0px"}}>Lorem ipsum dolor sit amet.</h2> */}
-                {/* <img className="box_image_ONas" src="images/rope_picture.png" alt="Slider"/> */}
                     <p className="pClassONas">
                     <a style={{fontWeight:"bold", marginLeft:"25px", fontSize:"1.0em"}}>e-Market.edu.pl</a> to polski start-up, który tworzy profesjonalny portal dostarczający informacje o kursach i szkoleniach
                     realizowanych w Polsce. Misją firmy jest wsparcie w poszukiwaniu najlepszych ofert w miejscach i terminach preferowanych przez Klientów.
@@ -103,5 +101,4 @@ export {
     Header,
     AboutUs,
     FooterMain
-
 };

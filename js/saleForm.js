@@ -37,7 +37,7 @@ const SaleFormDetail = () => {
         imienazwisko: "",
         adresEmail: "",
         telefon:"",
-        messageToCustomer:"",
+        messageToCustomer:"a",
         rulesCheckBox:" ",
     });
     
@@ -54,7 +54,7 @@ const SaleFormDetail = () => {
         e.preventDefault();
         let correct = true;
         let error = [];
-        // console.log(formData.rulesCheckBox.value);
+        console.log(formData.messageToCustomer.value);
         if(formData.imienazwisko.length < 2) {
             correct = false;
             error.push("Pole Imię i Nazwisko musi zawierać co najmniej 2 znaki")
@@ -95,17 +95,17 @@ const SaleFormDetail = () => {
     };
     return (
         <form name="MyForm" action="https://formspree.io/xzbgalwz" onSubmit={handleSubmit} method="POST" className="classOrderForm">
-                <h3 className="h3TextLeft">Sprawdź i potwierdż zamówienie</h3>
+                <h3 className="h3TextLeft" style={{fontSize:"1.5em", fontStyle:"Italic", top:"20px"}}>Podaj dane kontaktowe i potwierdź zamówienie</h3>
                 <input type="text" name="imienazwisko" className="classImieNazwiskoOrderForm"
                        placeholder="Imię i Nazwisko*" value={formData.imienazwisko} onChange={handleChange}/>
                 <input type="email" name="adresEmail" className="classEmailOrderForm" placeholder="E-mail*" value={formData.adresEmail} onChange={handleChange}/>
                 <input type="text" name="telefon" className="classTelephoneOrderForm" placeholder="Telefon kontaktowy" value={formData.telefon} onChange={handleChange}/><br></br>
                 <div className="classCheckBox_Lebel">
                 <input type="checkbox" name="rulesCheckBox" className="classCheckBox" value={formData.rulesCheckBox.checked} onChange={handleChange} onChange={CheckboxChecked}/>
-                <label className="classCheckBoxLebel"> Zgadzam się na Regulamin portalu i Politykę Prywatności</label><br></br>
+                <label className="classCheckBoxLebel"> Akceptuję Regulamin portalu<br></br> i Politykę Prywatności</label><br></br>
                 </div>
-                <textarea style={{visibility:"hidden"}} name="messageToCustomer" className="classMessageToCustomer" placeholder="Tekst wiadomości" value={formData.message} onChange={handleChange}/>
-                <button className="classBtn_footer" type="submit">Potwierdź zamówienie</button>
+                <textarea style={{visibility:"hidden"}} name="messageToCustomer" className="classMessageToCustomer" placeholder="Tekst wiadomości" value="Ala ma kota" onChange={handleChange}/>
+                <button className="classBtn_footer" type="submit" style={{height:"50px", borderRadius:"12px"}}>Potwierdź zamówienie</button>
                     <ul className="classErrorMessage"> {
                     validation.map((e,i) => {
                         return <li key={i} style={{visibility:"visible", listStyle:"none"}}>{e}</li>
@@ -126,6 +126,7 @@ const Popup = ()  => {
         <div className="classPopupDetail">
         <SaleFormDetail/>
         <div className="classOrderDetails">
+            <h3 className="h3TextLeft" style={{fontSize:"1.5em", fontStyle:"Italic", top:"20px"}}>Szczegóły zamówienia</h3><br></br>
             <p>AAAAAAAAAA</p>
             <p>AAAAAAAAAA</p>
             <p>AAAAAAAAAA</p>
