@@ -111,15 +111,23 @@ class ContactMain extends React.Component {
         <>
                 <div  className="classContact">
                     <div className="classContactDetail">
-                        <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>MD Investments Monika Kobylińska</p>
+                        <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>MD Investments<br></br> Monika Kobylińska</p>
                         <p className="pClassContactDetail">ul. M. Drzymały 18</p>
                         <p className="pClassContactDetail">02-495 Warszawa</p>
                         <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>NIP: 849-113-64-10</p>
                         <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>Telefon kontaktowy: <br></br>+48 518 836 336</p>
-                        <p className="pClassContactDetail">Poniedziałek - Piątek</p>
-                        <p className="pClassContactDetail">9:00 - 18:00</p>
                         <p className="pClassContactDetail" style={{fontSize:parseInt(this.state.fontSize)+parseInt(this.state.z)+"px"}}>Email:</p>
                         <p className="pClassContactDetail">mdinvestments2018@gmail.com</p>
+                    </div>
+                    <div className="classContactDetailRight">
+                        <p className="pClassContactDetail" style={{fontSize:this.state.fontSize+"px"}}>Godziny otwarcia</p>
+                        <p className="pClassContactDetail"style={{fontSize:this.state.fontSize+"px"}}>Centrum Informacji</p>
+                        <p className="pClassContactDetail">Poniedziałek - Piątek</p>
+                        <p className="pClassContactDetail">9:00 - 18:00</p>
+                        <p className="pClassContactDetail">Sobota</p>
+                        <p className="pClassContactDetail">9:00 - 14:00</p>
+
+                        
                     </div>
                 </div>
      
@@ -211,7 +219,7 @@ const FooterMain = () => {
                     <a href="Regulamin.html" className="footerPartRightDetail">Regulamin</a>
                     <a href="Bezpieczeństwo.html" className="footerPartRightDetail">Polityka prywatności</a>
                     <a href="Bezpieczeństwo.html" className="footerPartRightDetail">Informacje o cookies</a>
-                    <a href="MetodyPłatności.html" className="footerPartRightDetail">Metody płatności</a>
+                    <a href="MetodyPłatnosci.html" className="footerPartRightDetail">Metody płatności</a>
                     <a href="JakKupować.html" className="footerPartRightDetail">Jak kupować</a>
                 </div>
                 </div>

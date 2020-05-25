@@ -313,16 +313,20 @@ margin-left: 20%;
     //border: 1px solid black;
     background-color: lightgray;
     border-radius: 2px;
+    width: 90%;
+    border: 1px solid darkgray;
   }
 
-  .classContactDetail
+  .classContactDetail,
+  .classContactDetailRight
   {
    //padding: $padding_main;
    font-size: 16px;
-   min-width: 80%;
-   border: 1px solid darkgray;
+  //  min-width: 80%;
+  //  border: 1px solid darkgray;
    text-shadow: 1px 1px grey;
-   width: 425px;
+   width: 50%;
+   margin-left: 10px;
  }
  
  .pClassContactDetail {
@@ -432,7 +436,7 @@ margin-left: 20%;
 
 .page-footer {
   height: auto;
-  max-width: calc(100% - 20px);
+  width: calc(100% - 20px);
   padding: $padding_main;
   display: grid;
   grid-template-rows: 1fr;
@@ -450,7 +454,7 @@ margin-left: 20%;
 .message-footer {
   background-color: lightgray;
   padding: $padding_main;
-  max-width: calc(100% - $padding_main * 2);
+  max-width: calc(100% - 20px);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "textFooterH3 textFooterH3" "imieNazwisko eMail" "title title" "message message" "btnMessage btnMessage" "errorMessage errorMessage";
@@ -604,7 +608,7 @@ margin-left: 20%;
 
 @media (max-width: 1550px) {
   .container {
-    width: 90%;
+   width: 90%;
   }
   .box_image_slider {
     width: calc(90% - 12px);
@@ -616,6 +620,7 @@ margin-left: 20%;
 
 @media (max-width: 1465px) {
   .container {
+    
     width: calc(100% - 20px);
     box-shadow: none;
   }
@@ -669,16 +674,32 @@ margin-left: 20%;
   .page-nav {
     width: 66%;
     right: -34%;
+  } 
+   .page-footer {
+    display: flex;
+    flex-direction: column;
   }
-  // .classLogoContact {
-  //   right: 1.05%;
-  // }
+  .classContact {
+    width: 65%;
+    margin-top: 10px;
+  }
 }
 @media (max-width: 1105px) {
   .page-nav {
     width: 70%;
     right: -30%;
   }
+
+  .classContact {
+    width: 75%;
+    
+  }
+
+
+  // .classContactDetail {
+  //   margin-top: 10px;
+  //   width: 70px;
+  // }
 }
 
 @media (max-width: 1045px) {
@@ -696,6 +717,9 @@ margin-left: 20%;
 }
 
 @media (max-width: 925px) {
+  .classContact {
+    width: 85%;
+  }
   .page-nav {
     width: 85%;
     right: -15%;
@@ -828,6 +852,19 @@ margin-left: 20%;
   .burger {
     visibility: visible;
   }
+  .classContact {
+    width: 100%;
+  }
+  .message-footer {
+  display: flex;
+  flex-direction: column;
+  }
+  .classImieNazwisko,
+  .classEmail,
+  .classTitle,
+  .classMessage {
+    margin-bottom: 10px;
+  }
 
   }
 
@@ -843,6 +880,14 @@ height: 275px;
 }
 .page-header {
 height: 275px;
+}
+
+.classContact {
+  display: block;
+}
+.classContactDetail,
+.classContactDetailRight {
+  width: 95%;
 }
 }
 
@@ -898,7 +943,6 @@ margin-left: 0%;
 .page-header {
   height: 225px;
 }
-
 .text_contact {
   font-size: 1.0em;
 }
@@ -918,7 +962,6 @@ margin-left: 0%;
 .footerPartRight {
   margin-top: 15px;
 }
-
 .footer_summary {
   height: 300px;
 }
@@ -939,14 +982,12 @@ margin-left: 0%;
 .visible {
   visibility: visible;
 }
-
 .mainOffer {
   width: 100%;
   min-height: 330px;
   background:#febb02;
   display: flex;
   justify-content: center;
-
 }
 
 .classViewofProduct {
@@ -956,7 +997,6 @@ margin-left: 0%;
   display: flex;
   min-height: 330px;
   position: relative;
-
 }
 .classViewofProductDetail{
   display: block;
