@@ -121,7 +121,7 @@ const Popup = ()  => {
     
     return (
         <>
-        <button className="classBtnProduct" onClick={test,CheckboxChecked}>aaaaa</button>
+        {/* <button className="classBtnProduct" onClick={test,CheckboxChecked}>aaaaa</button> */}
         <div className="classPopup"></div>
         <div className="classPopupDetail">
         <SaleFormDetail/>
