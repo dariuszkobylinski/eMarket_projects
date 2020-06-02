@@ -32,10 +32,9 @@ body {
   height: 400px; }
 
 .box_image_slider {
-  width: calc(75% - 12px);
+  width: calc(75% - 14px);
   height: 400px;
   position: absolute;
-  top: 0px;
   visibility: hidden;
   opacity: 0.65; }
 
@@ -481,7 +480,7 @@ body {
 .classViewofProduct {
   background: grey;
   width: calc(100% - 2px);
-  border: red 1px solid;
+  border: #a09c99 1px solid;
   display: flex;
   min-height: 330px;
   position: relative; }
@@ -497,7 +496,6 @@ body {
   display: flex; }
 
 .classProductDetail {
-  border: grey 1px solid;
   padding: 10px;
   display: flex;
   width: calc(100% - 20px);
@@ -539,11 +537,15 @@ body {
   height: 100%;
   padding: 10px;
   background: darkkhaki;
-  margin: 0px; }
+  margin: 0px;
+  overflow: hidden;
+  line-height: 1.6;
+  font-size: 1.05em;
+  text-align: justify; }
 
 .pclassInformationOfProductDetail:hover {
   background: #F5F5F5;
-  height: 500px;
+  height: fit-content;
   border: green 3px solid;
   transition: 1s;
   position: relative;
@@ -576,7 +578,7 @@ body {
 .classBtnProduct {
   position: absolute;
   right: 10px;
-  bottom: 0px;
+  bottom: 2px;
   height: 35px;
   cursor: pointer;
   border-radius: 6px;
@@ -831,7 +833,7 @@ body {
 
 @media (max-width: 675px) {
   .classItem {
-    visibility: visible;
+    visibility: hidden;
     display: block;
     position: absolute;
     left: 20px;
@@ -909,15 +911,12 @@ body {
   .page-header {
     height: 250px; }
   .classProductImg {
-    width: 150px;
-    height: 150px;
-    padding: 0px; } }
-
-@media (max-width: 485px) {
-  .classCategoryStyle {
-    height: 100%; }
-  .classViewofProduct {
-    min-height: 340px; } }
+    width: 125px;
+    height: 125px;
+    padding: 0px; }
+  .pclassInformationOfProductDetail {
+    font-size: 0.9em;
+    text-align: left; } }
 
 @media (max-width: 425px) {
   .footerPartRightDetail {
@@ -947,7 +946,8 @@ body {
   .footer_summary {
     height: 300px; }
   .text_contact {
-    visibility: hidden; }
+    font-size: 0.8em;
+    margin-left: 50px; }
   .slider {
     width: 100%; }
   .classLogoContact {
