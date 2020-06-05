@@ -210,6 +210,14 @@ const MyFunc = () => {
                 <option>Luty</option>
                 <option>Marzec</option>
                 <option>Kwiecień</option>
+                <option>Maj</option>
+                <option>Czerwiec</option>
+                <option>Lipiec</option>
+                <option>Sierpień</option>
+                <option>Wrzesień</option>
+                <option>Październik</option>
+                <option>Listopad</option>
+                <option>Grudzień</option>
             </select>
             </div>
 
@@ -252,6 +260,7 @@ export {
     App,
     Header,
     MainOffer,
-    FooterMain
+    FooterMain,
+    burgerClick
 
 };
