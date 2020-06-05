@@ -85,14 +85,15 @@ const MyValueFunc = () => {
     let kindOfChoose = categoryOfChoose[0].value;
     let placeOfChoose=categoryOfChoose[1].value;
     let timeOfChoose=categoryOfChoose[2].value;
-    let priceOfChoose=categoryOfChoose[3].value;
+    let typeOfChoose=categoryOfChoose[3].value;
 
     // console.log(kindOfChoose+" "+placeOfChoose+" "+timeOfChoose+" "+priceOfChoose);
 
     for (let i=0;i<sourceTable.length;i++) {
-         if ((kindOfChoose===sourceTable[i].CategoryOfProduct || kindOfChoose==="Wszystkie rodzaje") && 
+         if ((kindOfChoose===sourceTable[i].CategoryOfProduct || kindOfChoose==="Wszystkie kategorie") && 
          (placeOfChoose===sourceTable[i].PlaceOfCourse || placeOfChoose==="Wszystkie miejsca") && 
-         (timeOfChoose===sourceTable[i].TimingOfCourse || timeOfChoose==="Wszystkie miesiące")) 
+         (timeOfChoose===sourceTable[i].TimingOfCourse || timeOfChoose==="Wszystkie miesiące") &&
+         (typeOfChoose===sourceTable[i].TypeOfCourse || typeOfChoose==="Wszystkie rodzaje")) 
          {
          tableOfFilter.push(sourceTable[i]);
         }
@@ -141,7 +142,11 @@ const MyFunc = () => {
                                 
                                 <p className="pclassInformationOfProductDetail">
                                     <img className="classProductImg" src="images/logo_2.jpg"/> 
-                                {tableOfFilter[i].InformationAboutCourse} + {tableOfFilter[i].InformationAboutSuppliers}
+                                <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>Oferta:
+                                 </p>{tableOfFilter[i].InformationAboutCourse} <br></br> <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>Informacje o dostawcy:</p>{tableOfFilter[i].InformationAboutSuppliers}
+                                 <br></br>
+                                 <button onClick={myReservation} className="classBtnProduct" id={i} style={{left:"300px"}}>Wróć</button>
+                                 <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>
                                 </p>
                                 <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>
                             </div>
@@ -176,29 +181,34 @@ const MyFunc = () => {
                 </select>
             </div> */}
             <div className="classKindofChoose">
-                <h3 className="h3TextFilter">Kategoria kursu</h3>
+                <h3 className="h3TextFilter">Wybierz kategorię</h3>
                 <select className="classCategoryofChoose" onClick={MyValueFunc}>
-                    <option>Wszystkie rodzaje</option>
+                    <option>Wszystkie kategorie</option>
                     <option>Żeglarz Jachtowy</option>
                     <option>Sternik Morski</option>
                     <option>Sternik Motorowodny</option>
-                    <option>Holowanie narciarza</option>
-                    <option>Narty wodne</option>
+                    {/* <option>Holowanie narciarza</option>
+                    <option>Narty wodne</option> */}
                 </select>
             </div>
             <div className="classPlaceofChoose">
-                <h3 className="h3TextFilter">Miejsce kursu</h3>
+                <h3 className="h3TextFilter">Wybierz miejsce</h3>
                 <select className="classCategoryofChoose" onClick={MyValueFunc}>
                     <option>Wszystkie miejsca</option>
-                    <option>Mazury</option>
+                    <option>J. Dzierżno Małe</option>
+                    <option>Kraków/ Wawel</option>
+                    {/* <option>Mazury</option> */}
+                    <option>Olsztyn J. Ukiel</option>
+                    <option>Zalew Rzeszowski</option>
                     <option>Zalew Sulejowski</option>
                     <option>Zalew Zek</option>
                     <option>Zalew Zegrzyński</option>
-                    <option>Kraków</option>
+                    <option>Zalew Zemborzycki</option>
+                    <option>Mazury-J. Nidzkie</option>
                 </select>
             </div>
             <div className="classTimeofChoose">
-            <h3 className="h3TextFilter">Miesiąc kursu</h3>
+            <h3 className="h3TextFilter">Wybierz termin</h3>
             <select className="classCategoryofChoose" onClick={MyValueFunc}>
                 <option>Wszystkie miesiące</option>
                 {/* <option>Styczeń</option>
@@ -217,13 +227,12 @@ const MyFunc = () => {
             </div>
 
             <div className="classPriceofChoose">
-                <h3 className="h3TextFilter"></h3>
+                <h3 className="h3TextFilter">Wybierz rodzaj</h3>
                 <select className="classCategoryofChoose" onClick={MyValueFunc}>
-                    <option>Wszystkie ceny</option>
-                    <option>poniżej 500zł</option>
-                    <option>500zł - 1000zł</option>
-                    <option>1000zł - 2000zł</option>
-                    <option>powyżej 2000zł</option>
+                    <option>Wszystkie rodzaje</option>
+                    <option>Dzienny</option>
+                    <option>Weekendowy</option>
+                    
                 </select>
             </div>
             {/* <button className="classBtnCategoryofChoose" onClick={MyValueFunc}>Filtruj</button> */}

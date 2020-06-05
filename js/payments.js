@@ -71,7 +71,7 @@ const MainStatute = () => {
                         Tytuł przelewu: e-Market/nr oferty<br></br>
                         Bank: mBank S.A.<br></br>
                         Rachunek bankowy: 32 1140 2004 0000 3202 6243 1734<br></br>
-                        Płatności PayPal
+                        {/* Płatności PayPal */}
                     <br></br></ul>
                 </p>
             </article>

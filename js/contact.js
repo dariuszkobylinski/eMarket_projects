@@ -209,7 +209,7 @@ const FooterMain = () => {
             <div className="footerMain">
                 <div className="footerPartLeftRight">
                 <div className="footerPartLeft">
-                    <a href="ONas.html.html" className="footerPartLeftDetail">O Nas</a>
+                    <a href="ONas.html" className="footerPartLeftDetail">O Nas</a>
                     <a href="index.html" className="footerPartLeftDetail">Żeglarstwo</a>
                     <a href="index.html" className="footerPartLeftDetail">Rejsy turystyczne</a>
                     <a href="index.html" className="footerPartLeftDetail">Kolonie, obozy</a>
@@ -217,10 +217,10 @@ const FooterMain = () => {
                 </div>
                 <div className="footerPartRight">
                     <a href="Regulamin.html" className="footerPartRightDetail">Regulamin</a>
-                    <a href="Bezpieczeństwo.html" className="footerPartRightDetail">Polityka prywatności</a>
-                    <a href="Bezpieczeństwo.html" className="footerPartRightDetail">Informacje o cookies</a>
-                    <a href="MetodyPłatnosci.html" className="footerPartRightDetail">Metody płatności</a>
-                    <a href="JakKupować.html" className="footerPartRightDetail">Jak kupować</a>
+                    <a href="Bezpieczenstwo.html" className="footerPartRightDetail">Polityka prywatności</a>
+                    <a href="Bezpieczenstwo.html" className="footerPartRightDetail">Informacje o cookies</a>
+                    <a href="MetodyPlatnosci.html" className="footerPartRightDetail">Metody płatności</a>
+                    <a href="JakKupowac.html" className="footerPartRightDetail">Jak kupować</a>
                 </div>
                 </div>
                 <div className="classSocialContact">
