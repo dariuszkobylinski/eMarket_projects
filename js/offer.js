@@ -100,14 +100,11 @@ const MyValueFunc = () => {
     };
     console.log("Tablica last: ",tableOfFilter);
     return (
-        console.log("AAAAAA",MyFunc()),
+        // console.log("AAAAAA",MyFunc()),
         ReactDOM.render(
             <App />,
             document.getElementById("app")
-        )
-
-
-        
+        )   
     )
     
 }
@@ -121,11 +118,9 @@ const myReservation = (e) => {
     } 
 
 const MyFunc = () => { 
-    
     let z=[]; 
     console.log("MyFuncPrzejście",tableOfFilter)
     for (let i=0;i<tableOfFilter.length;i++) {
-
     let y = 
     <div className="classViewofProduct">
                 {/* <div className="classProductImgMain">
@@ -181,7 +176,7 @@ const MyFunc = () => {
                 </select>
             </div> */}
             <div className="classKindofChoose">
-                <h3 className="h3TextFilter">Rodzaju kursu</h3>
+                <h3 className="h3TextFilter">Kategoria kursu</h3>
                 <select className="classCategoryofChoose" onClick={MyValueFunc}>
                     <option>Wszystkie rodzaje</option>
                     <option>Żeglarz Jachtowy</option>
@@ -192,7 +187,7 @@ const MyFunc = () => {
                 </select>
             </div>
             <div className="classPlaceofChoose">
-                <h3 className="h3TextFilter">Miejsca kursu</h3>
+                <h3 className="h3TextFilter">Miejsce kursu</h3>
                 <select className="classCategoryofChoose" onClick={MyValueFunc}>
                     <option>Wszystkie miejsca</option>
                     <option>Mazury</option>
@@ -206,11 +201,11 @@ const MyFunc = () => {
             <h3 className="h3TextFilter">Miesiąc kursu</h3>
             <select className="classCategoryofChoose" onClick={MyValueFunc}>
                 <option>Wszystkie miesiące</option>
-                <option>Styczeń</option>
+                {/* <option>Styczeń</option>
                 <option>Luty</option>
                 <option>Marzec</option>
                 <option>Kwiecień</option>
-                <option>Maj</option>
+                <option>Maj</option> */}
                 <option>Czerwiec</option>
                 <option>Lipiec</option>
                 <option>Sierpień</option>
@@ -222,7 +217,7 @@ const MyFunc = () => {
             </div>
 
             <div className="classPriceofChoose">
-                <h3 className="h3TextFilter">Cena kursu</h3>
+                <h3 className="h3TextFilter"></h3>
                 <select className="classCategoryofChoose" onClick={MyValueFunc}>
                     <option>Wszystkie ceny</option>
                     <option>poniżej 500zł</option>
