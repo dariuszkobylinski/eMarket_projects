@@ -110,12 +110,43 @@ const MyValueFunc = () => {
     
 }
 
+const myHoverAction = (e) => {
+
+    let PmyHoverAction=document.querySelectorAll(".pclassInformationOfProductDetail");
+    let BtnMyHoverAction=document.querySelectorAll(".classBtnProductReturn");
+        var positionY=(window.scrollY);
+        console.log(positionY);
+        
+        PmyHoverAction[(e.target.getAttribute("id"))].classList.toggle("classMyHoverAction");
+        BtnMyHoverAction[(e.target.getAttribute("id"))].style.visibility="visible";
+     
+        };
+
+const myHoverCloseAction = (e) => {
+
+    let PmyHoverAction=document.querySelectorAll(".pclassInformationOfProductDetail");
+    let BtnMyHoverAction=document.querySelectorAll(".classBtnProductReturn");
+    for (let i=0;i<PmyHoverAction.length;i++) {
+        PmyHoverAction[i].classList.remove("classMyHoverAction");
+        BtnMyHoverAction[i].style.visibility="hidden";
+    }
+    // console.log("to jest pozycja",positionY);
+    // window.scrollTo(0,positionY);
+    };
+
+
 const myReservation = (e) => {
     var tableOfSales=[];
     let ids = e.target.getAttribute("id");
-    console.log(ids)
-    tableOfSales.push(tableOfFilter[ids])
-    console.log(tableOfSales)
+    console.log(ids);
+    tableOfSales.push(tableOfFilter[ids]);
+    console.log(tableOfSales);
+    
+    let myPopup=document.querySelector(".classPopup");
+    let myPopupDetail=document.querySelector(".classPopupDetail");
+    myPopup.style.visibility="visible";
+    myPopupDetail.style.visibility="visible";
+
     } 
 
 const MyFunc = () => { 
@@ -128,7 +159,7 @@ const MyFunc = () => {
                     <img className="classProductImg" src="images/logo_2.jpg"/>
                     <p className="classImgPromotion">Kurs weekendowy</p>
                 </div> */}
-                <div className="classProductDetail">
+                <div className="classProductDetail" id={i}>
                         <div className="classInformationOffer">
                             <div className="classMainProductInformation">
                             <p className="classCategoryStyle">Kategoria:<br></br> {tableOfFilter[i].CategoryOfProduct}</p>
@@ -138,14 +169,16 @@ const MyFunc = () => {
                             <p className="classCategoryStyle">Cena: <br></br>{tableOfFilter[i].PriceOfCourse} zł</p>
             
                             </div>
-                            <div className="classInformationOfProductDetail">
+                            <div className="classInformationOfProductDetail" >
                                 
-                                <p className="pclassInformationOfProductDetail">
+                                <p className="pclassInformationOfProductDetail" id={i} onMouseEnter={myHoverAction} onMouseLeave={myHoverCloseAction}>
                                     <img className="classProductImg" src="images/logo_2.jpg"/> 
-                                <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>Oferta:
-                                 </p>{tableOfFilter[i].InformationAboutCourse} <br></br> <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>Informacje o dostawcy:</p>{tableOfFilter[i].InformationAboutSuppliers}
+                                <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>
+                                    Oferta:</p>{tableOfFilter[i].InformationAboutCourse} <br></br> 
+                                <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>
+                                    Informacje o dostawcy:</p>{tableOfFilter[i].InformationAboutSuppliers} <br></br>
                                  <br></br>
-                                 <button onClick={myReservation} className="classBtnProduct" id={i} style={{left:"300px"}}>Wróć</button>
+                                 <button className="classBtnProductReturn" onClick={myHoverCloseAction} id={i} >Zamknij</button> <br></br>
                                  <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>
                                 </p>
                                 <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>

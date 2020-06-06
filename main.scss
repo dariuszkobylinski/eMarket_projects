@@ -57,7 +57,7 @@ body {
 }
 
 .box_image_slider {
-  width: calc(75% - 14px);
+  width: calc(75% - 12px);
   height: 400px;
   position: absolute;
   // top:0px;
@@ -346,7 +346,8 @@ margin-left: 20%;
   // padding: $padding_main;
   padding-top: $padding_main;
   padding-bottom: 5px;
-  font-weight: normal;
+  font-weight: bold;
+  font-style: oblique;
   font-size: 1.1em;
   margin-left: 10%;
 
@@ -594,7 +595,8 @@ margin-left: 20%;
 }
 
 .classViewofProduct {
-  background: grey;
+  // background: grey;
+  background: #efefef;
   width: calc(100% - 2px);
   border:#a09c99 1px solid;
   display: flex;
@@ -666,7 +668,8 @@ width: 100%;
   width: 100%;
   height: 100%;
   padding: $padding_main;
-  background: darkkhaki;
+  // background: darkkhaki;
+  background: #e6e4c7;
   margin: 0px;
   overflow: hidden;
   line-height: 1.6;
@@ -674,14 +677,25 @@ width: 100%;
   text-align: justify;
 }
 
-.pclassInformationOfProductDetail:hover {
-background: $background_main;
+.classMyHoverAction {
+// background: $background_main;
+background: #e6e4c7;
 height: fit-content;
 border: green 3px solid;
 transition: 1s;
 position: relative;
 z-index: 2;
 }
+
+// .pclassInformationOfProductDetail:hover {
+// // background: $background_main;
+// background: #e6e4c7;
+// height: fit-content;
+// border: green 3px solid;
+// transition: 1s;
+// position: relative;
+// z-index: 2;
+// }
 
 .classInformationOffer {
   display: block;
@@ -726,6 +740,30 @@ z-index: 2;
   border: 0;
   color: #fff;
   background-color: darkgoldenrod;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.classBtnProductReturn {
+  visibility: hidden;
+  position: absolute;
+  right:15*$padding_main;
+  bottom: 2px;
+  // -$padding_main/5;
+  // right: -745px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px 25px;
+  line-height: 20px;
+  font-size: 1.1em;
+  font-style: oblique;
+  border: 0;
+  color:black;
+  font-weight: bold;
+  text-decoration: underline;
+  // background-color: darkgoldenrod;
+  background-color: #e6e4c7;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -839,7 +877,7 @@ width: 75%;
    width: 90%;
   }
   .box_image_slider {
-    width: calc(90% - 12px);
+    width: calc(90% - 14px);
   }
   .classLogoContact {
     right: 5.5%;
@@ -1206,13 +1244,13 @@ height: 250px;
 }
 
 @media (max-width: 485px) {
-  .classCategoryStyle {
-    // font-size: 0.7em;
-    // height: 100%;
-  }
-  .classViewofProduct {
-    // min-height: 340px;
-  }
+  // .classCategoryStyle {
+  //   // font-size: 0.7em;
+  //   // height: 100%;
+  // }
+  // .classViewofProduct {
+  //   // min-height: 340px;
+  // }
 
   }
 
