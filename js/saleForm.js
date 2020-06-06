@@ -127,12 +127,13 @@ const Popup = ()  => {
         <SaleFormDetail/>
         <div className="classOrderDetails">
             <h3 className="h3TextLeft" style={{fontSize:"1.5em", fontStyle:"Italic", top:"20px"}}>Szczegóły zamówienia</h3><br></br>
-            <p>AAAAAAAAAA</p>
-            <p>AAAAAAAAAA</p>
-            <p>AAAAAAAAAA</p>
-            <p>AAAAAAAAAA</p>
-            <p>AAAAAAAAAA</p>
-            <p>AAAAAAAAAA</p>
+            <p className="pclassOrderDetails">AAAAAAAAAA</p>
+            <p className="pclassOrderDetails">AAAAAAAAAA</p>
+            <p className="pclassOrderDetails">AAAAAAAAAA</p>
+            <p className="pclassOrderDetails">AAAAAAAAAA</p>
+            <p className="pclassOrderDetails">AAAAAAAAAA</p>
+            <p className="pclassOrderDetails">AAAAAAAAAA</p>
+            <p className="pclassOrderDetails">AAAAAAAAAA</p>
         </div>
         {/* <ContactForm/> */}
         </div>

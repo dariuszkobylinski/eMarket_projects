@@ -552,6 +552,13 @@ body {
   position: relative;
   z-index: 2; }
 
+.pclassOrderDetails {
+  margin-left: 25px;
+  font-size: 1.3em;
+  font-style: oblique;
+  color: darkblue;
+  font-weight: bold; }
+
 .classInformationOffer {
   display: block;
   width: 100%; }

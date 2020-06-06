@@ -140,13 +140,25 @@ const myReservation = (e) => {
     let ids = e.target.getAttribute("id");
     console.log(ids);
     tableOfSales.push(tableOfFilter[ids]);
-    console.log(tableOfSales);
+
+    // console.log("tabela1",tableOfSales[0].idOfOffer);
+    console.log("tabela",tableOfSales[0]);
     
     let myPopup=document.querySelector(".classPopup");
     let myPopupDetail=document.querySelector(".classPopupDetail");
+    let pClassOrderDetails=document.querySelectorAll(".pclassOrderDetails");
+    // console.log(pClassOrderDetails[0]);
+
     myPopup.style.visibility="visible";
     myPopupDetail.style.visibility="visible";
 
+    pClassOrderDetails[0].innerHTML="Numer zamówienia: "+tableOfSales[0].idOfOffer;
+    pClassOrderDetails[1].innerHTML="Kategoria kursu: "+tableOfSales[0].CategoryOfProduct;
+    pClassOrderDetails[2].innerHTML="Miejsce kursu: " +tableOfSales[0].PlaceOfCourse;
+    pClassOrderDetails[3].innerHTML="Data rozpoczęcia: " +tableOfSales[0].DateOfStart;
+    pClassOrderDetails[4].innerHTML="Data zakończenia: " +tableOfSales[0].DateOfEnd;
+    pClassOrderDetails[5].innerHTML="Miesiąc kursu: " +tableOfSales[0].TimingOfCourse;
+    pClassOrderDetails[6].innerHTML="Cena kursu: "+tableOfSales[0].PriceOfCourse+" zł";
     } 
 
 const MyFunc = () => { 
