@@ -50,10 +50,11 @@ const SaleFormDetail = () => {
             
         })
     };
+
     const handleSubmit = (e) => {
         e.preventDefault();
         let correct = true;
-        let error = [];
+        var error = [];
         console.log(formData.messageToCustomer.value);
         if(formData.imienazwisko.length < 2) {
             correct = false;
@@ -75,7 +76,7 @@ const SaleFormDetail = () => {
         if(document.querySelectorAll(".classCheckBox")[0].checked===false) {
             console.log("to jest",formData.rulesCheckBox);
             correct = false;
-            error.push("Przed wysłaniem rezerwacji zapoznaj się z reguleminem") 
+            error.push("Przed wysłaniem rezerwacji zapoznaj się z reguleminem i polityką prywatności") 
         }
         else {
 
@@ -84,14 +85,15 @@ const SaleFormDetail = () => {
 
         if(!correct) {
             setValidation(error);
+            
 
+        
         }
         else {
             MyForm.submit();
             alert("Dziękujemy, zamówienie zostało przyjęte i wysłane na podany e-mail");
-
         }
-
+    
     };
     return (
         <form name="MyForm" action="https://formspree.io/xzbgalwz" onSubmit={handleSubmit} method="POST" className="classOrderForm">
@@ -102,18 +104,41 @@ const SaleFormDetail = () => {
                 <input type="text" name="telefon" className="classTelephoneOrderForm" placeholder="Telefon kontaktowy" value={formData.telefon} onChange={handleChange}/><br></br>
                 <div className="classCheckBox_Lebel">
                 <input type="checkbox" name="rulesCheckBox" className="classCheckBox" value={formData.rulesCheckBox.checked} onChange={handleChange} onChange={CheckboxChecked}/>
-                <label className="classCheckBoxLebel"> Akceptuję Regulamin portalu<br></br> i Politykę Prywatności</label><br></br>
+                <label className="classCheckBoxLebel"> Akceptuję Regulamin portalu i Politykę Prywatności</label><br></br>
                 </div>
+                <button className="classBtn_footer" type="submit" style={{height:"50px", borderRadius:"12px", marginTop:"10px"}}>Potwierdź zamówienie</button>
                 <textarea style={{visibility:"hidden"}} name="messageToCustomer" className="classMessageToCustomer" placeholder="Tekst wiadomości" value="Ala ma kota" onChange={handleChange}/>
-                <button className="classBtn_footer" type="submit" style={{height:"50px", borderRadius:"12px"}}>Potwierdź zamówienie</button>
+                
+
                     <ul className="classErrorMessage"> {
                     validation.map((e,i) => {
-                        return <li key={i} style={{visibility:"visible", listStyle:"none"}}>{e}</li>
+                        return <li key={i} style={{visibility:"visible", listStyle:"none"}} className="liClassErrorMessage">{e}</li>
                     })
                     }
                     </ul>
         </form>     
     )
+    
+}
+
+const myBtnOrderCancelation = () => {
+    let myPopup=document.querySelector(".classPopup");
+    let myPopupDetail=document.querySelector(".classPopupDetail");
+    let myBtnOrderCancel=document.querySelector(".classBtnProductOrder");
+    let myClassErrorClean=document.querySelectorAll(".liClassErrorMessage");
+
+    myPopup.style.visibility="hidden";
+    myPopupDetail.style.visibility="hidden";
+    myBtnOrderCancel.style.visibility="hidden";
+
+    
+    
+    for (let i=0;i<myClassErrorClean.length;i++) {
+    
+               myClassErrorClean[i].style.visibility="hidden";
+   
+    }
+     
     
 }
 
@@ -135,6 +160,7 @@ const Popup = ()  => {
             <p className="pclassOrderDetails">AAAAAAAAAA</p>
             <p className="pclassOrderDetails">AAAAAAAAAA</p>
         </div>
+        <button className="classBtnProductOrder" onClick={myBtnOrderCancelation}>Anuluj</button>
         {/* <ContactForm/> */}
         </div>
     </>
@@ -157,4 +183,5 @@ export {
     App,
     Popup,
     SaleFormDetail,
+    
 };
