@@ -7,11 +7,12 @@ import "../normalize.css";
 import numberOfOrders from "./slider_manager";
 
 
-const test = () => {
+const MyOrderAction = () => {
     numberOfOrders.push(parseInt(numberOfOrders[0]) + parseInt(numberOfOrders.length));
-numberOfOrders.push(15);
 console.log(numberOfOrders);
 console.log(parseInt(numberOfOrders[0]) + parseInt(numberOfOrders.length));
+// let tableOfOrders=numberOfOrders;
+// // export  default numberOfOrders;
 }
 
 const CheckboxChecked = () => {
@@ -91,23 +92,23 @@ const SaleFormDetail = () => {
         }
         else {
             MyForm.submit();
-            alert("Dziękujemy, zamówienie zostało przyjęte i wysłane na podany e-mail");
+            alert("Dziękujemy, zamówienie zostało przyjęte. Potwierdzenie zostanie wysłane na podany e-mail");
         }
     
     };
     return (
         <form name="MyForm" action="https://formspree.io/xzbgalwz" onSubmit={handleSubmit} method="POST" className="classOrderForm">
-                <h3 className="h3TextLeft" style={{fontSize:"1.5em", fontStyle:"Italic", top:"20px"}}>Podaj dane kontaktowe i potwierdź zamówienie</h3>
+                <h3 className="h3TextSaleForm">Podaj dane kontaktowe i potwierdź zamówienie</h3>
                 <input type="text" name="imienazwisko" className="classImieNazwiskoOrderForm"
                        placeholder="Imię i Nazwisko*" value={formData.imienazwisko} onChange={handleChange}/>
                 <input type="email" name="adresEmail" className="classEmailOrderForm" placeholder="E-mail*" value={formData.adresEmail} onChange={handleChange}/>
                 <input type="text" name="telefon" className="classTelephoneOrderForm" placeholder="Telefon kontaktowy" value={formData.telefon} onChange={handleChange}/><br></br>
                 <div className="classCheckBox_Lebel">
                 <input type="checkbox" name="rulesCheckBox" className="classCheckBox" value={formData.rulesCheckBox.checked} onChange={handleChange} onChange={CheckboxChecked}/>
-                <label className="classCheckBoxLebel"> Akceptuję Regulamin portalu i Politykę Prywatności</label><br></br>
+                <label className="classCheckBoxLebel"> Akceptuję <a href="Regulamin.html" target="_blank">Regulamin</a> portalu i <a href="Bezpieczenstwo.html" target="_blank">Politykę Prywatności</a></label>
                 </div>
-                <button className="classBtn_footer" type="submit" style={{height:"50px", borderRadius:"12px", marginTop:"10px"}}>Potwierdź zamówienie</button>
-                <textarea style={{visibility:"hidden"}} name="messageToCustomer" className="classMessageToCustomer" placeholder="Tekst wiadomości" value="Ala ma kota" onChange={handleChange}/>
+                <button className="classBtn_footerSaleForm" type="submit" onClick={MyOrderAction}>Potwierdź zamówienie</button>
+                <textarea style={{visibility:"hidden"}} name="messageToCustomer" className="classMessageToCustomer" placeholder="Tekst wiadomości" onChange={handleChange}/>
                 
 
                     <ul className="classErrorMessage"> {
@@ -151,8 +152,8 @@ const Popup = ()  => {
         <div className="classPopupDetail">
         <SaleFormDetail/>
         <div className="classOrderDetails">
-            <h3 className="h3TextLeft" style={{fontSize:"1.5em", fontStyle:"Italic", top:"20px"}}>Szczegóły zamówienia</h3><br></br>
-            <p className="pclassOrderDetails">AAAAAAAAAA</p>
+            <h3 className="h3TextSaleForm">Szczegóły zamówienia</h3>
+            <p className="pclassOrderDetails">Numer zamówienia: {numberOfOrders[numberOfOrders.length-1]+1}</p>
             <p className="pclassOrderDetails">AAAAAAAAAA</p>
             <p className="pclassOrderDetails">AAAAAAAAAA</p>
             <p className="pclassOrderDetails">AAAAAAAAAA</p>

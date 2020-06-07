@@ -256,6 +256,16 @@ margin-left: 20%;
   //background-position: top -65px left -11px;
 }
 
+.classBtn_footerSaleForm {
+  height:50px;
+  border-radius:12px;
+  margin-top:10px;
+  background-color: black;
+  color: ghostwhite;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
 .classSocialLinkFacebook {
   height: 35px;
   width: 34px;
@@ -842,6 +852,15 @@ font-size: 20px;
 width: 100%;
 }
 
+.h3TextSaleForm{
+  font-size:1.5em;
+  font-style: italic;
+  top:20px;
+  text-align: center;
+  
+
+}
+
 .classPopup {
   background-color: black;
   height: 100%;
@@ -942,8 +961,11 @@ width: 75%;
     width: 56%;
     right: -44%;
   }
-  .classCheckBox_Lebel {
-    width: 100%;
+  .classCheckBoxLebel {
+    font-size: 1.2em;
+}
+.pclassOrderDetails {
+  font-size: 1.2em;
 }
 }
 
@@ -955,7 +977,7 @@ width: 75%;
   }
 
   .classPopupDetail {
-    width: 50%;
+    width: 40%;
     display: block;
     top:15px;
   }
@@ -977,7 +999,7 @@ width: 75%;
   }
   .classBtn_footer {
     font-size: 1.1em;
-    height: 35px;
+    height: 40px;
     position: relative;
   }
   .pclassOrderDetails {
@@ -1014,8 +1036,11 @@ width: 75%;
     right: -38%;
   }
   .classPopupDetail {
-    width: 60%;
-    left: 20%;
+    width: 50%;
+    left: 25%;
+  }
+  .classBtn_footerSaleForm {
+    font-size: 1.1em;
   }
 }
 @media (max-width: 1175px) {
@@ -1063,8 +1088,8 @@ width: 75%;
     right: -25%;
   }
   .classPopupDetail {
-    width: 70%;
-    left: 15%;
+    width: 60%;
+    left: 20%;
   }
 }
 
@@ -1131,6 +1156,9 @@ width: 75%;
   text-align: center;
   // margin: 0px;
 }
+.h3TextSaleForm {
+  font-size: 1.3em;
+}
 }
 
 @media (max-width: 865px) {
@@ -1139,6 +1167,17 @@ width: 75%;
     width: 90%;
     right: -10%;
   }
+
+  .h3TextSaleForm {
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .classBtn_footerSaleForm {
+    font-size: 0.9em;
+    height: 35px;
+}
 
   .classImieNazwiskoOrderForm, .classEmailOrderForm, .classTelephoneOrderForm {
     font-size: 0.9em;
@@ -1359,7 +1398,9 @@ height: 250px;
   // .classViewofProduct {
   //   // min-height: 340px;
   // }
-
+    .classBtnProductOrder {
+      right: -20px;
+    }
   }
 
 @media (max-width: 425px) {
@@ -1384,6 +1425,9 @@ margin-left: 0px;
 .classProductImg {
   width: 125px;
   height: 125px;
+}
+.h3TextSaleForm {
+  font-size: 1.0em;
 }
 .pclassOrderDetails {
   font-size: 0.7em;
@@ -1423,5 +1467,19 @@ margin-left: 0%;
 .classProductImg {
   width: 100px;
   height: 100px;
+}
+
+@media (max-width: 325px) {
+  .pclassOrderDetails {
+    font-size: 0.8em;
+    margin-top: 2px;
+    margin-bottom: 1px;
+  }
+  .liClassErrorMessage {
+    font-size: 0.5em;
+  }
+  .box_image_slider {
+    width: calc(100% - 15px);
+}
 }
 }

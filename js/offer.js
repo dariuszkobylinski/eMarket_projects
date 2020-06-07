@@ -152,31 +152,30 @@ const myReservation = (e) => {
     let myPopupDetail=document.querySelector(".classPopupDetail");
     let pClassOrderDetails=document.querySelectorAll(".pclassOrderDetails");
     let myBtnOrderCancel=document.querySelector(".classBtnProductOrder");
-    // console.log(pClassOrderDetails[0]);
+    let messageToCUstomer=document.querySelector(".classMessageToCustomer");
+    console.log(pClassOrderDetails[0]);
 
     myPopup.style.visibility="visible";
     myPopupDetail.style.visibility="visible";
     myBtnOrderCancel.style.visibility="visible";
+    console.log(numberOfOrders);
 
-    pClassOrderDetails[0].innerHTML="Numer zamówienia: "+numberOfOrders[numberOfOrders.length-1]+1;
+    // pClassOrderDetails[0].innerHTML="Numer zamówienia: "+numberOfOrders[numberOfOrders.length-1]+1;
     pClassOrderDetails[1].innerHTML="Kategoria kursu: "+tableOfSales[0].CategoryOfProduct;
     pClassOrderDetails[2].innerHTML="Miejsce kursu: " +tableOfSales[0].PlaceOfCourse;
     pClassOrderDetails[3].innerHTML="Data rozpoczęcia: " +tableOfSales[0].DateOfStart;
     pClassOrderDetails[4].innerHTML="Data zakończenia: " +tableOfSales[0].DateOfEnd;
     pClassOrderDetails[5].innerHTML="Miesiąc kursu: " +tableOfSales[0].TimingOfCourse;
     pClassOrderDetails[6].innerHTML="Cena kursu: "+tableOfSales[0].PriceOfCourse+" zł";
-
-
+    messageToCUstomer.value="Dzień Dobry."+" "+"Dziękujemy za złożenie zamówienia o numerze: "+numberOfOrders[numberOfOrders.length-1]+1+" na "+
+    tableOfSales[0].CategoryOfProduct+" "+", które będzie realizowany "+tableOfSales[0].PlaceOfCourse+" w miesiącu "+tableOfSales[0].TimingOfCourse+"-Data startu: "+tableOfSales[0].DateOfStart+"Data zakończenia "
+    +tableOfSales[0].DateOfEnd+". Cena kursu to "+tableOfSales[0].PriceOfCourse+" zł. Proszę o wpłatę zaliczki w celu potwierdzenia rezerwacji. Pozdrawiamy. Zespół e-Market";
 
 
     let myClassErrorClean=document.querySelectorAll(".liClassErrorMessage");
-
-    
-    
     for (let i=0;i<myClassErrorClean.length;i++) {
     
                myClassErrorClean[i].style.visibility="visible";
-   
     }
     } 
 
@@ -227,11 +226,9 @@ const MyFunc = () => {
         </>
         
     )
-   
 }
     return (   
     <>
-
     <div className="mainOffer">
         <div className="classParametersofChoose">
             {/* <div class="classDivCategoryofChoose">
