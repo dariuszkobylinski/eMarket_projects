@@ -67,10 +67,10 @@ const MainStatute = () => {
                 <p className="pClassONas">
                     <ul style={{margin:"0px", marginTop:"5px", marginBottom:"5px"}} >
                         Za zakupy na naszym portalu zapłać przelewem na konto: <br></br>
-                        MD Investments Monika Kobylińska<br></br>
-                        Tytuł przelewu: e-Market/nr oferty<br></br>
+                        MD Investments <br></br>Monika Kobylińska<br></br>
+                        Tytuł przelewu: <br></br>e-Market/nr oferty<br></br>
                         Bank: mBank S.A.<br></br>
-                        Rachunek bankowy: 32 1140 2004 0000 3202 6243 1734<br></br>
+                        Rachunek bankowy: <br></br>32 1140 2004 0000 3202 6243 1734<br></br>
                         {/* Płatności PayPal */}
                     <br></br></ul>
                 </p>
