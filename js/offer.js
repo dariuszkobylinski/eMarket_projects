@@ -243,7 +243,7 @@ const MyFunc = () => {
             </div> */}
             <div className="classKindofChoose">
                 <h3 className="h3TextFilter">Wybierz kategorię</h3>
-                <select className="classCategoryofChoose" onClick={MyValueFunc}>
+                <select className="classCategoryofChoose" onChange={MyValueFunc}>
                     <option>Wszystkie kategorie</option>
                     <option>Żeglarz Jachtowy</option>
                     <option>Sternik Morski</option>
@@ -254,7 +254,7 @@ const MyFunc = () => {
             </div>
             <div className="classPlaceofChoose">
                 <h3 className="h3TextFilter">Wybierz miejsce</h3>
-                <select className="classCategoryofChoose" onClick={MyValueFunc}>
+                <select className="classCategoryofChoose" onChange={MyValueFunc}>
                     <option>Wszystkie miejsca</option>
                     <option>J. Dzierżno Małe</option>
                     <option>Kraków/ Wawel</option>
@@ -270,7 +270,7 @@ const MyFunc = () => {
             </div>
             <div className="classTimeofChoose">
             <h3 className="h3TextFilter">Wybierz termin</h3>
-            <select className="classCategoryofChoose" onClick={MyValueFunc}>
+            <select className="classCategoryofChoose" onChange={MyValueFunc}>
                 <option>Wszystkie miesiące</option>
                 {/* <option>Styczeń</option>
                 <option>Luty</option>
@@ -289,7 +289,7 @@ const MyFunc = () => {
 
             <div className="classPriceofChoose">
                 <h3 className="h3TextFilter">Wybierz rodzaj</h3>
-                <select className="classCategoryofChoose" onClick={MyValueFunc}>
+                <select className="classCategoryofChoose" onChange={MyValueFunc}>
                     <option>Wszystkie rodzaje</option>
                     <option>Dzienny</option>
                     <option>Weekendowy</option>
