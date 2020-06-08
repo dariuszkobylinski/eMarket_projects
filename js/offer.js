@@ -296,7 +296,7 @@ const MyFunc = () => {
                     
                 </select>
             </div>
-            {/* <button className="classBtnCategoryofChoose" onClick={MyValueFunc}>Filtruj</button> */}
+            <button className="classBtnCategoryofChoose" onClick={MyValueFunc}>Filtruj</button>
         </div>
         <div className="classViewofProductMain">
             <MyFunc/>
