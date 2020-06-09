@@ -683,7 +683,7 @@ width: 100%;
   background: #e6e4c7;
   margin: 0px;
   overflow: hidden;
-  line-height: 1.6;
+  line-height: 1.5;
   font-size: 1.05em;
   text-align: justify;
 }
@@ -691,7 +691,7 @@ width: 100%;
 .classMyHoverAction {
 // background: $background_main;
 background: #e6e4c7;
-height: fit-content;
+height: auto;
 border: green 3px solid;
 transition: 1s;
 position: relative;
@@ -1431,6 +1431,7 @@ height: 250px;
 .pclassInformationOfProductDetail {
   font-size: 0.9em;
   text-align: left;
+  line-height: 1.6;
 }
 
 .classBtnCategoryofChoose {

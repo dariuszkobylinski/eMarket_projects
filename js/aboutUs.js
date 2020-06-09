@@ -22,10 +22,10 @@ const Header = () => {
     return (
         <header className="page-header">
                 <div className="slider">
-                        <img className="box_image_slider visible" src={"images/pictureTop.png"} alt="Slider"/>
-                        <img className="box_image_slider" src={"images/pictureTop_second.png"} alt="Slider"/>
-                        <img className="box_image_slider" src={"images/pictureTop_threetenth.png"} alt="Slider"/>
-                        <img className="box_image_slider" src={"images/rope_picture.png"} alt="Slider"/>
+                        <img className="box_image_slider visible" src={"images/pictureTop.jpg"} alt="Slider"/>
+                        <img className="box_image_slider" src={"images/pictureTop_second.jpg"} alt="Slider"/>
+                        <img className="box_image_slider" src={"images/pictureTop_threetenth.jpg"} alt="Slider"/>
+                        <img className="box_image_slider" src={"images/rope_picture.jpg"} alt="Slider"/>
                 </div>
                 <div className="classLogoContact">
 
