@@ -10,11 +10,11 @@ module.exports = {
   watch: true,
   mode: 'development',
   entry: {
-    main: path.join(__dirname, 'js', 'statute.js'),
+    main: path.join(__dirname, 'js', 'contact.js'),
   },
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: '[name].statute.js'
+    filename: '[name].contact.js'
   },
   devServer: {
     contentBase: path.join(__dirname, "dist"),
