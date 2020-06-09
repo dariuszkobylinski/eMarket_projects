@@ -4,8 +4,20 @@ import "../main.scss";
 import "./slider_manager";
 import "../normalize.css";
 import {FooterMain} from "./contact";
+// import {burgerClick} from "./offer";
 
+const BurgerClick = (e) => {
+    let burgerEvent=document.querySelector(".classItem");
+    e.preventDefault();
+         console.log(burgerEvent.style);
+    if (burgerEvent.style.visibility==="hidden" || burgerEvent.style.visibility==="") {
+        burgerEvent.style.visibility="visible"; 
+    }
+    else {
 
+        burgerEvent.style.visibility="hidden";
+    };   
+}
 const Header = () => {
     return (
         <header className="page-header">
@@ -30,7 +42,7 @@ const Header = () => {
                 </div>
             
             <nav className="page-nav">
-                <div className="burger">
+                <div className="burger" onClick={BurgerClick}>
                     <div className="burger_line"></div>
                     <div className="burger_line"></div>
                     <div className="burger_line"></div>

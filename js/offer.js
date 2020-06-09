@@ -5,12 +5,12 @@ import "./slider_manager";
 import "../normalize.css";
 import {FooterMain} from "./contact";
 import {Popup} from "./saleForm";
-import sourceTable from "./data/deteilOfOffers"
+import sourceTable from "./data/deteilOfOffers";
 import numberOfOrders from "./slider_manager";
 
 var tableOfFilter=sourceTable;
 
-const burgerClick = (e) => {
+const BurgerClick = (e) => {
     let burgerEvent=document.querySelector(".classItem");
     e.preventDefault();
          console.log(burgerEvent.style);
@@ -46,7 +46,7 @@ const Header = () => {
                 </div>
             
             <nav className="page-nav">
-                <div className="burger" onClick={burgerClick}>
+                <div className="burger" onClick={BurgerClick}>
                     <div className="burger_line"></div>
                     <div className="burger_line"></div>
                     <div className="burger_line"></div>
@@ -97,8 +97,7 @@ const MyValueFunc = () => {
          (typeOfChoose===sourceTable[i].TypeOfCourse || typeOfChoose==="Wszystkie rodzaje")) 
          {
          tableOfFilter.push(sourceTable[i]);
-        }
-        
+        }  
     };
     console.log("Tablica last: ",tableOfFilter);
     return (
@@ -107,27 +106,36 @@ const MyValueFunc = () => {
             <App />,
             document.getElementById("app")
         )   
-    )
-    
+    )   
 }
 
 const myHoverAction = (e) => {
 
     let PmyHoverAction=document.querySelectorAll(".pclassInformationOfProductDetail");
     let BtnMyHoverAction=document.querySelectorAll(".classBtnProductReturn");
-        var positionY=(window.scrollY);
-        console.log(positionY);
+        // var positionY=(window.scrollY);
+        // console.log(positionY);
         
         PmyHoverAction[(e.target.getAttribute("id"))].classList.toggle("classMyHoverAction");
         BtnMyHoverAction[(e.target.getAttribute("id"))].style.visibility="visible";
-     
         };
+
+        const myHoverActionButton = (e) => {
+
+            let BtnMyHoverActionDetail= document.querySelectorAll(".classBtnProductReturn");   
+            let PmyHoverAction=document.querySelectorAll(".pclassInformationOfProductDetail");
+            let BtnMyHoverAction=document.querySelectorAll(".classBtnProductReturn");
+                // var positionY=(window.scrollY);
+                // console.log(positionY);
+                let myIdNumber=e.target.getAttribute("id");
+                PmyHoverAction[myIdNumber].classList.toggle("classMyHoverAction");
+                BtnMyHoverAction[myIdNumber].style.visibility="visible";
+                };
 
 const myHoverCloseAction = (e) => {
 
-    // PmyHoverAction[(e.target.getAttribute("id"))].classList.toggle("classMyHoverAction")
-
     let PmyHoverAction=document.querySelectorAll(".pclassInformationOfProductDetail");
+    // PmyHoverAction[(e.target.getAttribute("id"))].classList.toggle("classMyHoverAction")
     let BtnMyHoverAction=document.querySelectorAll(".classBtnProductReturn");
     for (let i=0;i<PmyHoverAction.length;i++) {
         PmyHoverAction[i].classList.remove("classMyHoverAction");
@@ -168,13 +176,12 @@ const myReservation = (e) => {
     pClassOrderDetails[5].innerHTML="Miesiąc kursu: " +tableOfSales[0].TimingOfCourse;
     pClassOrderDetails[6].innerHTML="Cena kursu: "+tableOfSales[0].PriceOfCourse+" zł";
     messageToCUstomer.value="Dzień Dobry."+" "+"Dziękujemy za złożenie zamówienia o numerze: "+numberOfOrders[numberOfOrders.length-1]+1+" na "+
-    tableOfSales[0].CategoryOfProduct+" "+", które będzie realizowany "+tableOfSales[0].PlaceOfCourse+" w miesiącu "+tableOfSales[0].TimingOfCourse+"-Data startu: "+tableOfSales[0].DateOfStart+"Data zakończenia "
+    tableOfSales[0].CategoryOfProduct+" "+", które będzie realizowany "+tableOfSales[0].PlaceOfCourse+" w miesiącu "+tableOfSales[0].TimingOfCourse+"-Data startu: "+tableOfSales[0].DateOfStart+" Data zakończenia: "
     +tableOfSales[0].DateOfEnd+". Cena kursu to "+tableOfSales[0].PriceOfCourse+" zł. Proszę o wpłatę zaliczki w celu potwierdzenia rezerwacji. Pozdrawiamy. Zespół e-Market";
 
 
     let myClassErrorClean=document.querySelectorAll(".liClassErrorMessage");
     for (let i=0;i<myClassErrorClean.length;i++) {
-    
                myClassErrorClean[i].style.visibility="visible";
     }
     } 
@@ -201,16 +208,18 @@ const MyFunc = () => {
                             </div>
                             <div className="classInformationOfProductDetail" >
                                 
-                                <p className="pclassInformationOfProductDetail" id={i} onMouseEnter={myHoverAction} onMouseLeave={myHoverCloseAction}>
+                                <p className="pclassInformationOfProductDetail" id={i} onMouseLeave={myHoverCloseAction}>
                                     <img className="classProductImg" src="images/logo_2.jpg"/> 
                                 <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>
                                     Oferta:</p>{tableOfFilter[i].InformationAboutCourse} <br></br> 
                                 <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>
                                     Informacje o dostawcy:</p>{tableOfFilter[i].InformationAboutSuppliers} <br></br>
-                                 {/* <br></br> */}
-                                 <button className="classBtnProductReturn" onClick={myHoverCloseAction} id={i} >Zamknij</button> <br></br>
+                                 <br></br>
+                                 <button className="classBtnProductReturn" onClick={myHoverCloseAction} id={i} >Zamknij</button>
+                                  <br></br>
                                  <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>
                                 </p>
+                                <button className="classBtnProductDetails" onClick={myHoverActionButton} id={i} >Rozwiń...</button>
                                 <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>
                             </div>
                         </div>
@@ -298,6 +307,7 @@ const MyFunc = () => {
             </div>
             <button className="classBtnCategoryofChoose" onClick={MyValueFunc}>Filtruj</button>
         </div>
+        
         <div className="classViewofProductMain">
             <MyFunc/>
         </div>
@@ -326,6 +336,6 @@ export {
     Header,
     MainOffer,
     FooterMain,
-    burgerClick
+    BurgerClick
 
 };

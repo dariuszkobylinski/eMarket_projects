@@ -409,6 +409,7 @@ margin-left: 20%;
 
 }
 
+
 .classLink {
   padding: $padding_main / 2;
   text-decoration: none;
@@ -731,7 +732,8 @@ z-index: 2;
 .classBtnCategoryofChoose {
   position: absolute;
   right: 30px;
-  height: 35px;
+  height: 34px;
+  top: 520px;
   cursor: pointer;
   border-radius: 6px;
   padding: 5px 25px;
@@ -742,6 +744,7 @@ z-index: 2;
   background-color: gray;
   margin-top: 10px;
   margin-bottom: 10px;
+  visibility: hidden;
 }
 
 .classBtnProduct {
@@ -783,6 +786,29 @@ z-index: 2;
   text-decoration: underline;
   // background-color: darkgoldenrod;
   background-color: #e6e4c7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.classBtnProductDetails{
+  // visibility: hidden;
+  position: absolute;
+  right:15*$padding_main;
+  bottom: 2px;
+  // -$padding_main/5;
+  // right: -745px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px 25px;
+  line-height: 20px;
+  font-size: 1.1em;
+  font-style: oblique;
+  border: 0;
+  color:black;
+  font-weight: bold;
+  text-decoration: underline;
+  // background-color: darkgoldenrod;
+  background-color:#efefef;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -864,7 +890,7 @@ width: 100%;
 .classPopup {
   background-color: black;
   height: 100%;
-  opacity: 50%;
+  opacity: 30%;
   z-index: 5000;
   position: fixed;
   top: 0;
@@ -906,7 +932,7 @@ width: 75%;
   }
 
   .box_image_slider {
-    width: calc(80% - 12px);
+    width: calc(80% - 12.5px);
   }
   .classLogoContact {
     right: 10.5%;
@@ -922,7 +948,7 @@ width: 75%;
     width: 85%;
   }
   .box_image_slider {
-    width: calc(85% - 12px);
+    width: calc(85% - 13px);
   }
   .classLogoContact {
     right: 8%;
@@ -944,15 +970,15 @@ width: 75%;
 @media (max-width: 1465px) {
   .container {
     
-    width: calc(100% - 20px);
+    width: calc(100% - 10px);
     box-shadow: none;
   }
   .box_image_slider {
-    width: calc(100% - 20px);
+    width: calc(100% - 10px);
   }
   .classLogoContact {
-    right: 11px;
-    top:1px
+    right: 5.5px;
+    top:0px
   }
   body {
     margin: 0;
@@ -1244,6 +1270,10 @@ width: 75%;
 .classPriceofChoose {
   margin-bottom: 20px;
 }
+
+.classBtnCategoryofChoose {
+  visibility: visible;
+}
 }
 
 @media (max-width: 705px) {
@@ -1306,6 +1336,14 @@ width: 75%;
   .classCategoryStyle {
     font-size: 0.9em;
   }
+  .classBtnCategoryofChoose {
+    right: 17%;
+    top: 565px;
+  }
+  .classParametersofChoose {
+   
+    height: 320px;
+}
 
   }
 
@@ -1335,6 +1373,10 @@ height: 275px;
 .classContactDetailRight {
   width: 95%;
 }
+.classBtnCategoryofChoose {
+  right: 13%;
+  top: 540px;
+}
 }
 
 @media (max-width: 575px) {
@@ -1348,6 +1390,8 @@ margin-left: 20%;
   margin-right: 10px;
   // height: fit-content;
 }
+
+
 }
 
 @media (max-width: 535px) {
@@ -1387,6 +1431,11 @@ height: 250px;
 .pclassInformationOfProductDetail {
   font-size: 0.9em;
   text-align: left;
+}
+
+.classBtnCategoryofChoose {
+  
+  top: 515px;
 }
 }
 
@@ -1435,7 +1484,12 @@ margin-left: 0px;
 
 .classPopupDetail {
   width: 80%;
-  left:5%;
+  left:7%;
+}
+
+.classBtnCategoryofChoose {
+  
+  top: 490px;
 }
 }
 
@@ -1443,16 +1497,7 @@ margin-left: 0px;
 .footerPartRightDetail {
 margin-left: 0%;
 }
-.footerPartLeftRight {
-  height: 205px;;
-}
-.footerPartLeft,
-.footerPartRight {
-  margin-top: 15px;
-}
-.footer_summary {
-  height: 300px;
-}
+
 .text_contact {
   font-size: 0.8em;
   margin-left: 50px;
@@ -1469,9 +1514,23 @@ margin-left: 0%;
   height: 100px;
 }
 
+@media (max-width:353px) {
+  .footerPartLeftRight {
+    height: 205px;;
+  }
+  .footerPartLeft,
+  .footerPartRight {
+    margin-top: 15px;
+  }
+  .footer_summary {
+    height: 300px;
+  }
+}
+
 @media (max-width: 325px) {
   .pclassOrderDetails {
     font-size: 0.8em;
+    font-weight: normal;
     margin-top: 2px;
     margin-bottom: 1px;
   }

@@ -580,7 +580,8 @@ body {
 .classBtnCategoryofChoose {
   position: absolute;
   right: 30px;
-  height: 35px;
+  height: 34px;
+  top: 520px;
   cursor: pointer;
   border-radius: 6px;
   padding: 5px 25px;
@@ -590,7 +591,8 @@ body {
   color: #fff;
   background-color: gray;
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  visibility: hidden; }
 
 .classBtnProduct {
   position: absolute;
@@ -625,6 +627,25 @@ body {
   font-weight: bold;
   text-decoration: underline;
   background-color: #e6e4c7;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.classBtnProductDetails {
+  position: absolute;
+  right: 150px;
+  bottom: 2px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px 25px;
+  line-height: 20px;
+  font-size: 1.1em;
+  font-style: oblique;
+  border: 0;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: #efefef;
   margin-top: 10px;
   margin-bottom: 10px; }
 
@@ -690,7 +711,7 @@ body {
 .classPopup {
   background-color: black;
   height: 100%;
-  opacity: 50%;
+  opacity: 30%;
   z-index: 5000;
   position: fixed;
   top: 0;
@@ -724,7 +745,7 @@ body {
   .container {
     width: 80%; }
   .box_image_slider {
-    width: calc(80% - 12px); }
+    width: calc(80% - 12.5px); }
   .classLogoContact {
     right: 10.5%; }
   .classCheckBox_Lebel {
@@ -734,7 +755,7 @@ body {
   .container {
     width: 85%; }
   .box_image_slider {
-    width: calc(85% - 12px); }
+    width: calc(85% - 13px); }
   .classLogoContact {
     right: 8%; } }
 
@@ -748,13 +769,13 @@ body {
 
 @media (max-width: 1465px) {
   .container {
-    width: calc(100% - 20px);
+    width: calc(100% - 10px);
     box-shadow: none; }
   .box_image_slider {
-    width: calc(100% - 20px); }
+    width: calc(100% - 10px); }
   .classLogoContact {
-    right: 11px;
-    top: 1px; }
+    right: 5.5px;
+    top: 0px; }
   body {
     margin: 0; }
   .page-nav {
@@ -943,7 +964,9 @@ body {
     width: 75%;
     margin: auto; }
   .classPriceofChoose {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .classBtnCategoryofChoose {
+    visibility: visible; } }
 
 @media (max-width: 705px) {
   .box_image {
@@ -987,7 +1010,12 @@ body {
     visibility: hidden;
     width: 0; }
   .classCategoryStyle {
-    font-size: 0.9em; } }
+    font-size: 0.9em; }
+  .classBtnCategoryofChoose {
+    right: 17%;
+    top: 565px; }
+  .classParametersofChoose {
+    height: 320px; } }
 
 @media (max-width: 605px) {
   .classPriceofChoose, .classTimeofChoose, .classPlaceofChoose, .classKindofChoose {
@@ -1004,7 +1032,10 @@ body {
     display: block; }
   .classContactDetail,
   .classContactDetailRight {
-    width: 95%; } }
+    width: 95%; }
+  .classBtnCategoryofChoose {
+    right: 13%;
+    top: 540px; } }
 
 @media (max-width: 575px) {
   .footerPartLeftDetail,
@@ -1041,7 +1072,9 @@ body {
     padding: 0px; }
   .pclassInformationOfProductDetail {
     font-size: 0.9em;
-    text-align: left; } }
+    text-align: left; }
+  .classBtnCategoryofChoose {
+    top: 515px; } }
 
 @media (max-width: 485px) {
   .classBtnProductOrder {
@@ -1069,18 +1102,13 @@ body {
     font-size: 0.7em; }
   .classPopupDetail {
     width: 80%;
-    left: 5%; } }
+    left: 7%; }
+  .classBtnCategoryofChoose {
+    top: 490px; } }
 
 @media (max-width: 375px) {
   .footerPartRightDetail {
     margin-left: 0%; }
-  .footerPartLeftRight {
-    height: 205px; }
-  .footerPartLeft,
-  .footerPartRight {
-    margin-top: 15px; }
-  .footer_summary {
-    height: 300px; }
   .text_contact {
     font-size: 0.8em;
     margin-left: 50px; }
@@ -1092,9 +1120,19 @@ body {
     width: 100px;
     height: 100px; } }
 
+@media (max-width: 375px) and (max-width: 353px) {
+  .footerPartLeftRight {
+    height: 205px; }
+  .footerPartLeft,
+  .footerPartRight {
+    margin-top: 15px; }
+  .footer_summary {
+    height: 300px; } }
+
 @media (max-width: 375px) and (max-width: 325px) {
   .pclassOrderDetails {
     font-size: 0.8em;
+    font-weight: normal;
     margin-top: 2px;
     margin-bottom: 1px; }
   .liClassErrorMessage {
