@@ -671,6 +671,7 @@ width: 100%;
 
 .classInformationOfProductDetail 
 {
+  // height: calc(100% - 5px); zmieniona 9.06.2020
   height: calc(100% - 5px);
   width: calc(100% - 20px);
 }
@@ -1432,6 +1433,7 @@ height: 250px;
   font-size: 0.9em;
   text-align: left;
   line-height: 1.6;
+  // zmieniona 9.06.2020
 }
 
 .classBtnCategoryofChoose {

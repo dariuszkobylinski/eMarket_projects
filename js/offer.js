@@ -209,7 +209,7 @@ const MyFunc = () => {
                             <div className="classInformationOfProductDetail" >
                                 
                                 <p className="pclassInformationOfProductDetail" id={i} onMouseLeave={myHoverCloseAction}>
-                                    <img className="classProductImg" src="images/logo_2.jpg"/> 
+                                    <img className="classProductImg" src={tableOfFilter[i].PictureForCourse}/> 
                                 <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>
                                     Oferta:</p>{tableOfFilter[i].InformationAboutCourse} <br></br> 
                                 <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>

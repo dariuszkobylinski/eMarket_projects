@@ -16,7 +16,8 @@ var sourceTable=[
     "Dla nas każdy klient jest najważniejszy i dokładamy wszelkich starań, aby chwile spędzone z nami na żaglach i na lądzie na długo i pozytywnie zapadły "+
     "mu w pamięć. Nasza Kadra złożona jest z doświadczonych żeglarzy i instruktorów. Spod naszych „skrzydeł” wyszło już wielu żeglarzy i sterników. "+
     "Systematycznie podnosimy również swoje kwalifikacje, by przekazywana wiedza była jak najbardziej aktualna. Żeglarstwo to szkoła charakterów. "+
-    "Kształtując je u innych, kształtujemy je również u siebie."},
+    "Kształtując je u innych, kształtujemy je również u siebie.",
+    PictureForCourse:"images/imagesForOffer/sailor1.jpg"},
     {idOfOffer:"2", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
     DateOfStart:"2020.06.06", DateOfEnd:"2020.07.05",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza "+
     "jachtowego, który składa się z 10 dni szkolenia praktyczno – teoretycznego po 7 godzin dziennie. W trakcie szkolenia realizowany jest pełny pogram "+
@@ -46,7 +47,8 @@ var sourceTable=[
      "jest przystosowany do żeglugi morskiej, co zapewnia bezpieczeństwo w trudnych warunkach atmosferycznych.Sailhorse to jednostka produkcji holenderskiej "+
      "przeznaczona do żeglugi po śródlądziu i morskich wodach osłoniętych. Długi i ciężki miecz zakończony bulbem sprawia, że jacht bezpiecznie i szybko pływa "+
      "nawet przy bardzo silnym wietrze. W Holandii od wielu lat działa klasa regatowa Sailhorse i co roku organizowane są zawody międzynarodowe. Wygodny, "+
-     "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania."},
+     "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania.",
+     PictureForCourse:"images/imagesForOffer/sailor2.jpg"},
 
      {idOfOffer:"3", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
     DateOfStart:"2020.07.11", DateOfEnd:"2020.08.16",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza "+
@@ -77,7 +79,8 @@ var sourceTable=[
      "jest przystosowany do żeglugi morskiej, co zapewnia bezpieczeństwo w trudnych warunkach atmosferycznych.Sailhorse to jednostka produkcji holenderskiej "+
      "przeznaczona do żeglugi po śródlądziu i morskich wodach osłoniętych. Długi i ciężki miecz zakończony bulbem sprawia, że jacht bezpiecznie i szybko pływa "+
      "nawet przy bardzo silnym wietrze. W Holandii od wielu lat działa klasa regatowa Sailhorse i co roku organizowane są zawody międzynarodowe. Wygodny, "+
-     "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania."},
+     "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania.",
+     PictureForCourse:"images/imagesForOffer/sailor3.jpg"},
 
      {idOfOffer:"4", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
     DateOfStart:"2020.08.22", DateOfEnd:"2020.09.27",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza "+
@@ -108,7 +111,8 @@ var sourceTable=[
      "jest przystosowany do żeglugi morskiej, co zapewnia bezpieczeństwo w trudnych warunkach atmosferycznych.Sailhorse to jednostka produkcji holenderskiej "+
      "przeznaczona do żeglugi po śródlądziu i morskich wodach osłoniętych. Długi i ciężki miecz zakończony bulbem sprawia, że jacht bezpiecznie i szybko pływa "+
      "nawet przy bardzo silnym wietrze. W Holandii od wielu lat działa klasa regatowa Sailhorse i co roku organizowane są zawody międzynarodowe. Wygodny, "+
-     "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania."},
+     "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania.",
+     PictureForCourse:"images/imagesForOffer/sailor4.jpg"},
 
      {idOfOffer:"5", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
      DateOfStart:"2020.07.27", DateOfEnd:"2020.08.07",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza "+
@@ -139,7 +143,8 @@ var sourceTable=[
       "jest przystosowany do żeglugi morskiej, co zapewnia bezpieczeństwo w trudnych warunkach atmosferycznych.Sailhorse to jednostka produkcji holenderskiej "+
       "przeznaczona do żeglugi po śródlądziu i morskich wodach osłoniętych. Długi i ciężki miecz zakończony bulbem sprawia, że jacht bezpiecznie i szybko pływa "+
       "nawet przy bardzo silnym wietrze. W Holandii od wielu lat działa klasa regatowa Sailhorse i co roku organizowane są zawody międzynarodowe. Wygodny, "+
-      "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania."},
+      "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania.",
+      PictureForCourse:"images/imagesForOffer/sailor5.jpg"},
 
       {idOfOffer:"6", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
       DateOfStart:"2020.08.17", DateOfEnd:"2020.08.28",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza "+
@@ -170,7 +175,8 @@ var sourceTable=[
        "jest przystosowany do żeglugi morskiej, co zapewnia bezpieczeństwo w trudnych warunkach atmosferycznych.Sailhorse to jednostka produkcji holenderskiej "+
        "przeznaczona do żeglugi po śródlądziu i morskich wodach osłoniętych. Długi i ciężki miecz zakończony bulbem sprawia, że jacht bezpiecznie i szybko pływa "+
        "nawet przy bardzo silnym wietrze. W Holandii od wielu lat działa klasa regatowa Sailhorse i co roku organizowane są zawody międzynarodowe. Wygodny, "+
-       "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania."},
+       "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania.",
+       PictureForCourse:"images/imagesForOffer/sailor6.jpg"},
 
        {idOfOffer:"7", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
       DateOfStart:"2020.06.01", DateOfEnd:"2020.06.30",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na intensywny kurs na Zalewie Zek w "+
@@ -192,7 +198,8 @@ var sourceTable=[
        "rejsy morskie, obozy żeglarskie na Mazurach, kolonie letnie, zimowiska narciarskie oraz szkoła pływania. Inną częścią naszej działalności są "+
        "szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie dynamicznie się rozwijamy. Proponujemy "+
        "kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone egzaminem. Kładziemy nacisk na zdobycie "+
-       "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe."},
+       "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe.",
+       PictureForCourse:"images/imagesForOffer/sailor7.jpg"},
 
        {idOfOffer:"8", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
        DateOfStart:"2020.07.01", DateOfEnd:"2020.07.31",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na intensywny kurs na Zalewie Zek w "+
@@ -214,7 +221,8 @@ var sourceTable=[
         "rejsy morskie, obozy żeglarskie na Mazurach, kolonie letnie, zimowiska narciarskie oraz szkoła pływania. Inną częścią naszej działalności są "+
         "szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie dynamicznie się rozwijamy. Proponujemy "+
         "kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone egzaminem. Kładziemy nacisk na zdobycie "+
-        "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe."},
+        "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe.",
+        PictureForCourse:"images/imagesForOffer/sailor1.jpg"},
 
         {idOfOffer:"9", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
         DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na intensywny kurs na Zalewie Zek w "+
@@ -236,7 +244,8 @@ var sourceTable=[
          "rejsy morskie, obozy żeglarskie na Mazurach, kolonie letnie, zimowiska narciarskie oraz szkoła pływania. Inną częścią naszej działalności są "+
          "szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie dynamicznie się rozwijamy. Proponujemy "+
          "kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone egzaminem. Kładziemy nacisk na zdobycie "+
-         "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe."},
+         "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe.",
+         PictureForCourse:"images/imagesForOffer/sailor2.jpg"},
 
          {idOfOffer:"10", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
          DateOfStart:"2020.09.01", DateOfEnd:"2020.09.30",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na intensywny kurs na Zalewie Zek w "+
@@ -258,7 +267,8 @@ var sourceTable=[
           "rejsy morskie, obozy żeglarskie na Mazurach, kolonie letnie, zimowiska narciarskie oraz szkoła pływania. Inną częścią naszej działalności są "+
           "szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie dynamicznie się rozwijamy. Proponujemy "+
           "kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone egzaminem. Kładziemy nacisk na zdobycie "+
-          "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe."},
+          "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe.",
+          PictureForCourse:"images/imagesForOffer/sailor3.jpg"},
 
           {idOfOffer:"11", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
           DateOfStart:"2020.10.01", DateOfEnd:"2020.10.30",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na intensywny kurs na Zalewie Zek w "+
@@ -280,7 +290,8 @@ var sourceTable=[
            "rejsy morskie, obozy żeglarskie na Mazurach, kolonie letnie, zimowiska narciarskie oraz szkoła pływania. Inną częścią naszej działalności są "+
            "szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie dynamicznie się rozwijamy. Proponujemy "+
            "kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone egzaminem. Kładziemy nacisk na zdobycie "+
-           "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe."},
+           "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe.",
+           PictureForCourse:"images/imagesForOffer/sailor4.jpg"},
 
            {idOfOffer:"12", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Wrzesień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"900", 
           DateOfStart:"2020.09.05", DateOfEnd:"2020.10.03", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Żeglarz Jachtowy z możliwością dodatkowego "+
@@ -323,7 +334,8 @@ var sourceTable=[
            "Żeglarskich ISSA. Dzięki temu możemy prowadzić szkolenia i egzaminy na dokumenty wydawane przez tą organizację: sternika motorowodnego ISSA "+
            "(Inland Power Yacht Skipper), starszego sternika motorowodnego ISSA (Inshore Power Yacht Skipper), morskiego sternika motorowodnego ISSA "+
            "(Offshore Power Yacht Skipper), sternika śródlądowego ISSA (Inland Skipper), “starszego” sternika śródlądowego ISSA (Inshore Skipper), jachtowego "+
-           "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)"},
+           "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
+           PictureForCourse:"images/imagesForOffer/sailor5.jpg"},
 
            {idOfOffer:"13", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Wrzesień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"900", 
            DateOfStart:"2020.09.14", DateOfEnd:"2020.09.20", TypeOfCourse:"Dzienny", InformationAboutCourse: "Żeglarz Jachtowy z możliwością dodatkowego "+
@@ -366,7 +378,8 @@ var sourceTable=[
             "Żeglarskich ISSA. Dzięki temu możemy prowadzić szkolenia i egzaminy na dokumenty wydawane przez tą organizację: sternika motorowodnego ISSA "+
             "(Inland Power Yacht Skipper), starszego sternika motorowodnego ISSA (Inshore Power Yacht Skipper), morskiego sternika motorowodnego ISSA "+
             "(Offshore Power Yacht Skipper), sternika śródlądowego ISSA (Inland Skipper), “starszego” sternika śródlądowego ISSA (Inshore Skipper), jachtowego "+
-            "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)"},
+            "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
+            PictureForCourse:"images/imagesForOffer/sailor6.jpg"},
 
             {idOfOffer:"14", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
             DateOfStart:"2020.06.08", DateOfEnd:"2020.06.14", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
@@ -376,7 +389,8 @@ var sourceTable=[
             "praktyczne do egzaminu na stopień żeglarza jachtowego. Warunkiem odbycia kursu jest grupa min. 2 osób. Cena nie zawiera: wyżywienia, noclegów, "+
             "kosztów egzaminu i kosztów patentu (kosztu egzaminu i wydania patentu 250 zł egzamin i 50 zł patent;  50% zniżki dla osób poniżej 26 roku życia)",
              InformationAboutSuppliers:"Jesteśmy profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+ 
-             "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+             "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+             PictureForCourse:"images/imagesForOffer/sailor7.jpg"},
 
              {idOfOffer:"15", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
              DateOfStart:"2020.06.15", DateOfEnd:"2020.06.21", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
@@ -386,7 +400,8 @@ var sourceTable=[
              "praktyczne do egzaminu na stopień żeglarza jachtowego. Warunkiem odbycia kursu jest grupa min. 2 osób. Cena nie zawiera: wyżywienia, noclegów, "+
              "kosztów egzaminu i kosztów patentu (kosztu egzaminu i wydania patentu 250 zł egzamin i 50 zł patent;  50% zniżki dla osób poniżej 26 roku życia)",
               InformationAboutSuppliers:"Jesteśmy profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+ 
-              "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+              "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+              PictureForCourse:"images/imagesForOffer/sailor1.jpg"},
 
               {idOfOffer:"16", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
               DateOfStart:"2020.06.22", DateOfEnd:"2020.06.28", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
@@ -396,7 +411,8 @@ var sourceTable=[
               "praktyczne do egzaminu na stopień żeglarza jachtowego. Warunkiem odbycia kursu jest grupa min. 2 osób. Cena nie zawiera: wyżywienia, noclegów, "+
               "kosztów egzaminu i kosztów patentu (kosztu egzaminu i wydania patentu 250 zł egzamin i 50 zł patent;  50% zniżki dla osób poniżej 26 roku życia)",
                InformationAboutSuppliers:"Jesteśmy profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+ 
-               "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+               "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+               PictureForCourse:"images/imagesForOffer/sailor2.jpg"},
 
                {idOfOffer:"17", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
                DateOfStart:"2020.06.29", DateOfEnd:"2020.07.05", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
@@ -406,7 +422,8 @@ var sourceTable=[
                "praktyczne do egzaminu na stopień żeglarza jachtowego. Warunkiem odbycia kursu jest grupa min. 2 osób. Cena nie zawiera: wyżywienia, noclegów, "+
                "kosztów egzaminu i kosztów patentu (kosztu egzaminu i wydania patentu 250 zł egzamin i 50 zł patent;  50% zniżki dla osób poniżej 26 roku życia)",
                 InformationAboutSuppliers:"Jesteśmy profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+ 
-                "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                PictureForCourse:"images/imagesForOffer/sailor3.jpg"},
 
                 {idOfOffer:"18", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
                 DateOfStart:"2020.07.06", DateOfEnd:"2020.07.12", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
@@ -416,7 +433,8 @@ var sourceTable=[
                 "praktyczne do egzaminu na stopień żeglarza jachtowego. Warunkiem odbycia kursu jest grupa min. 2 osób. Cena nie zawiera: wyżywienia, noclegów, "+
                 "kosztów egzaminu i kosztów patentu (kosztu egzaminu i wydania patentu 250 zł egzamin i 50 zł patent;  50% zniżki dla osób poniżej 26 roku życia)",
                  InformationAboutSuppliers:"Jesteśmy profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+ 
-                 "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                 "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                 PictureForCourse:"images/imagesForOffer/sailor4.jpg"},
 
                  {idOfOffer:"19", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
                 DateOfStart:"2020.07.13", DateOfEnd:"2020.07.19", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
@@ -426,7 +444,8 @@ var sourceTable=[
                 "praktyczne do egzaminu na stopień żeglarza jachtowego. Warunkiem odbycia kursu jest grupa min. 2 osób. Cena nie zawiera: wyżywienia, noclegów, "+
                 "kosztów egzaminu i kosztów patentu (kosztu egzaminu i wydania patentu 250 zł egzamin i 50 zł patent;  50% zniżki dla osób poniżej 26 roku życia)",
                  InformationAboutSuppliers:"Jesteśmy profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+ 
-                 "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                 "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                 PictureForCourse:"images/imagesForOffer/sailor5.jpg"},
 
                  {idOfOffer:"20", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
                  DateOfStart:"2020.07.20", DateOfEnd:"2020.07.26", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
@@ -436,7 +455,8 @@ var sourceTable=[
                  "praktyczne do egzaminu na stopień żeglarza jachtowego. Warunkiem odbycia kursu jest grupa min. 2 osób. Cena nie zawiera: wyżywienia, noclegów, "+
                  "kosztów egzaminu i kosztów patentu (kosztu egzaminu i wydania patentu 250 zł egzamin i 50 zł patent;  50% zniżki dla osób poniżej 26 roku życia)",
                 InformationAboutSuppliers:"Jesteśmy profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+ 
-                "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                PictureForCourse:"images/imagesForOffer/sailor6.jpg"},
 
                 {idOfOffer:"21", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
                 DateOfStart:"2020.07.27", DateOfEnd:"2020.08.02", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
@@ -446,7 +466,8 @@ var sourceTable=[
                 "praktyczne do egzaminu na stopień żeglarza jachtowego. Warunkiem odbycia kursu jest grupa min. 2 osób. Cena nie zawiera: wyżywienia, noclegów, "+
                 "kosztów egzaminu i kosztów patentu (kosztu egzaminu i wydania patentu 250 zł egzamin i 50 zł patent;  50% zniżki dla osób poniżej 26 roku życia)",
                 InformationAboutSuppliers:"Jesteśmy profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+ 
-                "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                PictureForCourse:"images/imagesForOffer/sailor7.jpg"},
 
                 {idOfOffer:"22", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
                 DateOfStart:"2020.06.01", DateOfEnd:"2020.06.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na sternika motorowodnego na Zalewie Zemborzyckim w Lublinie. "+ 
@@ -469,7 +490,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail1.jpg"},
 
                 {idOfOffer:"23", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
                 DateOfStart:"2020.07.01", DateOfEnd:"2020.07.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na sternika motorowodnego na Zalewie Zemborzyckim w Lublinie. "+ 
@@ -492,7 +514,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail2.jpg"},
 
                 {idOfOffer:"24", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
                 DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na sternika motorowodnego na Zalewie Zemborzyckim w Lublinie. "+ 
@@ -515,7 +538,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail3.jpg"},
 
                 {idOfOffer:"25", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
                 DateOfStart:"2020.09.01", DateOfEnd:"2020.09.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na sternika motorowodnego na Zalewie Zemborzyckim w Lublinie. "+ 
@@ -538,7 +562,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail4.jpg"},
 
                 {idOfOffer:"25", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
                 DateOfStart:"2020.10.01", DateOfEnd:"2020.10.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na sternika motorowodnego na Zalewie Zemborzyckim w Lublinie. "+ 
@@ -561,7 +586,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail5.jpg"},
 
                 {idOfOffer:"26", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.06.01", DateOfEnd:"2020.06.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -585,7 +611,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail6.jpg"},
 
                 {idOfOffer:"27", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.07.01", DateOfEnd:"2020.07.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -609,7 +636,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail7.jpg"},
 
                 {idOfOffer:"28", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -633,7 +661,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail8.jpg"},
 
                 {idOfOffer:"29", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -657,7 +686,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail9.jpg"},
 
                 {idOfOffer:"30", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.09.01", DateOfEnd:"2020.09.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -681,7 +711,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail10.jpg"},
 
                 {idOfOffer:"31", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.10.01", DateOfEnd:"2020.10.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -705,7 +736,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail1.jpg"},
 
                 {idOfOffer:"32", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
                 DateOfStart:"2020.06.01", DateOfEnd:"2020.06.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -729,7 +761,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail2.jpg"},
 
                 {idOfOffer:"33", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
                 DateOfStart:"2020.07.01", DateOfEnd:"2020.07.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -753,7 +786,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail3.jpg"},
 
                 {idOfOffer:"34", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
                 DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -777,7 +811,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail4.jpg"},
 
                 {idOfOffer:"35", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
                 DateOfStart:"2020.09.01", DateOfEnd:"2020.09.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -801,7 +836,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail5.jpg"},
 
                 {idOfOffer:"36", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
                 DateOfStart:"2020.10.01", DateOfEnd:"2020.10.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -825,7 +861,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail6.jpg"},
 
                 {idOfOffer:"37", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
                 DateOfStart:"2020.06.01", DateOfEnd:"2020.06.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -850,7 +887,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail7.jpg"},
 
                 {idOfOffer:"38", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
                 DateOfStart:"2020.07.01", DateOfEnd:"2020.07.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -875,7 +913,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail8.jpg"},
 
                 {idOfOffer:"39", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
                 DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -900,7 +939,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail9.jpg"},
 
                 {idOfOffer:"40", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
                 DateOfStart:"2020.09.01", DateOfEnd:"2020.09.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -925,7 +965,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail10.jpg"},
 
                 {idOfOffer:"41", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
                 DateOfStart:"2020.10.01", DateOfEnd:"2020.10.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
@@ -950,7 +991,8 @@ var sourceTable=[
                 "naszej działalności są szkolenia żeglarskie i motorowodne, kursy ratownika wodnego oraz instruktora pływania. Na tej płaszczyźnie "+
                 "dynamicznie się rozwijamy. Proponujemy kompleksowe szkolenia w trakcie obozów na Mazurach, szkolenia weekendowe i indywidualne, zakończone "+
                 "egzaminem. Kładziemy nacisk na zdobycie praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować "+
-                "swoje pasje i podniosą kwalifikacje zawodowe."},
+                "swoje pasje i podniosą kwalifikacje zawodowe.",
+                PictureForCourse:"images/imagesForOffer/motoSail1.jpg"},
 
                 {idOfOffer:"42", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Olsztyn J. Ukiel", PriceOfCourse:"690", 
                 DateOfStart:"2020.06.11", DateOfEnd:"2020.06.14", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Szkolenie motorowodne – sternik "+
@@ -996,7 +1038,8 @@ var sourceTable=[
                  "Żeglarskich ISSA. Dzięki temu możemy prowadzić szkolenia i egzaminy na dokumenty wydawane przez tą organizację: sternika motorowodnego ISSA "+
                  "(Inland Power Yacht Skipper), starszego sternika motorowodnego ISSA (Inshore Power Yacht Skipper), morskiego sternika motorowodnego ISSA "+
                  "(Offshore Power Yacht Skipper), sternika śródlądowego ISSA (Inland Skipper), “starszego” sternika śródlądowego ISSA (Inshore Skipper), jachtowego "+
-                 "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)"},
+                 "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
+                 PictureForCourse:"images/imagesForOffer/motoSail2.jpg"},
 
                  {idOfOffer:"43", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
                 DateOfStart:"2020.06.19", DateOfEnd:"2020.06.21", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Szkolenie motorowodne – sternik "+
@@ -1042,7 +1085,8 @@ var sourceTable=[
                  "Żeglarskich ISSA. Dzięki temu możemy prowadzić szkolenia i egzaminy na dokumenty wydawane przez tą organizację: sternika motorowodnego ISSA "+
                  "(Inland Power Yacht Skipper), starszego sternika motorowodnego ISSA (Inshore Power Yacht Skipper), morskiego sternika motorowodnego ISSA "+
                  "(Offshore Power Yacht Skipper), sternika śródlądowego ISSA (Inland Skipper), “starszego” sternika śródlądowego ISSA (Inshore Skipper), jachtowego "+
-                 "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)"},
+                 "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
+                 PictureForCourse:"images/imagesForOffer/motoSail3.jpg"},
 
                  {idOfOffer:"44", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
                 DateOfStart:"2020.07.17", DateOfEnd:"2020.07.19", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Szkolenie motorowodne – sternik "+
@@ -1088,7 +1132,8 @@ var sourceTable=[
                  "Żeglarskich ISSA. Dzięki temu możemy prowadzić szkolenia i egzaminy na dokumenty wydawane przez tą organizację: sternika motorowodnego ISSA "+
                  "(Inland Power Yacht Skipper), starszego sternika motorowodnego ISSA (Inshore Power Yacht Skipper), morskiego sternika motorowodnego ISSA "+
                  "(Offshore Power Yacht Skipper), sternika śródlądowego ISSA (Inland Skipper), “starszego” sternika śródlądowego ISSA (Inshore Skipper), jachtowego "+
-                 "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)"},
+                 "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
+                 PictureForCourse:"images/imagesForOffer/motoSail4.jpg"},
 
                  {idOfOffer:"45", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
                 DateOfStart:"2020.08.21", DateOfEnd:"2020.08.23", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Szkolenie motorowodne – sternik "+
@@ -1134,7 +1179,8 @@ var sourceTable=[
                  "Żeglarskich ISSA. Dzięki temu możemy prowadzić szkolenia i egzaminy na dokumenty wydawane przez tą organizację: sternika motorowodnego ISSA "+
                  "(Inland Power Yacht Skipper), starszego sternika motorowodnego ISSA (Inshore Power Yacht Skipper), morskiego sternika motorowodnego ISSA "+
                  "(Offshore Power Yacht Skipper), sternika śródlądowego ISSA (Inland Skipper), “starszego” sternika śródlądowego ISSA (Inshore Skipper), jachtowego "+
-                 "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)"},
+                 "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
+                 PictureForCourse:"images/imagesForOffer/motoSail5.jpg"},
 
                  {idOfOffer:"46", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
                 DateOfStart:"2020.09.11", DateOfEnd:"2020.09.13", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Szkolenie motorowodne – sternik "+
@@ -1180,7 +1226,8 @@ var sourceTable=[
                  "Żeglarskich ISSA. Dzięki temu możemy prowadzić szkolenia i egzaminy na dokumenty wydawane przez tą organizację: sternika motorowodnego ISSA "+
                  "(Inland Power Yacht Skipper), starszego sternika motorowodnego ISSA (Inshore Power Yacht Skipper), morskiego sternika motorowodnego ISSA "+
                  "(Offshore Power Yacht Skipper), sternika śródlądowego ISSA (Inland Skipper), “starszego” sternika śródlądowego ISSA (Inshore Skipper), jachtowego "+
-                 "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)"},
+                 "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
+                 PictureForCourse:"images/imagesForOffer/motoSail6.jpg"},
 
                  {idOfOffer:"47", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                  DateOfStart:"2020.06.13", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1192,7 +1239,8 @@ var sourceTable=[
                  "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                   InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                   "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                  "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                  "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                  PictureForCourse:"images/imagesForOffer/motoSail7.jpg"},
 
                   {idOfOffer:"48", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                   DateOfStart:"2020.06.20", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1204,7 +1252,8 @@ var sourceTable=[
                   "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                    InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                    "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                   "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                   "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                   PictureForCourse:"images/imagesForOffer/motoSail8.jpg"},
 
                    {idOfOffer:"49", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                    DateOfStart:"2020.06.27", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1216,7 +1265,8 @@ var sourceTable=[
                    "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                     InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                     "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                    "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                    "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                    PictureForCourse:"images/imagesForOffer/motoSail9.jpg"},
 
                     {idOfOffer:"50", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                     DateOfStart:"2020.07.04", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1228,7 +1278,8 @@ var sourceTable=[
                     "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                      InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                      "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                     "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                     "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                     PictureForCourse:"images/imagesForOffer/motoSail10.jpg"},
 
                      {idOfOffer:"51", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                      DateOfStart:"2020.07.11", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1240,7 +1291,8 @@ var sourceTable=[
                      "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                       InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                       "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                      "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                      "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                      PictureForCourse:"images/imagesForOffer/motoSail1.jpg"},
 
                       {idOfOffer:"52", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                     DateOfStart:"2020.07.18", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1252,7 +1304,8 @@ var sourceTable=[
                     "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                      InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                      "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                     "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                     "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                     PictureForCourse:"images/imagesForOffer/motoSail2.jpg"},
 
                      {idOfOffer:"53", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                      DateOfStart:"2020.07.25", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1264,7 +1317,8 @@ var sourceTable=[
                      "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                       InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                       "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                      "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                      "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                      PictureForCourse:"images/imagesForOffer/motoSail3.jpg"},
 
                       {idOfOffer:"54", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                       DateOfStart:"2020.08.01", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1276,7 +1330,8 @@ var sourceTable=[
                       "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                        InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                        "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                       "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                       "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                       PictureForCourse:"images/imagesForOffer/motoSail4.jpg"},
 
                        {idOfOffer:"55", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                        DateOfStart:"2020.08.08", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1288,7 +1343,8 @@ var sourceTable=[
                        "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                         InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                         "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                        "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                        "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                        PictureForCourse:"images/imagesForOffer/motoSail5.jpg"},
                 
 
                         {idOfOffer:"56", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
@@ -1301,7 +1357,8 @@ var sourceTable=[
                         "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                          InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                          "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                         "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                         "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                         PictureForCourse:"images/imagesForOffer/motoSail6.jpg"},
 
                          {idOfOffer:"57", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                          DateOfStart:"2020.08.22", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1313,7 +1370,8 @@ var sourceTable=[
                          "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                           InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                           "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                          "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                          "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                          PictureForCourse:"images/imagesForOffer/motoSail7.jpg"},
 
                           {idOfOffer:"58", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                           DateOfStart:"2020.08.29", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1325,7 +1383,8 @@ var sourceTable=[
                           "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                            InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                            "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                           "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                           "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                           PictureForCourse:"images/imagesForOffer/motoSail8.jpg"},
 
                            {idOfOffer:"59", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                            DateOfStart:"2020.09.12", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1337,7 +1396,8 @@ var sourceTable=[
                            "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                             InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                             "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                            "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                            "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                            PictureForCourse:"images/imagesForOffer/motoSail9.jpg"},
 
                             {idOfOffer:"60", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                            DateOfStart:"2020.09.19", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
@@ -1349,7 +1409,8 @@ var sourceTable=[
                            "patent;  50% zniżki dla osób poniżej 26 roku życia)",
                             InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
                             "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
-                            "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów."},
+                            "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
+                            PictureForCourse:"images/imagesForOffer/motoSail10.jpg"},
     ];
 
     export default sourceTable;
