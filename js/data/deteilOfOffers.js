@@ -1411,6 +1411,256 @@ var sourceTable=[
                             "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
                             "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                             PictureForCourse:"images/imagesForOffer/motoSail10.jpg"},
+              {idOfOffer:"61", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
+              DateOfStart:"2020.06.20", DateOfEnd:"2020.07.19",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy kurs na Jeziorze Żywieckim, "+
+              "patent Żeglarza Jachtowego daje ogromne możliwości i uprawnienia, jest pierwszym i najważniejszym patentem w karierze żeglarskiej.Uprawnia do "+
+              "prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów żaglowych do 12m po wodach morskich wewnętrznych oraz "+
+              "pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, "+
+              "prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. Kurs trwa 10 dni szkoleniowych podczas których zdobędziesz "+
+              "wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego (egzaminem PZŻ 19 lipca). Do egzaminu może przystąpić każdy "+
+              "kto ukończy 14 rok życia. Zajęcia będą odbywały Weekendowym, 5 sobót i niedziel, od godz. 9:00 do 17:00 z godzinną przerwą obiadową. Cena "+
+              "zawiera: ubezpieczenie NNW, zajęcia teoretyczne, zajęcia praktyczne, zniżka na książkę, darmowy parking, t-shirt firmowy, materiały "+
+              "dydaktyczne. Cena nie zawiera: wyżywienia, noclegów, kosztów egzaminu i kosztów patentu.",
+              InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
+              "profesjonalną Szkołą Żeglarską, działamy od 2013 roku a z pod naszych żagli wyfrunęło na szerokie wody już ponad setka żeglarzy i żeglarek. "+
+              "Nie ukierunkowujemy się na wiek, płeć czy upodobania polityczne lecz na dobrą zabawę. Stawiamy na nowoczesne metody nauczania. Żeglarstwo ma "+
+              "dawać przyjemność a my uczymy jak ją czerpać pełnymi wiadrami. Naszą Szkołę zakotwiczyliśmy w najnowocześniejszym ośrodku wypoczynkowym nad "+
+              "jeziorem Żywieckim, tutaj mamy nowoczesną sale wykładową, wyśmienite posiłki w restauracji oraz sprzęt do szkoleniowy. Na wodzie posiadamy "+
+              "dwa nowoczesne jachty są to GIN 730 oraz MAJESTIC 24 Race, są to lekkie zwinne i szybkie jachty które są przestronne w kokpicie i doskonałe "+
+              "w prowadzeniu. To na nich uczymy się jak bezpiecznie żeglować i jak czerpać przyjemność z żeglowania.",
+              PictureForCourse:"images/imagesForOffer/sailor7.jpg"},
+
+              {idOfOffer:"62", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
+              DateOfStart:"2020.07.06", DateOfEnd:"2020.07.19",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy kurs na Jeziorze Żywieckim, "+
+              "patent Żeglarza Jachtowego daje ogromne możliwości i uprawnienia, jest pierwszym i najważniejszym patentem w karierze żeglarskiej.Uprawnia do "+
+              "prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów żaglowych do 12m po wodach morskich wewnętrznych oraz "+
+              "pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, "+
+              "prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. Kurs trwa 10 dni szkoleniowych podczas których zdobędziesz "+
+              "wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego (egzaminem PZŻ 19 lipca). Do egzaminu może przystąpić każdy "+
+              "kto ukończy 14 rok życia. Zajęcia będą odbywały Weekendowym, 5 sobót i niedziel, od godz. 9:00 do 17:00 z godzinną przerwą obiadową. Cena "+
+              "zawiera: ubezpieczenie NNW, zajęcia teoretyczne, zajęcia praktyczne, zniżka na książkę, darmowy parking, t-shirt firmowy, materiały "+
+              "dydaktyczne. Cena nie zawiera: wyżywienia, noclegów, kosztów egzaminu i kosztów patentu.",
+              InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
+              "profesjonalną Szkołą Żeglarską, działamy od 2013 roku a z pod naszych żagli wyfrunęło na szerokie wody już ponad setka żeglarzy i żeglarek. "+
+              "Nie ukierunkowujemy się na wiek, płeć czy upodobania polityczne lecz na dobrą zabawę. Stawiamy na nowoczesne metody nauczania. Żeglarstwo ma "+
+              "dawać przyjemność a my uczymy jak ją czerpać pełnymi wiadrami. Naszą Szkołę zakotwiczyliśmy w najnowocześniejszym ośrodku wypoczynkowym nad "+
+              "jeziorem Żywieckim, tutaj mamy nowoczesną sale wykładową, wyśmienite posiłki w restauracji oraz sprzęt do szkoleniowy. Na wodzie posiadamy "+
+              "dwa nowoczesne jachty są to GIN 730 oraz MAJESTIC 24 Race, są to lekkie zwinne i szybkie jachty które są przestronne w kokpicie i doskonałe "+
+              "w prowadzeniu. To na nich uczymy się jak bezpiecznie żeglować i jak czerpać przyjemność z żeglowania.",
+              PictureForCourse:"images/imagesForOffer/sailor1.jpg"},
+
+              {idOfOffer:"63", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
+              DateOfStart:"2020.07.25", DateOfEnd:"2020.08.23",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy kurs na Jeziorze Żywieckim, "+
+              "patent Żeglarza Jachtowego daje ogromne możliwości i uprawnienia, jest pierwszym i najważniejszym patentem w karierze żeglarskiej.Uprawnia do "+
+              "prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów żaglowych do 12m po wodach morskich wewnętrznych oraz "+
+              "pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, "+
+              "prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. Kurs trwa 10 dni szkoleniowych podczas których zdobędziesz "+
+              "wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego (egzaminem PZŻ 29 sierpnia). Do egzaminu może przystąpić każdy "+
+              "kto ukończy 14 rok życia. Zajęcia będą odbywały Weekendowym, 5 sobót i niedziel, od godz. 9:00 do 17:00 z godzinną przerwą obiadową. Cena "+
+              "zawiera: ubezpieczenie NNW, zajęcia teoretyczne, zajęcia praktyczne, zniżka na książkę, darmowy parking, t-shirt firmowy, materiały "+
+              "dydaktyczne. Cena nie zawiera: wyżywienia, noclegów, kosztów egzaminu i kosztów patentu.",
+              InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
+              "profesjonalną Szkołą Żeglarską, działamy od 2013 roku a z pod naszych żagli wyfrunęło na szerokie wody już ponad setka żeglarzy i żeglarek. "+
+              "Nie ukierunkowujemy się na wiek, płeć czy upodobania polityczne lecz na dobrą zabawę. Stawiamy na nowoczesne metody nauczania. Żeglarstwo ma "+
+              "dawać przyjemność a my uczymy jak ją czerpać pełnymi wiadrami. Naszą Szkołę zakotwiczyliśmy w najnowocześniejszym ośrodku wypoczynkowym nad "+
+              "jeziorem Żywieckim, tutaj mamy nowoczesną sale wykładową, wyśmienite posiłki w restauracji oraz sprzęt do szkoleniowy. Na wodzie posiadamy "+
+              "dwa nowoczesne jachty są to GIN 730 oraz MAJESTIC 24 Race, są to lekkie zwinne i szybkie jachty które są przestronne w kokpicie i doskonałe "+
+              "w prowadzeniu. To na nich uczymy się jak bezpiecznie żeglować i jak czerpać przyjemność z żeglowania.",
+              PictureForCourse:"images/imagesForOffer/sailor2.jpg"},
+
+              {idOfOffer:"64", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
+              DateOfStart:"2020.08.17", DateOfEnd:"2020.08.29",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy kurs na Jeziorze Żywieckim, "+
+              "patent Żeglarza Jachtowego daje ogromne możliwości i uprawnienia, jest pierwszym i najważniejszym patentem w karierze żeglarskiej.Uprawnia do "+
+              "prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów żaglowych do 12m po wodach morskich wewnętrznych oraz "+
+              "pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, "+
+              "prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. Kurs trwa 10 dni szkoleniowych podczas których zdobędziesz "+
+              "wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego (egzaminem PZŻ 29 sierpnia). Do egzaminu może przystąpić każdy "+
+              "kto ukończy 14 rok życia. Zajęcia będą odbywały Weekendowym, 5 sobót i niedziel, od godz. 9:00 do 17:00 z godzinną przerwą obiadową. Cena "+
+              "zawiera: ubezpieczenie NNW, zajęcia teoretyczne, zajęcia praktyczne, zniżka na książkę, darmowy parking, t-shirt firmowy, materiały "+
+              "dydaktyczne. Cena nie zawiera: wyżywienia, noclegów, kosztów egzaminu i kosztów patentu.",
+              InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
+              "profesjonalną Szkołą Żeglarską, działamy od 2013 roku a z pod naszych żagli wyfrunęło na szerokie wody już ponad setka żeglarzy i żeglarek. "+
+              "Nie ukierunkowujemy się na wiek, płeć czy upodobania polityczne lecz na dobrą zabawę. Stawiamy na nowoczesne metody nauczania. Żeglarstwo ma "+
+              "dawać przyjemność a my uczymy jak ją czerpać pełnymi wiadrami. Naszą Szkołę zakotwiczyliśmy w najnowocześniejszym ośrodku wypoczynkowym nad "+
+              "jeziorem Żywieckim, tutaj mamy nowoczesną sale wykładową, wyśmienite posiłki w restauracji oraz sprzęt do szkoleniowy. Na wodzie posiadamy "+
+              "dwa nowoczesne jachty są to GIN 730 oraz MAJESTIC 24 Race, są to lekkie zwinne i szybkie jachty które są przestronne w kokpicie i doskonałe "+
+              "w prowadzeniu. To na nich uczymy się jak bezpiecznie żeglować i jak czerpać przyjemność z żeglowania.",
+              PictureForCourse:"images/imagesForOffer/sailor3.jpg"},
+
+              {idOfOffer:"65", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
+              DateOfStart:"2020.08.30", DateOfEnd:"2020.10.04",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy kurs na Jeziorze Żywieckim, "+
+              "patent Żeglarza Jachtowego daje ogromne możliwości i uprawnienia, jest pierwszym i najważniejszym patentem w karierze żeglarskiej.Uprawnia do "+
+              "prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów żaglowych do 12m po wodach morskich wewnętrznych oraz "+
+              "pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, "+
+              "prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. Kurs trwa 10 dni szkoleniowych podczas których zdobędziesz "+
+              "wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego (egzaminem PZŻ 4 października). Do egzaminu może przystąpić każdy "+
+              "kto ukończy 14 rok życia. Zajęcia będą odbywały Weekendowym, 5 sobót i niedziel, od godz. 9:00 do 17:00 z godzinną przerwą obiadową. Cena "+
+              "zawiera: ubezpieczenie NNW, zajęcia teoretyczne, zajęcia praktyczne, zniżka na książkę, darmowy parking, t-shirt firmowy, materiały "+
+              "dydaktyczne. Cena nie zawiera: wyżywienia, noclegów, kosztów egzaminu i kosztów patentu.",
+              InformationAboutSuppliers:"Na naszym portalu tylko sprawdzeni dostawcy usug szkoleniowych - 100% wiarygodności i uczciwości. Jesteśmy "+
+              "profesjonalną Szkołą Żeglarską, działamy od 2013 roku a z pod naszych żagli wyfrunęło na szerokie wody już ponad setka żeglarzy i żeglarek. "+
+              "Nie ukierunkowujemy się na wiek, płeć czy upodobania polityczne lecz na dobrą zabawę. Stawiamy na nowoczesne metody nauczania. Żeglarstwo ma "+
+              "dawać przyjemność a my uczymy jak ją czerpać pełnymi wiadrami. Naszą Szkołę zakotwiczyliśmy w najnowocześniejszym ośrodku wypoczynkowym nad "+
+              "jeziorem Żywieckim, tutaj mamy nowoczesną sale wykładową, wyśmienite posiłki w restauracji oraz sprzęt do szkoleniowy. Na wodzie posiadamy "+
+              "dwa nowoczesne jachty są to GIN 730 oraz MAJESTIC 24 Race, są to lekkie zwinne i szybkie jachty które są przestronne w kokpicie i doskonałe "+
+              "w prowadzeniu. To na nich uczymy się jak bezpiecznie żeglować i jak czerpać przyjemność z żeglowania.",
+              PictureForCourse:"images/imagesForOffer/sailor4.jpg"},
+
+              {idOfOffer:"66", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+              DateOfStart:"2020.07.12", DateOfEnd:"2020.07.18", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
+              "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
+              "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
+              "żaglowych do 12m po wodach morskich wewnętrznych oraz pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie "+
+              "nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. "+
+              "Kurs trwa 6 dni szkoleniowych podczas których zdobędziesz wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego. Zakończony "+
+              "egzaminem PZŻ (egzamin 18 lipca). Do egzaminu może przystąpić każdy kto ukończy 14 rok życia. Cena zawiera: czarter jachtu, udział w "+
+              "szkoleniu, opieka instruktora, paliwo, opłaty portowe, ubezpieczenie NNW 5000. Cena nie zawiera: wyżywienia, noclegów, opłat osobistych "+
+              "pobieranych w portach, kosztów egzaminu i kosztów patentu",
+              InformationAboutSuppliers:"Jesteśmy profesjonalną firmą, która proponuje Klientom urlop na Mazurach, urlop na morzu, wakacje, rejsy morskie, "+
+              "rejsy mazurskie, kursy żegalskie. Dlaczego to robimy? - We współczesnych czasach ludzie bywają samotni wśród tłumu. Często pędzą w codziennym "+
+              "kołowrocie ważnych spraw. Wielu potrzebuje docenienia i akceptacji. Chcą lepiej poznać samych siebie, by napełnić się siłami do pokonywania "+
+              "dalszych trudów dnia codziennego. Potrzebują więc usunąć się na chwilę, zmienić zaokienny widok kamiennej pustyni miast, na żywą przyrodę. Chcą "+
+              "poznawać nowych ludzi i otoczyć się przyjaciółmi.Dlatego właśnie rozpoczęliśmy naszą przygodę i zapraszamy do niej innych. Chcemy wypoczywać w aktywny sposób, spędzać czas "+
+              "pożytecznie. Na urlopie można poznać ciekawe miejsca i także czegoś się nauczyć, rozwinąć swoje kwalifikacje, zdystansować od codzienności, lepiej poznać siebie, pokonać "+
+              "swoje słabości, wzmocnić siłę charakteru, podnieść na duchu. Co robimy? - Osobom przyjeżdżającym na kury żeglarskie, rejsy morskie, rejsy mazurskie dajemy możliwość "+
+              "zrealizowania takich właśnie zamierzeń. Pomagamy w rozwoju kompetencji żeglarskich. Ułatwiamy samopoznanie i samorozwój. Pomagamy budować samoocenę dzięki możliwości "+
+              "aktywnego działania, jakie daje żeglarstwo. Umożliwiamy tym sposobem poznawanie się ludzi podobnie myślących, czujących i działających, którzy zaakceptują się nawzajem "+
+              "takimi, jakimi są. Dzięki udziałowi w organizowanych przez nas eventach można spędzić czas na wodach śródlądowych na wspólnej przygodzie z ludźmi, wodą i żaglami. "+
+              "Popłynąć na rejs, by zachłysnąć się niezapomnianym klimatem Mazur z tajemniczymi bindugami, klimatycznymi portami, roztańczonymi tawernami. Dotknąć przyrody pełnej wiatru "+
+              "i wody. Poznać nowych ludzi podobne zakręconych. Na kursach żeglarskich, prowadzonych przez nas, można uczyć się od doświadczonych morskich żeglarzy jak bezpiecznie "+
+              "prowadzić jacht na śródlądziu i na morzu. Można też udać się z nami na bliższą lub dalszą przygodę morską. Jak to robimy? - Nasze imprezy charakteryzuje doskonała "+
+              "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
+               PictureForCourse:"images/imagesForOffer/sailor5.jpg"},
+
+               {idOfOffer:"67", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+               DateOfStart:"2020.07.19", DateOfEnd:"2020.07.25", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
+               "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
+               "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
+               "żaglowych do 12m po wodach morskich wewnętrznych oraz pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie "+
+               "nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. "+
+               "Kurs trwa 6 dni szkoleniowych podczas których zdobędziesz wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego. Zakończony "+
+               "egzaminem PZŻ (egzamin 25 lipca). Do egzaminu może przystąpić każdy kto ukończy 14 rok życia. Cena zawiera: czarter jachtu, udział w "+
+               "szkoleniu, opieka instruktora, paliwo, opłaty portowe, ubezpieczenie NNW 5000. Cena nie zawiera: wyżywienia, noclegów, opłat osobistych "+
+               "pobieranych w portach, kosztów egzaminu i kosztów patentu",
+               InformationAboutSuppliers:"Jesteśmy profesjonalną firmą, która proponuje Klientom urlop na Mazurach, urlop na morzu, wakacje, rejsy morskie, "+
+               "rejsy mazurskie, kursy żegalskie. Dlaczego to robimy? - We współczesnych czasach ludzie bywają samotni wśród tłumu. Często pędzą w codziennym "+
+               "kołowrocie ważnych spraw. Wielu potrzebuje docenienia i akceptacji. Chcą lepiej poznać samych siebie, by napełnić się siłami do pokonywania "+
+               "dalszych trudów dnia codziennego. Potrzebują więc usunąć się na chwilę, zmienić zaokienny widok kamiennej pustyni miast, na żywą przyrodę. Chcą "+
+               "poznawać nowych ludzi i otoczyć się przyjaciółmi.Dlatego właśnie rozpoczęliśmy naszą przygodę i zapraszamy do niej innych. Chcemy wypoczywać w aktywny sposób, spędzać czas "+
+               "pożytecznie. Na urlopie można poznać ciekawe miejsca i także czegoś się nauczyć, rozwinąć swoje kwalifikacje, zdystansować od codzienności, lepiej poznać siebie, pokonać "+
+               "swoje słabości, wzmocnić siłę charakteru, podnieść na duchu. Co robimy? - Osobom przyjeżdżającym na kury żeglarskie, rejsy morskie, rejsy mazurskie dajemy możliwość "+
+               "zrealizowania takich właśnie zamierzeń. Pomagamy w rozwoju kompetencji żeglarskich. Ułatwiamy samopoznanie i samorozwój. Pomagamy budować samoocenę dzięki możliwości "+
+               "aktywnego działania, jakie daje żeglarstwo. Umożliwiamy tym sposobem poznawanie się ludzi podobnie myślących, czujących i działających, którzy zaakceptują się nawzajem "+
+               "takimi, jakimi są. Dzięki udziałowi w organizowanych przez nas eventach można spędzić czas na wodach śródlądowych na wspólnej przygodzie z ludźmi, wodą i żaglami. "+
+               "Popłynąć na rejs, by zachłysnąć się niezapomnianym klimatem Mazur z tajemniczymi bindugami, klimatycznymi portami, roztańczonymi tawernami. Dotknąć przyrody pełnej wiatru "+
+               "i wody. Poznać nowych ludzi podobne zakręconych. Na kursach żeglarskich, prowadzonych przez nas, można uczyć się od doświadczonych morskich żeglarzy jak bezpiecznie "+
+               "prowadzić jacht na śródlądziu i na morzu. Można też udać się z nami na bliższą lub dalszą przygodę morską. Jak to robimy? - Nasze imprezy charakteryzuje doskonała "+
+               "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
+                PictureForCourse:"images/imagesForOffer/sailor6.jpg"},
+
+              {idOfOffer:"68", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+              DateOfStart:"2020.07.26", DateOfEnd:"2020.08.01", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
+              "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
+              "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
+              "żaglowych do 12m po wodach morskich wewnętrznych oraz pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie "+
+              "nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. "+
+              "Kurs trwa 6 dni szkoleniowych podczas których zdobędziesz wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego. Zakończony "+
+              "egzaminem PZŻ (egzamin 1 sierpnia). Do egzaminu może przystąpić każdy kto ukończy 14 rok życia. Cena zawiera: czarter jachtu, udział w "+
+              "szkoleniu, opieka instruktora, paliwo, opłaty portowe, ubezpieczenie NNW 5000. Cena nie zawiera: wyżywienia, noclegów, opłat osobistych "+
+              "pobieranych w portach, kosztów egzaminu i kosztów patentu",
+              InformationAboutSuppliers:"Jesteśmy profesjonalną firmą, która proponuje Klientom urlop na Mazurach, urlop na morzu, wakacje, rejsy morskie, "+
+              "rejsy mazurskie, kursy żegalskie. Dlaczego to robimy? - We współczesnych czasach ludzie bywają samotni wśród tłumu. Często pędzą w codziennym "+
+              "kołowrocie ważnych spraw. Wielu potrzebuje docenienia i akceptacji. Chcą lepiej poznać samych siebie, by napełnić się siłami do pokonywania "+
+              "dalszych trudów dnia codziennego. Potrzebują więc usunąć się na chwilę, zmienić zaokienny widok kamiennej pustyni miast, na żywą przyrodę. Chcą "+
+              "poznawać nowych ludzi i otoczyć się przyjaciółmi.Dlatego właśnie rozpoczęliśmy naszą przygodę i zapraszamy do niej innych. Chcemy wypoczywać w aktywny sposób, spędzać czas "+
+              "pożytecznie. Na urlopie można poznać ciekawe miejsca i także czegoś się nauczyć, rozwinąć swoje kwalifikacje, zdystansować od codzienności, lepiej poznać siebie, pokonać "+
+              "swoje słabości, wzmocnić siłę charakteru, podnieść na duchu. Co robimy? - Osobom przyjeżdżającym na kury żeglarskie, rejsy morskie, rejsy mazurskie dajemy możliwość "+
+              "zrealizowania takich właśnie zamierzeń. Pomagamy w rozwoju kompetencji żeglarskich. Ułatwiamy samopoznanie i samorozwój. Pomagamy budować samoocenę dzięki możliwości "+
+              "aktywnego działania, jakie daje żeglarstwo. Umożliwiamy tym sposobem poznawanie się ludzi podobnie myślących, czujących i działających, którzy zaakceptują się nawzajem "+
+              "takimi, jakimi są. Dzięki udziałowi w organizowanych przez nas eventach można spędzić czas na wodach śródlądowych na wspólnej przygodzie z ludźmi, wodą i żaglami. "+
+              "Popłynąć na rejs, by zachłysnąć się niezapomnianym klimatem Mazur z tajemniczymi bindugami, klimatycznymi portami, roztańczonymi tawernami. Dotknąć przyrody pełnej wiatru "+
+              "i wody. Poznać nowych ludzi podobne zakręconych. Na kursach żeglarskich, prowadzonych przez nas, można uczyć się od doświadczonych morskich żeglarzy jak bezpiecznie "+
+              "prowadzić jacht na śródlądziu i na morzu. Można też udać się z nami na bliższą lub dalszą przygodę morską. Jak to robimy? - Nasze imprezy charakteryzuje doskonała "+
+              "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
+                PictureForCourse:"images/imagesForOffer/sailor7.jpg"},
+
+              {idOfOffer:"69", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+              DateOfStart:"2020.08.02", DateOfEnd:"2020.08.08", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
+              "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
+              "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
+              "żaglowych do 12m po wodach morskich wewnętrznych oraz pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie "+
+              "nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. "+
+              "Kurs trwa 6 dni szkoleniowych podczas których zdobędziesz wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego. Zakończony "+
+              "egzaminem PZŻ (egzamin 8 sierpnia). Do egzaminu może przystąpić każdy kto ukończy 14 rok życia. Cena zawiera: czarter jachtu, udział w "+
+              "szkoleniu, opieka instruktora, paliwo, opłaty portowe, ubezpieczenie NNW 5000. Cena nie zawiera: wyżywienia, noclegów, opłat osobistych "+
+              "pobieranych w portach, kosztów egzaminu i kosztów patentu",
+              InformationAboutSuppliers:"Jesteśmy profesjonalną firmą, która proponuje Klientom urlop na Mazurach, urlop na morzu, wakacje, rejsy morskie, "+
+              "rejsy mazurskie, kursy żegalskie. Dlaczego to robimy? - We współczesnych czasach ludzie bywają samotni wśród tłumu. Często pędzą w codziennym "+
+              "kołowrocie ważnych spraw. Wielu potrzebuje docenienia i akceptacji. Chcą lepiej poznać samych siebie, by napełnić się siłami do pokonywania "+
+              "dalszych trudów dnia codziennego. Potrzebują więc usunąć się na chwilę, zmienić zaokienny widok kamiennej pustyni miast, na żywą przyrodę. Chcą "+
+              "poznawać nowych ludzi i otoczyć się przyjaciółmi.Dlatego właśnie rozpoczęliśmy naszą przygodę i zapraszamy do niej innych. Chcemy wypoczywać w aktywny sposób, spędzać czas "+
+              "pożytecznie. Na urlopie można poznać ciekawe miejsca i także czegoś się nauczyć, rozwinąć swoje kwalifikacje, zdystansować od codzienności, lepiej poznać siebie, pokonać "+
+              "swoje słabości, wzmocnić siłę charakteru, podnieść na duchu. Co robimy? - Osobom przyjeżdżającym na kury żeglarskie, rejsy morskie, rejsy mazurskie dajemy możliwość "+
+              "zrealizowania takich właśnie zamierzeń. Pomagamy w rozwoju kompetencji żeglarskich. Ułatwiamy samopoznanie i samorozwój. Pomagamy budować samoocenę dzięki możliwości "+
+              "aktywnego działania, jakie daje żeglarstwo. Umożliwiamy tym sposobem poznawanie się ludzi podobnie myślących, czujących i działających, którzy zaakceptują się nawzajem "+
+              "takimi, jakimi są. Dzięki udziałowi w organizowanych przez nas eventach można spędzić czas na wodach śródlądowych na wspólnej przygodzie z ludźmi, wodą i żaglami. "+
+              "Popłynąć na rejs, by zachłysnąć się niezapomnianym klimatem Mazur z tajemniczymi bindugami, klimatycznymi portami, roztańczonymi tawernami. Dotknąć przyrody pełnej wiatru "+
+              "i wody. Poznać nowych ludzi podobne zakręconych. Na kursach żeglarskich, prowadzonych przez nas, można uczyć się od doświadczonych morskich żeglarzy jak bezpiecznie "+
+              "prowadzić jacht na śródlądziu i na morzu. Można też udać się z nami na bliższą lub dalszą przygodę morską. Jak to robimy? - Nasze imprezy charakteryzuje doskonała "+
+              "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
+                PictureForCourse:"images/imagesForOffer/sailor1.jpg"},
+              
+              {idOfOffer:"70", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+              DateOfStart:"2020.08.09", DateOfEnd:"2020.08.15", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
+              "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
+              "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
+              "żaglowych do 12m po wodach morskich wewnętrznych oraz pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie "+
+              "nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. "+
+              "Kurs trwa 6 dni szkoleniowych podczas których zdobędziesz wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego. Zakończony "+
+              "egzaminem PZŻ (egzamin 15 sierpnia). Do egzaminu może przystąpić każdy kto ukończy 14 rok życia. Cena zawiera: czarter jachtu, udział w "+
+              "szkoleniu, opieka instruktora, paliwo, opłaty portowe, ubezpieczenie NNW 5000. Cena nie zawiera: wyżywienia, noclegów, opłat osobistych "+
+              "pobieranych w portach, kosztów egzaminu i kosztów patentu",
+              InformationAboutSuppliers:"Jesteśmy profesjonalną firmą, która proponuje Klientom urlop na Mazurach, urlop na morzu, wakacje, rejsy morskie, "+
+              "rejsy mazurskie, kursy żegalskie. Dlaczego to robimy? - We współczesnych czasach ludzie bywają samotni wśród tłumu. Często pędzą w codziennym "+
+              "kołowrocie ważnych spraw. Wielu potrzebuje docenienia i akceptacji. Chcą lepiej poznać samych siebie, by napełnić się siłami do pokonywania "+
+              "dalszych trudów dnia codziennego. Potrzebują więc usunąć się na chwilę, zmienić zaokienny widok kamiennej pustyni miast, na żywą przyrodę. Chcą "+
+              "poznawać nowych ludzi i otoczyć się przyjaciółmi.Dlatego właśnie rozpoczęliśmy naszą przygodę i zapraszamy do niej innych. Chcemy wypoczywać w aktywny sposób, spędzać czas "+
+              "pożytecznie. Na urlopie można poznać ciekawe miejsca i także czegoś się nauczyć, rozwinąć swoje kwalifikacje, zdystansować od codzienności, lepiej poznać siebie, pokonać "+
+              "swoje słabości, wzmocnić siłę charakteru, podnieść na duchu. Co robimy? - Osobom przyjeżdżającym na kury żeglarskie, rejsy morskie, rejsy mazurskie dajemy możliwość "+
+              "zrealizowania takich właśnie zamierzeń. Pomagamy w rozwoju kompetencji żeglarskich. Ułatwiamy samopoznanie i samorozwój. Pomagamy budować samoocenę dzięki możliwości "+
+              "aktywnego działania, jakie daje żeglarstwo. Umożliwiamy tym sposobem poznawanie się ludzi podobnie myślących, czujących i działających, którzy zaakceptują się nawzajem "+
+              "takimi, jakimi są. Dzięki udziałowi w organizowanych przez nas eventach można spędzić czas na wodach śródlądowych na wspólnej przygodzie z ludźmi, wodą i żaglami. "+
+              "Popłynąć na rejs, by zachłysnąć się niezapomnianym klimatem Mazur z tajemniczymi bindugami, klimatycznymi portami, roztańczonymi tawernami. Dotknąć przyrody pełnej wiatru "+
+              "i wody. Poznać nowych ludzi podobne zakręconych. Na kursach żeglarskich, prowadzonych przez nas, można uczyć się od doświadczonych morskich żeglarzy jak bezpiecznie "+
+              "prowadzić jacht na śródlądziu i na morzu. Można też udać się z nami na bliższą lub dalszą przygodę morską. Jak to robimy? - Nasze imprezy charakteryzuje doskonała "+
+              "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
+                PictureForCourse:"images/imagesForOffer/sailor2.jpg"},
+
+              {idOfOffer:"71", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+              DateOfStart:"2020.08.16", DateOfEnd:"2020.08.22", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
+              "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
+              "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
+              "żaglowych do 12m po wodach morskich wewnętrznych oraz pływania 2 mile morskie od brzegu w porze dziennej po każdym morzu. Na naszym kursie "+
+              "nauczysz się jak bezpiecznie żeglować, obsługiwać żagle, prowadzić jacht w sposób opanowany, jak zachować się w niebezpiecznych sytuacjach. "+
+              "Kurs trwa 6 dni szkoleniowych podczas których zdobędziesz wymaganą wiedze do zdania egzaminu na patent Żeglarza jachtowego. Zakończony "+
+              "egzaminem PZŻ (egzamin 22 sierpnia). Do egzaminu może przystąpić każdy kto ukończy 14 rok życia. Cena zawiera: czarter jachtu, udział w "+
+              "szkoleniu, opieka instruktora, paliwo, opłaty portowe, ubezpieczenie NNW 5000. Cena nie zawiera: wyżywienia, noclegów, opłat osobistych "+
+              "pobieranych w portach, kosztów egzaminu i kosztów patentu",
+              InformationAboutSuppliers:"Jesteśmy profesjonalną firmą, która proponuje Klientom urlop na Mazurach, urlop na morzu, wakacje, rejsy morskie, "+
+              "rejsy mazurskie, kursy żegalskie. Dlaczego to robimy? - We współczesnych czasach ludzie bywają samotni wśród tłumu. Często pędzą w codziennym "+
+              "kołowrocie ważnych spraw. Wielu potrzebuje docenienia i akceptacji. Chcą lepiej poznać samych siebie, by napełnić się siłami do pokonywania "+
+              "dalszych trudów dnia codziennego. Potrzebują więc usunąć się na chwilę, zmienić zaokienny widok kamiennej pustyni miast, na żywą przyrodę. Chcą "+
+              "poznawać nowych ludzi i otoczyć się przyjaciółmi.Dlatego właśnie rozpoczęliśmy naszą przygodę i zapraszamy do niej innych. Chcemy wypoczywać w aktywny sposób, spędzać czas "+
+              "pożytecznie. Na urlopie można poznać ciekawe miejsca i także czegoś się nauczyć, rozwinąć swoje kwalifikacje, zdystansować od codzienności, lepiej poznać siebie, pokonać "+
+              "swoje słabości, wzmocnić siłę charakteru, podnieść na duchu. Co robimy? - Osobom przyjeżdżającym na kury żeglarskie, rejsy morskie, rejsy mazurskie dajemy możliwość "+
+              "zrealizowania takich właśnie zamierzeń. Pomagamy w rozwoju kompetencji żeglarskich. Ułatwiamy samopoznanie i samorozwój. Pomagamy budować samoocenę dzięki możliwości "+
+              "aktywnego działania, jakie daje żeglarstwo. Umożliwiamy tym sposobem poznawanie się ludzi podobnie myślących, czujących i działających, którzy zaakceptują się nawzajem "+
+              "takimi, jakimi są. Dzięki udziałowi w organizowanych przez nas eventach można spędzić czas na wodach śródlądowych na wspólnej przygodzie z ludźmi, wodą i żaglami. "+
+              "Popłynąć na rejs, by zachłysnąć się niezapomnianym klimatem Mazur z tajemniczymi bindugami, klimatycznymi portami, roztańczonymi tawernami. Dotknąć przyrody pełnej wiatru "+
+              "i wody. Poznać nowych ludzi podobne zakręconych. Na kursach żeglarskich, prowadzonych przez nas, można uczyć się od doświadczonych morskich żeglarzy jak bezpiecznie "+
+              "prowadzić jacht na śródlądziu i na morzu. Można też udać się z nami na bliższą lub dalszą przygodę morską. Jak to robimy? - Nasze imprezy charakteryzuje doskonała "+
+              "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
+              PictureForCourse:"images/imagesForOffer/sailor3.jpg"},
     ];
 
     export default sourceTable;

@@ -266,20 +266,24 @@ const MyFunc = () => {
                 <select className="classCategoryofChoose" onChange={MyValueFunc}>
                     <option>Wszystkie miejsca</option>
                     <option>J. Dzierżno Małe</option>
+                    <option>J. Żywieckie</option>
                     <option>Kraków/ Wawel</option>
                     {/* <option>Mazury</option> */}
+                    <option>Mazury-J. Nidzkie</option>
+                    <option>Mazury-J. Święcajty</option>
                     <option>Olsztyn J. Ukiel</option>
                     <option>Zalew Rzeszowski</option>
                     <option>Zalew Sulejowski</option>
                     <option>Zalew Zek</option>
                     <option>Zalew Zegrzyński</option>
                     <option>Zalew Zemborzycki</option>
-                    <option>Mazury-J. Nidzkie</option>
+                    
                 </select>
             </div>
             <div className="classTimeofChoose">
             <h3 className="h3TextFilter">Wybierz termin</h3>
             <select className="classCategoryofChoose" onChange={MyValueFunc}>
+               
                 <option>Wszystkie miesiące</option>
                 {/* <option>Styczeń</option>
                 <option>Luty</option>
