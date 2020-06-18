@@ -219,7 +219,7 @@ const MyFunc = () => {
                                   <br></br>
                                  <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>
                                 </p>
-                                <button className="classBtnProductDetails" onClick={myHoverActionButton} id={i} >Rozwiń...</button>
+                                <button className="classBtnProductDetails" onClick={myHoverActionButton} id={i} >Szczegóły</button>
                                 <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>
                             </div>
                         </div>
