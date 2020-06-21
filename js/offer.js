@@ -99,7 +99,7 @@ const MyValueFunc = () => {
          tableOfFilter.push(sourceTable[i]);
         }  
     };
-    console.log("Tablica last: ",tableOfFilter);
+    // console.log("Tablica last: ",tableOfFilter);
     return (
         // console.log("AAAAAA",MyFunc()),
         ReactDOM.render(
@@ -219,7 +219,7 @@ const MyFunc = () => {
                                   <br></br>
                                  <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>
                                 </p>
-                                <button className="classBtnProductDetails" onClick={myHoverActionButton} id={i} >Szczegóły</button>
+                                <button className="classBtnProductDetails" onClick={myHoverActionButton} id={i} >Rozwiń</button>
                                 <button onClick={myReservation} className="classBtnProduct" id={i}>Rezerwuj</button>
                             </div>
                         </div>
@@ -239,6 +239,9 @@ const MyFunc = () => {
     return (   
     <>
     <div className="mainOffer">
+        <div><p className="classMainOfferMainInformation">Na naszym portalu znajdziesz oferty kursów, rejsów i obozów żeglarskich w Polsce i za granicą. 
+        Wyszukaj odpwiednią dla siebie ofertę, zapoznaj się z jej szczegółami a w razie dodatkowych pytań skontaktuj się z Nami. Nie zwlekaj, sprawdź nasze 
+        propozycje na lato i jesień 2020 roku.</p></div>
         <div className="classParametersofChoose">
             {/* <div class="classDivCategoryofChoose">
                 <h2 class="classH2CategoryofChoose">Filtruj według:</h2>

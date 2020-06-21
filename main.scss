@@ -669,6 +669,23 @@ width: 100%;
 
 }
 
+.classMainOfferMainInformation {
+  flex-grow: 1;
+  height: auto;
+  text-align: justify;
+  line-height: 1.35;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  margin: 0px;
+  padding-top: 12px;
+  border-bottom: 1px gray dashed;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
 .classInformationOfProductDetail 
 {
   // height: calc(100% - 5px); zmieniona 9.06.2020
