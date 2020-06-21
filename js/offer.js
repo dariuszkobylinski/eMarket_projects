@@ -7,13 +7,20 @@ import {FooterMain} from "./contact";
 import {Popup} from "./saleForm";
 import sourceTable from "./data/deteilOfOffers";
 import numberOfOrders from "./slider_manager";
+var yPosition="";
 
-var tableOfFilter=sourceTable;
+// var tableOfFilter=sourceTable;
+var tableOfFilter=[];
+for (let i=0; i<sourceTable.length;i++) {
+    if (sourceTable[i].OfferActive===true) {
+        tableOfFilter.push(sourceTable[i]);
+    }
+}
 
 const BurgerClick = (e) => {
     let burgerEvent=document.querySelector(".classItem");
     e.preventDefault();
-         console.log(burgerEvent.style);
+        //  console.log(burgerEvent.style);
     if (burgerEvent.style.visibility==="hidden" || burgerEvent.style.visibility==="") {
         burgerEvent.style.visibility="visible"; 
     }
@@ -82,7 +89,6 @@ const MyValueFunc = () => {
     tableOfFilter=[];
 
     let categoryOfChoose=document.querySelectorAll(".classCategoryofChoose");
-    
     let kindOfChoose = categoryOfChoose[0].value;
     let placeOfChoose=categoryOfChoose[1].value;
     let timeOfChoose=categoryOfChoose[2].value;
@@ -94,7 +100,8 @@ const MyValueFunc = () => {
          if ((kindOfChoose===sourceTable[i].CategoryOfProduct || kindOfChoose==="Wszystkie kategorie") && 
          (placeOfChoose===sourceTable[i].PlaceOfCourse || placeOfChoose==="Wszystkie miejsca") && 
          (timeOfChoose===sourceTable[i].TimingOfCourse || timeOfChoose==="Wszystkie miesiące") &&
-         (typeOfChoose===sourceTable[i].TypeOfCourse || typeOfChoose==="Wszystkie rodzaje")) 
+         (typeOfChoose===sourceTable[i].TypeOfCourse || typeOfChoose==="Wszystkie rodzaje") &&
+         (sourceTable[i].OfferActive===true))
          {
          tableOfFilter.push(sourceTable[i]);
         }  
@@ -109,31 +116,32 @@ const MyValueFunc = () => {
     )   
 }
 
-const myHoverAction = (e) => {
+// const myHoverAction = (e) => {
 
-    let PmyHoverAction=document.querySelectorAll(".pclassInformationOfProductDetail");
-    let BtnMyHoverAction=document.querySelectorAll(".classBtnProductReturn");
-        // var positionY=(window.scrollY);
-        // console.log(positionY);
+//     let PmyHoverAction=document.querySelectorAll(".pclassInformationOfProductDetail");
+//     let BtnMyHoverAction=document.querySelectorAll(".classBtnProductReturn");
+//         // var positionY=(window.scrollY);
+//         // console.log(positionY);
         
-        PmyHoverAction[(e.target.getAttribute("id"))].classList.toggle("classMyHoverAction");
-        BtnMyHoverAction[(e.target.getAttribute("id"))].style.visibility="visible";
-        };
+//         PmyHoverAction[(e.target.getAttribute("id"))].classList.toggle("classMyHoverAction");
+//         BtnMyHoverAction[(e.target.getAttribute("id"))].style.visibility="visible";
+//         };
+
 
         const myHoverActionButton = (e) => {
-
-            let BtnMyHoverActionDetail= document.querySelectorAll(".classBtnProductReturn");   
+            // let BtnMyHoverActionDetail= document.querySelectorAll(".classBtnProductReturn");   
             let PmyHoverAction=document.querySelectorAll(".pclassInformationOfProductDetail");
             let BtnMyHoverAction=document.querySelectorAll(".classBtnProductReturn");
-                // var positionY=(window.scrollY);
-                // console.log(positionY);
                 let myIdNumber=e.target.getAttribute("id");
                 PmyHoverAction[myIdNumber].classList.toggle("classMyHoverAction");
                 BtnMyHoverAction[myIdNumber].style.visibility="visible";
-                };
+                yPosition=window.scrollY;
+                
+        };
 
 const myHoverCloseAction = (e) => {
-
+    
+    // import {yPosition} from {myHoverActionButton};
     let PmyHoverAction=document.querySelectorAll(".pclassInformationOfProductDetail");
     // PmyHoverAction[(e.target.getAttribute("id"))].classList.toggle("classMyHoverAction")
     let BtnMyHoverAction=document.querySelectorAll(".classBtnProductReturn");
@@ -141,15 +149,18 @@ const myHoverCloseAction = (e) => {
         PmyHoverAction[i].classList.remove("classMyHoverAction");
         BtnMyHoverAction[i].style.visibility="hidden";
     }
-    // console.log("to jest pozycja",positionY);
+    window.scrollTo(0,yPosition);
+    //  console.log("to jest pozycja",yPosition);
+    yPosition=0;
     // window.scrollTo(0,positionY);
+    // console.log(yPosition);
     };
 
 
 const myReservation = (e) => {
     var tableOfSales=[];
     let ids = e.target.getAttribute("id");
-    console.log(ids);
+    // console.log(ids);
     tableOfSales.push(tableOfFilter[ids]);
     
 
@@ -161,12 +172,12 @@ const myReservation = (e) => {
     let pClassOrderDetails=document.querySelectorAll(".pclassOrderDetails");
     let myBtnOrderCancel=document.querySelector(".classBtnProductOrder");
     let messageToCUstomer=document.querySelector(".classMessageToCustomer");
-    console.log(pClassOrderDetails[0]);
+    // console.log(pClassOrderDetails[0]);
 
     myPopup.style.visibility="visible";
     myPopupDetail.style.visibility="visible";
     myBtnOrderCancel.style.visibility="visible";
-    console.log(numberOfOrders);
+    // console.log(numberOfOrders);
 
     // pClassOrderDetails[0].innerHTML="Numer zamówienia: "+numberOfOrders[numberOfOrders.length-1]+1;
     pClassOrderDetails[1].innerHTML="Kategoria kursu: "+tableOfSales[0].CategoryOfProduct;
@@ -188,7 +199,7 @@ const myReservation = (e) => {
 
 const MyFunc = () => { 
     let z=[]; 
-    console.log("MyFuncPrzejście",tableOfFilter)
+    // console.log("MyFuncPrzejście",tableOfFilter)
     for (let i=0;i<tableOfFilter.length;i++) {
     let y = 
     <div className="classViewofProduct">
@@ -208,7 +219,7 @@ const MyFunc = () => {
                             </div>
                             <div className="classInformationOfProductDetail" >
                                 
-                                <p className="pclassInformationOfProductDetail" id={i} onMouseLeave={myHoverCloseAction}>
+                                <p className="pclassInformationOfProductDetail" id={i}>
                                     <img className="classProductImg" src={tableOfFilter[i].PictureForCourse}/> 
                                 <p style={{color:"black", display:"inline-block", fontWeight:"bold", margin:"0px", fontStyle:"italic", marginRight:"5px"}}>
                                     Oferta:</p>{tableOfFilter[i].InformationAboutCourse} <br></br> 
@@ -240,7 +251,7 @@ const MyFunc = () => {
     <>
     <div className="mainOffer">
         <div><p className="classMainOfferMainInformation">Na naszym portalu znajdziesz oferty kursów, rejsów i obozów żeglarskich w Polsce i za granicą. 
-        Wyszukaj odpwiednią dla siebie ofertę, zapoznaj się z jej szczegółami a w razie dodatkowych pytań skontaktuj się z Nami. Nie zwlekaj, sprawdź nasze 
+        Wyszukaj odpowiednią dla siebie ofertę, zapoznaj się z jej szczegółami a w razie dodatkowych pytań skontaktuj się z Nami. Nie zwlekaj, sprawdź Nasze 
         propozycje na lato i jesień 2020 roku.</p></div>
         <div className="classParametersofChoose">
             {/* <div class="classDivCategoryofChoose">
@@ -258,7 +269,7 @@ const MyFunc = () => {
                 <select className="classCategoryofChoose" onChange={MyValueFunc}>
                     <option>Wszystkie kategorie</option>
                     <option>Żeglarz Jachtowy</option>
-                    <option>Sternik Morski</option>
+                    {/* <option>Sternik Morski</option> */}
                     <option>Sternik Motorowodny</option>
                     {/* <option>Holowanie narciarza</option>
                     <option>Narty wodne</option> */}
@@ -274,7 +285,7 @@ const MyFunc = () => {
                     {/* <option>Mazury</option> */}
                     <option>Mazury-J. Nidzkie</option>
                     <option>Mazury-J. Święcajty</option>
-                    <option>Olsztyn J. Ukiel</option>
+                    {/* <option>Olsztyn J. Ukiel</option> */}
                     <option>Zalew Rzeszowski</option>
                     <option>Zalew Sulejowski</option>
                     <option>Zalew Zek</option>
@@ -312,7 +323,7 @@ const MyFunc = () => {
                     
                 </select>
             </div>
-            <button className="classBtnCategoryofChoose" onClick={MyValueFunc}>Filtruj</button>
+            {/* <button className="classBtnCategoryofChoose" onClick={MyValueFunc}>Filtruj</button> */}
         </div>
         
         <div className="classViewofProductMain">

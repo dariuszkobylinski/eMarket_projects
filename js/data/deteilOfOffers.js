@@ -1,5 +1,5 @@
 var sourceTable=[
-    {idOfOffer:"1", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Sulejowski", PriceOfCourse:"900", DateOfStart:"2020.07.11", DateOfEnd:"2020.07.19", TypeOfCourse:"Dzienny",
+    {idOfOffer:"1", OfferActive:true, CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Sulejowski", PriceOfCourse:"900", DateOfStart:"2020.07.11", DateOfEnd:"2020.07.19", TypeOfCourse:"Dzienny",
      InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza jachtowego nad Zalewem Sulejowskim. Szkolenie na patent "+
      "żeglarza realizujemy według programu Polskiego Związku Żeglarskiego. Program ten obejmuje manewrowanie jachtem i zajęcia teoretyczne. Podczas nauki "+
      "manewrowania jachtem będziemy uczyć się zwrotów przez sztag i przez rufę, manewrów portowych (dojścia i odejścia od kei na żaglach oraz na silniku), "+
@@ -18,7 +18,7 @@ var sourceTable=[
     "Systematycznie podnosimy również swoje kwalifikacje, by przekazywana wiedza była jak najbardziej aktualna. Żeglarstwo to szkoła charakterów. "+
     "Kształtując je u innych, kształtujemy je również u siebie.",
     PictureForCourse:"images/imagesForOffer/sailor1.jpg"},
-    {idOfOffer:"2", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
+    {idOfOffer:"2", OfferActive:false, CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
     DateOfStart:"2020.06.06", DateOfEnd:"2020.07.05",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza "+
     "jachtowego, który składa się z 10 dni szkolenia praktyczno – teoretycznego po 7 godzin dziennie. W trakcie szkolenia realizowany jest pełny pogram "+
     "szkolenia na patent Żeglarza Jachtowego. Wszystkie zajęcia realizowane są w obrębie Portu Jachtowego Nieporęt oraz na akwenie Zalewu Zegrzyńskiego. "+
@@ -50,7 +50,7 @@ var sourceTable=[
      "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania.",
      PictureForCourse:"images/imagesForOffer/sailor2.jpg"},
 
-     {idOfOffer:"3", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
+     {idOfOffer:"3",OfferActive:true, CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
     DateOfStart:"2020.07.11", DateOfEnd:"2020.08.16",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza "+
     "jachtowego, który składa się z 10 dni szkolenia praktyczno – teoretycznego po 7 godzin dziennie. W trakcie szkolenia realizowany jest pełny pogram "+
     "szkolenia na patent Żeglarza Jachtowego. Wszystkie zajęcia realizowane są w obrębie Portu Jachtowego Nieporęt oraz na akwenie Zalewu Zegrzyńskiego. "+
@@ -82,7 +82,7 @@ var sourceTable=[
      "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania.",
      PictureForCourse:"images/imagesForOffer/sailor3.jpg"},
 
-     {idOfOffer:"4", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
+     {idOfOffer:"4", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
     DateOfStart:"2020.08.22", DateOfEnd:"2020.09.27",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza "+
     "jachtowego, który składa się z 10 dni szkolenia praktyczno – teoretycznego po 7 godzin dziennie. W trakcie szkolenia realizowany jest pełny pogram "+
     "szkolenia na patent Żeglarza Jachtowego. Wszystkie zajęcia realizowane są w obrębie Portu Jachtowego Nieporęt oraz na akwenie Zalewu Zegrzyńskiego. "+
@@ -114,7 +114,7 @@ var sourceTable=[
      "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania.",
      PictureForCourse:"images/imagesForOffer/sailor4.jpg"},
 
-     {idOfOffer:"5", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
+     {idOfOffer:"5", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
      DateOfStart:"2020.07.27", DateOfEnd:"2020.08.07",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza "+
      "jachtowego, który składa się z 10 dni szkolenia praktyczno – teoretycznego po 7 godzin dziennie. W trakcie szkolenia realizowany jest pełny pogram "+
      "szkolenia na patent Żeglarza Jachtowego. Wszystkie zajęcia realizowane są w obrębie Portu Jachtowego Nieporęt oraz na akwenie Zalewu Zegrzyńskiego. "+
@@ -146,7 +146,7 @@ var sourceTable=[
       "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania.",
       PictureForCourse:"images/imagesForOffer/sailor5.jpg"},
 
-      {idOfOffer:"6", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
+      {idOfOffer:"6", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"1000", 
       DateOfStart:"2020.08.17", DateOfEnd:"2020.08.28",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na kurs oraz egzamin na stopień żeglarza "+
       "jachtowego, który składa się z 10 dni szkolenia praktyczno – teoretycznego po 7 godzin dziennie. W trakcie szkolenia realizowany jest pełny pogram "+
       "szkolenia na patent Żeglarza Jachtowego. Wszystkie zajęcia realizowane są w obrębie Portu Jachtowego Nieporęt oraz na akwenie Zalewu Zegrzyńskiego. "+
@@ -178,7 +178,7 @@ var sourceTable=[
        "przestronny kokpit i możliwość zamontowania silnika sprawia, że jacht idealnie nadaje się do nauki żeglowania.",
        PictureForCourse:"images/imagesForOffer/sailor6.jpg"},
 
-       {idOfOffer:"7", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
+       {idOfOffer:"7", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
       DateOfStart:"2020.06.01", DateOfEnd:"2020.06.30",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na intensywny kurs na Zalewie Zek w "+
       "Radymnie koło Przemyśla. Kurs realizowany jest w ciągu 7 dni i zakończony egzaminem. TERMIN I MIEJSCE SZKOLENIA: 7 wybranych dni intensywnego "+
       "szkolenia ustalamy w terminie odpowiadającym kursantom. Kurs rozpoczynamy po zebraniu 2-4 osobowej wachty. Szkolenie prowadzimy na Zalewie ZEK w "+
@@ -201,7 +201,7 @@ var sourceTable=[
        "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe.",
        PictureForCourse:"images/imagesForOffer/sailor7.jpg"},
 
-       {idOfOffer:"8", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
+       {idOfOffer:"8",OfferActive:true, CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
        DateOfStart:"2020.07.01", DateOfEnd:"2020.07.31",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na intensywny kurs na Zalewie Zek w "+
        "Radymnie koło Przemyśla. Kurs realizowany jest w ciągu 7 dni i zakończony egzaminem. TERMIN I MIEJSCE SZKOLENIA: 7 wybranych dni intensywnego "+
        "szkolenia ustalamy w terminie odpowiadającym kursantom. Kurs rozpoczynamy po zebraniu 2-4 osobowej wachty. Szkolenie prowadzimy na Zalewie ZEK w "+
@@ -224,7 +224,7 @@ var sourceTable=[
         "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe.",
         PictureForCourse:"images/imagesForOffer/sailor1.jpg"},
 
-        {idOfOffer:"9", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
+        {idOfOffer:"9", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
         DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na intensywny kurs na Zalewie Zek w "+
         "Radymnie koło Przemyśla. Kurs realizowany jest w ciągu 7 dni i zakończony egzaminem. TERMIN I MIEJSCE SZKOLENIA: 7 wybranych dni intensywnego "+
         "szkolenia ustalamy w terminie odpowiadającym kursantom. Kurs rozpoczynamy po zebraniu 2-4 osobowej wachty. Szkolenie prowadzimy na Zalewie ZEK w "+
@@ -247,7 +247,7 @@ var sourceTable=[
          "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe.",
          PictureForCourse:"images/imagesForOffer/sailor2.jpg"},
 
-         {idOfOffer:"10", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
+         {idOfOffer:"10",OfferActive:true, CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
          DateOfStart:"2020.09.01", DateOfEnd:"2020.09.30",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na intensywny kurs na Zalewie Zek w "+
          "Radymnie koło Przemyśla. Kurs realizowany jest w ciągu 7 dni i zakończony egzaminem. TERMIN I MIEJSCE SZKOLENIA: 7 wybranych dni intensywnego "+
          "szkolenia ustalamy w terminie odpowiadającym kursantom. Kurs rozpoczynamy po zebraniu 2-4 osobowej wachty. Szkolenie prowadzimy na Zalewie ZEK w "+
@@ -270,7 +270,7 @@ var sourceTable=[
           "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe.",
           PictureForCourse:"images/imagesForOffer/sailor3.jpg"},
 
-          {idOfOffer:"11", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
+          {idOfOffer:"11", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Zek", PriceOfCourse:"1000", 
           DateOfStart:"2020.10.01", DateOfEnd:"2020.10.30",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy na intensywny kurs na Zalewie Zek w "+
           "Radymnie koło Przemyśla. Kurs realizowany jest w ciągu 7 dni i zakończony egzaminem. TERMIN I MIEJSCE SZKOLENIA: 7 wybranych dni intensywnego "+
           "szkolenia ustalamy w terminie odpowiadającym kursantom. Kurs rozpoczynamy po zebraniu 2-4 osobowej wachty. Szkolenie prowadzimy na Zalewie ZEK w "+
@@ -293,7 +293,7 @@ var sourceTable=[
            "praktycznych umiejętności i doświadczenia. Uzyskane uprawnienia pozwolą Ci samodzielnie realizować swoje pasje i podniosą kwalifikacje zawodowe.",
            PictureForCourse:"images/imagesForOffer/sailor4.jpg"},
 
-           {idOfOffer:"12", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Wrzesień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"900", 
+           {idOfOffer:"12", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Wrzesień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"900", 
           DateOfStart:"2020.09.05", DateOfEnd:"2020.10.03", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Żeglarz Jachtowy z możliwością dodatkowego "+
           "szkolenia na radiooperatora SRC w trakcie trwania kursu. CENA: 900 zł – szkolenie żeglarskie, 1100 zł – szkolenie żeglarskie + radiooperator SRC "+
           "330 zł – szkolenie na radiooperatora SRC. OPIS OFERTY: Patent żeglarza jachtowego PZŻ lub patent Inland Skipper to pierwszy dokument, którego "+
@@ -337,7 +337,7 @@ var sourceTable=[
            "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
            PictureForCourse:"images/imagesForOffer/sailor5.jpg"},
 
-           {idOfOffer:"13", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Wrzesień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"900", 
+           {idOfOffer:"13", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Wrzesień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"900", 
            DateOfStart:"2020.09.14", DateOfEnd:"2020.09.20", TypeOfCourse:"Dzienny", InformationAboutCourse: "Żeglarz Jachtowy z możliwością dodatkowego "+
            "szkolenia na radiooperatora SRC w trakcie trwania kursu. CENA: 900 zł – szkolenie żeglarskie, 1100 zł – szkolenie żeglarskie + radiooperator SRC "+
            "330 zł – szkolenie na radiooperatora SRC. OPIS OFERTY: Patent żeglarza jachtowego PZŻ lub patent Inland Skipper to pierwszy dokument, którego "+
@@ -381,7 +381,7 @@ var sourceTable=[
             "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
             PictureForCourse:"images/imagesForOffer/sailor6.jpg"},
 
-            {idOfOffer:"14", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
+            {idOfOffer:"14", OfferActive:false,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
             DateOfStart:"2020.06.08", DateOfEnd:"2020.06.14", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
             "egzamin na stopień żeglarza jachtowego, który składa się z 7 dni zajęć praktycznych i teoretycznych. Sala wykładowa i egzaminacyjna znajduje "+
             "się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat gwarantujemy niższą cenę -> "+
@@ -392,7 +392,7 @@ var sourceTable=[
              "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
              PictureForCourse:"images/imagesForOffer/sailor7.jpg"},
 
-             {idOfOffer:"15", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
+             {idOfOffer:"15", OfferActive:false,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
              DateOfStart:"2020.06.15", DateOfEnd:"2020.06.21", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
              "egzamin na stopień żeglarza jachtowego, który składa się z 7 dni zajęć praktycznych i teoretycznych. Sala wykładowa i egzaminacyjna znajduje "+
              "się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat gwarantujemy niższą cenę -> "+
@@ -403,7 +403,7 @@ var sourceTable=[
               "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
               PictureForCourse:"images/imagesForOffer/sailor1.jpg"},
 
-              {idOfOffer:"16", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
+              {idOfOffer:"16", OfferActive:false,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
               DateOfStart:"2020.06.22", DateOfEnd:"2020.06.28", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
               "egzamin na stopień żeglarza jachtowego, który składa się z 7 dni zajęć praktycznych i teoretycznych. Sala wykładowa i egzaminacyjna znajduje "+
               "się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat gwarantujemy niższą cenę -> "+
@@ -414,7 +414,7 @@ var sourceTable=[
                "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                PictureForCourse:"images/imagesForOffer/sailor2.jpg"},
 
-               {idOfOffer:"17", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
+               {idOfOffer:"17", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
                DateOfStart:"2020.06.29", DateOfEnd:"2020.07.05", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
                "egzamin na stopień żeglarza jachtowego, który składa się z 7 dni zajęć praktycznych i teoretycznych. Sala wykładowa i egzaminacyjna znajduje "+
                "się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat gwarantujemy niższą cenę -> "+
@@ -425,7 +425,7 @@ var sourceTable=[
                 "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                 PictureForCourse:"images/imagesForOffer/sailor3.jpg"},
 
-                {idOfOffer:"18", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
+                {idOfOffer:"18",OfferActive:true, CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
                 DateOfStart:"2020.07.06", DateOfEnd:"2020.07.12", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
                 "egzamin na stopień żeglarza jachtowego, który składa się z 7 dni zajęć praktycznych i teoretycznych. Sala wykładowa i egzaminacyjna znajduje "+
                 "się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat gwarantujemy niższą cenę -> "+
@@ -436,7 +436,7 @@ var sourceTable=[
                  "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                  PictureForCourse:"images/imagesForOffer/sailor4.jpg"},
 
-                 {idOfOffer:"19", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
+                 {idOfOffer:"19",OfferActive:true, CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
                 DateOfStart:"2020.07.13", DateOfEnd:"2020.07.19", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
                 "egzamin na stopień żeglarza jachtowego, który składa się z 7 dni zajęć praktycznych i teoretycznych. Sala wykładowa i egzaminacyjna znajduje "+
                 "się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat gwarantujemy niższą cenę -> "+
@@ -447,7 +447,7 @@ var sourceTable=[
                  "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                  PictureForCourse:"images/imagesForOffer/sailor5.jpg"},
 
-                 {idOfOffer:"20", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
+                 {idOfOffer:"20",OfferActive:true, CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
                  DateOfStart:"2020.07.20", DateOfEnd:"2020.07.26", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
                  "egzamin na stopień żeglarza jachtowego, który składa się z 7 dni zajęć praktycznych i teoretycznych. Sala wykładowa i egzaminacyjna znajduje "+
                  "się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat gwarantujemy niższą cenę -> "+
@@ -458,7 +458,7 @@ var sourceTable=[
                 "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                 PictureForCourse:"images/imagesForOffer/sailor6.jpg"},
 
-                {idOfOffer:"21", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
+                {idOfOffer:"21", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"999", 
                 DateOfStart:"2020.07.27", DateOfEnd:"2020.08.02", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na nowoczesny i bezstresowy kurs oraz "+
                 "egzamin na stopień żeglarza jachtowego, który składa się z 7 dni zajęć praktycznych i teoretycznych. Sala wykładowa i egzaminacyjna znajduje "+
                 "się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat gwarantujemy niższą cenę -> "+
@@ -469,7 +469,7 @@ var sourceTable=[
                 "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                 PictureForCourse:"images/imagesForOffer/sailor7.jpg"},
 
-                {idOfOffer:"22", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
+                {idOfOffer:"22", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
                 DateOfStart:"2020.06.01", DateOfEnd:"2020.06.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na sternika motorowodnego na Zalewie Zemborzyckim w Lublinie. "+ 
                 "Kurs rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
                 "godz a reszta na część praktyczną przeprowadzaną w wachtach 3-4 osobowych (szkolimy do skutku, czyli do pewnego opanowania wszystkich "+
@@ -493,7 +493,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail1.jpg"},
 
-                {idOfOffer:"23", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
+                {idOfOffer:"23", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
                 DateOfStart:"2020.07.01", DateOfEnd:"2020.07.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na sternika motorowodnego na Zalewie Zemborzyckim w Lublinie. "+ 
                 "Kurs rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
                 "godz a reszta na część praktyczną przeprowadzaną w wachtach 3-4 osobowych (szkolimy do skutku, czyli do pewnego opanowania wszystkich "+
@@ -517,7 +517,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail2.jpg"},
 
-                {idOfOffer:"24", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
+                {idOfOffer:"24", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
                 DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na sternika motorowodnego na Zalewie Zemborzyckim w Lublinie. "+ 
                 "Kurs rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
                 "godz a reszta na część praktyczną przeprowadzaną w wachtach 3-4 osobowych (szkolimy do skutku, czyli do pewnego opanowania wszystkich "+
@@ -541,7 +541,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail3.jpg"},
 
-                {idOfOffer:"25", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
+                {idOfOffer:"25", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
                 DateOfStart:"2020.09.01", DateOfEnd:"2020.09.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na sternika motorowodnego na Zalewie Zemborzyckim w Lublinie. "+ 
                 "Kurs rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
                 "godz a reszta na część praktyczną przeprowadzaną w wachtach 3-4 osobowych (szkolimy do skutku, czyli do pewnego opanowania wszystkich "+
@@ -565,7 +565,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail4.jpg"},
 
-                {idOfOffer:"25", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
+                {idOfOffer:"25", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Zemborzycki", PriceOfCourse:"600", 
                 DateOfStart:"2020.10.01", DateOfEnd:"2020.10.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na sternika motorowodnego na Zalewie Zemborzyckim w Lublinie. "+ 
                 "Kurs rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
                 "godz a reszta na część praktyczną przeprowadzaną w wachtach 3-4 osobowych (szkolimy do skutku, czyli do pewnego opanowania wszystkich "+
@@ -589,7 +589,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail5.jpg"},
 
-                {idOfOffer:"26", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
+                {idOfOffer:"26", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.06.01", DateOfEnd:"2020.06.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Rzeszowskim na Wisłoku. Kurs realizowany jest w dni powszednie - Poniedziałek-> Piątek i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -614,7 +614,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail6.jpg"},
 
-                {idOfOffer:"27", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
+                {idOfOffer:"27", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.07.01", DateOfEnd:"2020.07.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Rzeszowskim na Wisłoku. Kurs realizowany jest w dni powszednie - Poniedziałek-> Piątek i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -639,7 +639,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail7.jpg"},
 
-                {idOfOffer:"28", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
+                {idOfOffer:"28",OfferActive:true, CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Rzeszowskim na Wisłoku. Kurs realizowany jest w dni powszednie - Poniedziałek-> Piątek i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -664,7 +664,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail8.jpg"},
 
-                {idOfOffer:"29", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
+                {idOfOffer:"29", OfferActive:true, CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Rzeszowskim na Wisłoku. Kurs realizowany jest w dni powszednie - Poniedziałek-> Piątek i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -689,7 +689,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail9.jpg"},
 
-                {idOfOffer:"30", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
+                {idOfOffer:"30",OfferActive:true, CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.09.01", DateOfEnd:"2020.09.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Rzeszowskim na Wisłoku. Kurs realizowany jest w dni powszednie - Poniedziałek-> Piątek i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -714,7 +714,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail10.jpg"},
 
-                {idOfOffer:"31", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
+                {idOfOffer:"31",OfferActive:true, CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Rzeszowski", PriceOfCourse:"600", 
                 DateOfStart:"2020.10.01", DateOfEnd:"2020.10.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Rzeszowskim na Wisłoku. Kurs realizowany jest w dni powszednie - Poniedziałek-> Piątek i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -739,7 +739,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail1.jpg"},
 
-                {idOfOffer:"32", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
+                {idOfOffer:"32", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
                 DateOfStart:"2020.06.01", DateOfEnd:"2020.06.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Zegrzyńskim. Kurs realizowany jest w każy weekend i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -764,7 +764,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail2.jpg"},
 
-                {idOfOffer:"33", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
+                {idOfOffer:"33", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
                 DateOfStart:"2020.07.01", DateOfEnd:"2020.07.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Zegrzyńskim. Kurs realizowany jest w każy weekend i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -789,7 +789,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail3.jpg"},
 
-                {idOfOffer:"34", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
+                {idOfOffer:"34",OfferActive:true, CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
                 DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Zegrzyńskim. Kurs realizowany jest w każy weekend i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -814,7 +814,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail4.jpg"},
 
-                {idOfOffer:"35", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
+                {idOfOffer:"35", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
                 DateOfStart:"2020.09.01", DateOfEnd:"2020.09.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Zegrzyńskim. Kurs realizowany jest w każy weekend i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -839,7 +839,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail5.jpg"},
 
-                {idOfOffer:"36", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
+                {idOfOffer:"36", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Zalew Zegrzyński", PriceOfCourse:"600", 
                 DateOfStart:"2020.10.01", DateOfEnd:"2020.10.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "sternika motorowodnego na Zalewie Zegrzyńskim. Kurs realizowany jest w każy weekend i "+
                 "rozpoczyna się o 9.00 lub 10.00 (to ustalacie z instruktorem prowadzącym) przy czym na część teoretyczną zarezerwowane jest ok. 2 - 3 "+
@@ -864,7 +864,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail6.jpg"},
 
-                {idOfOffer:"37", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
+                {idOfOffer:"37", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
                 DateOfStart:"2020.06.01", DateOfEnd:"2020.06.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "Sternika Motorowodnego w Krakowie na Wiśle na wysokości Wawelu. Miejsce szkolenia 4 km od zjazdu z Autostrady A4, bezpłatny parking. Kurs "+
                 "realizowany jest w każy weekend i "+
@@ -890,7 +890,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail7.jpg"},
 
-                {idOfOffer:"38", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
+                {idOfOffer:"38", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
                 DateOfStart:"2020.07.01", DateOfEnd:"2020.07.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "Sternika Motorowodnego w Krakowie na Wiśle na wysokości Wawelu. Miejsce szkolenia 4 km od zjazdu z Autostrady A4, bezpłatny parking. Kurs "+
                 "realizowany jest w każy weekend i "+
@@ -916,7 +916,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail8.jpg"},
 
-                {idOfOffer:"39", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
+                {idOfOffer:"39", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
                 DateOfStart:"2020.08.01", DateOfEnd:"2020.08.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "Sternika Motorowodnego w Krakowie na Wiśle na wysokości Wawelu. Miejsce szkolenia 4 km od zjazdu z Autostrady A4, bezpłatny parking. Kurs "+
                 "realizowany jest w każy weekend i "+
@@ -942,7 +942,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail9.jpg"},
 
-                {idOfOffer:"40", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
+                {idOfOffer:"40", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
                 DateOfStart:"2020.09.01", DateOfEnd:"2020.09.30", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "Sternika Motorowodnego w Krakowie na Wiśle na wysokości Wawelu. Miejsce szkolenia 4 km od zjazdu z Autostrady A4, bezpłatny parking. Kurs "+
                 "realizowany jest w każy weekend i "+
@@ -968,7 +968,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail10.jpg"},
 
-                {idOfOffer:"41", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
+                {idOfOffer:"41", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Październik", PlaceOfCourse:"Kraków/ Wawel", PriceOfCourse:"600", 
                 DateOfStart:"2020.10.01", DateOfEnd:"2020.10.31", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs oraz egzamin na "+
                 "Sternkia Motorowodnego w Krakowie na Wiśle na wysokości Wawelu. Miejsce szkolenia 4 km od zjazdu z Autostrady A4, bezpłatny parking. Kurs "+
                 "realizowany jest w każy weekend i "+
@@ -994,7 +994,7 @@ var sourceTable=[
                 "swoje pasje i podniosą kwalifikacje zawodowe.",
                 PictureForCourse:"images/imagesForOffer/motoSail1.jpg"},
 
-                {idOfOffer:"42", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Olsztyn J. Ukiel", PriceOfCourse:"690", 
+                {idOfOffer:"42", OfferActive:false,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Olsztyn J. Ukiel", PriceOfCourse:"690", 
                 DateOfStart:"2020.06.11", DateOfEnd:"2020.06.14", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Szkolenie motorowodne – sternik "+
                 "motorowodny z możliwością dodatkowego szkolenia na radiooperatora SRC w trakcie trwania kursu. CENA: 690 zł – szkolenie motorowodne, 840 "+
                 "zł – szkolenie motorowodne + radiooperator SRC, 330 zł – szkolenie na radiooperatora SRC. OPIS OFERTY: Patent sternika motorowodnego "+
@@ -1041,7 +1041,7 @@ var sourceTable=[
                  "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
                  PictureForCourse:"images/imagesForOffer/motoSail2.jpg"},
 
-                 {idOfOffer:"43", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
+                 {idOfOffer:"43", OfferActive:false,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
                 DateOfStart:"2020.06.19", DateOfEnd:"2020.06.21", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Szkolenie motorowodne – sternik "+
                 "motorowodny z możliwością dodatkowego szkolenia na radiooperatora SRC w trakcie trwania kursu. CENA: 690 zł – szkolenie motorowodne, 840 "+
                 "zł – szkolenie motorowodne + radiooperator SRC, 330 zł – szkolenie na radiooperatora SRC. OPIS OFERTY: Patent sternika motorowodnego "+
@@ -1088,7 +1088,7 @@ var sourceTable=[
                  "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
                  PictureForCourse:"images/imagesForOffer/motoSail3.jpg"},
 
-                 {idOfOffer:"44", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
+                 {idOfOffer:"44", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
                 DateOfStart:"2020.07.17", DateOfEnd:"2020.07.19", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Szkolenie motorowodne – sternik "+
                 "motorowodny z możliwością dodatkowego szkolenia na radiooperatora SRC w trakcie trwania kursu. CENA: 690 zł – szkolenie motorowodne, 840 "+
                 "zł – szkolenie motorowodne + radiooperator SRC, 330 zł – szkolenie na radiooperatora SRC. OPIS OFERTY: Patent sternika motorowodnego "+
@@ -1135,7 +1135,7 @@ var sourceTable=[
                  "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
                  PictureForCourse:"images/imagesForOffer/motoSail4.jpg"},
 
-                 {idOfOffer:"45", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
+                 {idOfOffer:"45", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
                 DateOfStart:"2020.08.21", DateOfEnd:"2020.08.23", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Szkolenie motorowodne – sternik "+
                 "motorowodny z możliwością dodatkowego szkolenia na radiooperatora SRC w trakcie trwania kursu. CENA: 690 zł – szkolenie motorowodne, 840 "+
                 "zł – szkolenie motorowodne + radiooperator SRC, 330 zł – szkolenie na radiooperatora SRC. OPIS OFERTY: Patent sternika motorowodnego "+
@@ -1182,7 +1182,7 @@ var sourceTable=[
                  "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
                  PictureForCourse:"images/imagesForOffer/motoSail5.jpg"},
 
-                 {idOfOffer:"46", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
+                 {idOfOffer:"46", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"J. Dzierżno Małe", PriceOfCourse:"690", 
                 DateOfStart:"2020.09.11", DateOfEnd:"2020.09.13", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Szkolenie motorowodne – sternik "+
                 "motorowodny z możliwością dodatkowego szkolenia na radiooperatora SRC w trakcie trwania kursu. CENA: 690 zł – szkolenie motorowodne, 840 "+
                 "zł – szkolenie motorowodne + radiooperator SRC, 330 zł – szkolenie na radiooperatora SRC. OPIS OFERTY: Patent sternika motorowodnego "+
@@ -1229,7 +1229,7 @@ var sourceTable=[
                  "sternika morskiego ISSA (Offshore Skipper), radiooperatora krótkiego zasięgu (SRC)",
                  PictureForCourse:"images/imagesForOffer/motoSail6.jpg"},
 
-                 {idOfOffer:"47", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                 {idOfOffer:"47",OfferActive:false, CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                  DateOfStart:"2020.06.13", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                  "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                  "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1242,7 +1242,7 @@ var sourceTable=[
                   "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                   PictureForCourse:"images/imagesForOffer/motoSail7.jpg"},
 
-                  {idOfOffer:"48", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                  {idOfOffer:"48", OfferActive:false,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                   DateOfStart:"2020.06.20", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                   "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                   "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1255,7 +1255,7 @@ var sourceTable=[
                    "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                    PictureForCourse:"images/imagesForOffer/motoSail8.jpg"},
 
-                   {idOfOffer:"49", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                   {idOfOffer:"49", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Czerwiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                    DateOfStart:"2020.06.27", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                    "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                    "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1268,7 +1268,7 @@ var sourceTable=[
                     "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                     PictureForCourse:"images/imagesForOffer/motoSail9.jpg"},
 
-                    {idOfOffer:"50", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                    {idOfOffer:"50", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                     DateOfStart:"2020.07.04", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                     "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                     "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1281,7 +1281,7 @@ var sourceTable=[
                      "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                      PictureForCourse:"images/imagesForOffer/motoSail10.jpg"},
 
-                     {idOfOffer:"51", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                     {idOfOffer:"51", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                      DateOfStart:"2020.07.11", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                      "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                      "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1294,7 +1294,7 @@ var sourceTable=[
                       "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                       PictureForCourse:"images/imagesForOffer/motoSail1.jpg"},
 
-                      {idOfOffer:"52", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                      {idOfOffer:"52", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                     DateOfStart:"2020.07.18", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                     "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                     "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1307,7 +1307,7 @@ var sourceTable=[
                      "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                      PictureForCourse:"images/imagesForOffer/motoSail2.jpg"},
 
-                     {idOfOffer:"53", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                     {idOfOffer:"53", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                      DateOfStart:"2020.07.25", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                      "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                      "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1320,7 +1320,7 @@ var sourceTable=[
                       "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                       PictureForCourse:"images/imagesForOffer/motoSail3.jpg"},
 
-                      {idOfOffer:"54", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                      {idOfOffer:"54", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                       DateOfStart:"2020.08.01", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                       "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                       "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1333,7 +1333,7 @@ var sourceTable=[
                        "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                        PictureForCourse:"images/imagesForOffer/motoSail4.jpg"},
 
-                       {idOfOffer:"55", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                       {idOfOffer:"55", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                        DateOfStart:"2020.08.08", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                        "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                        "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1347,7 +1347,7 @@ var sourceTable=[
                         PictureForCourse:"images/imagesForOffer/motoSail5.jpg"},
                 
 
-                        {idOfOffer:"56", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                        {idOfOffer:"56",OfferActive:true, CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                         DateOfStart:"2020.08.15", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                         "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                         "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1360,7 +1360,7 @@ var sourceTable=[
                          "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                          PictureForCourse:"images/imagesForOffer/motoSail6.jpg"},
 
-                         {idOfOffer:"57", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                         {idOfOffer:"57", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                          DateOfStart:"2020.08.22", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                          "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                          "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1373,7 +1373,7 @@ var sourceTable=[
                           "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                           PictureForCourse:"images/imagesForOffer/motoSail7.jpg"},
 
-                          {idOfOffer:"58", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                          {idOfOffer:"58", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                           DateOfStart:"2020.08.29", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                           "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                           "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1386,7 +1386,7 @@ var sourceTable=[
                            "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                            PictureForCourse:"images/imagesForOffer/motoSail8.jpg"},
 
-                           {idOfOffer:"59", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                           {idOfOffer:"59", OfferActive:true,CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                            DateOfStart:"2020.09.12", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                            "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                            "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1399,7 +1399,7 @@ var sourceTable=[
                             "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                             PictureForCourse:"images/imagesForOffer/motoSail9.jpg"},
 
-                            {idOfOffer:"60", CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
+                            {idOfOffer:"60",OfferActive:true, CategoryOfProduct: "Sternik Motorowodny", TimingOfCourse:"Wrzesień", PlaceOfCourse:"Mazury-J. Nidzkie", PriceOfCourse:"499", 
                            DateOfStart:"2020.09.19", DateOfEnd:"", TypeOfCourse:"Weekendowy", InformationAboutCourse: "Zapraszamy na nowoczesny, bezstresowy i "+
                            "jednodniowy kurs oraz egzamin na stopień sternika motorowodnego, który składa się z zajęć praktycznych i teoretycznych. Sala wykładowa "+
                            "i egzaminacyjna znajduje się w Rucianem-Nidzie, a zajęcia praktyczne prowadzone są na Jeziorze Nidzkim. Młodzieży i studentom do 26 lat "+
@@ -1411,7 +1411,7 @@ var sourceTable=[
                             "profesjonalną firmą specjalizującą się w szkoleniach oraz organizacji imprez związanych ze sportami wodnymi. "+
                             "Lata doświadczeń pozwoliły nam wypracować wysoki poziom naszych usług, który zadowoli nawet najbardziej wymagających klientów.",
                             PictureForCourse:"images/imagesForOffer/motoSail10.jpg"},
-              {idOfOffer:"61", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
+              {idOfOffer:"61", OfferActive:false,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Czerwiec", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
               DateOfStart:"2020.06.20", DateOfEnd:"2020.07.19",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy kurs na Jeziorze Żywieckim, "+
               "patent Żeglarza Jachtowego daje ogromne możliwości i uprawnienia, jest pierwszym i najważniejszym patentem w karierze żeglarskiej.Uprawnia do "+
               "prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów żaglowych do 12m po wodach morskich wewnętrznych oraz "+
@@ -1430,7 +1430,7 @@ var sourceTable=[
               "w prowadzeniu. To na nich uczymy się jak bezpiecznie żeglować i jak czerpać przyjemność z żeglowania.",
               PictureForCourse:"images/imagesForOffer/sailor7.jpg"},
 
-              {idOfOffer:"62", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
+              {idOfOffer:"62", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
               DateOfStart:"2020.07.06", DateOfEnd:"2020.07.19",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy kurs na Jeziorze Żywieckim, "+
               "patent Żeglarza Jachtowego daje ogromne możliwości i uprawnienia, jest pierwszym i najważniejszym patentem w karierze żeglarskiej.Uprawnia do "+
               "prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów żaglowych do 12m po wodach morskich wewnętrznych oraz "+
@@ -1449,7 +1449,7 @@ var sourceTable=[
               "w prowadzeniu. To na nich uczymy się jak bezpiecznie żeglować i jak czerpać przyjemność z żeglowania.",
               PictureForCourse:"images/imagesForOffer/sailor1.jpg"},
 
-              {idOfOffer:"63", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
+              {idOfOffer:"63",OfferActive:true, CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
               DateOfStart:"2020.07.25", DateOfEnd:"2020.08.23",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy kurs na Jeziorze Żywieckim, "+
               "patent Żeglarza Jachtowego daje ogromne możliwości i uprawnienia, jest pierwszym i najważniejszym patentem w karierze żeglarskiej.Uprawnia do "+
               "prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów żaglowych do 12m po wodach morskich wewnętrznych oraz "+
@@ -1468,7 +1468,7 @@ var sourceTable=[
               "w prowadzeniu. To na nich uczymy się jak bezpiecznie żeglować i jak czerpać przyjemność z żeglowania.",
               PictureForCourse:"images/imagesForOffer/sailor2.jpg"},
 
-              {idOfOffer:"64", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
+              {idOfOffer:"64", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
               DateOfStart:"2020.08.17", DateOfEnd:"2020.08.29",TypeOfCourse:"Dzienny", InformationAboutCourse:"Zapraszamy kurs na Jeziorze Żywieckim, "+
               "patent Żeglarza Jachtowego daje ogromne możliwości i uprawnienia, jest pierwszym i najważniejszym patentem w karierze żeglarskiej.Uprawnia do "+
               "prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów żaglowych do 12m po wodach morskich wewnętrznych oraz "+
@@ -1487,7 +1487,7 @@ var sourceTable=[
               "w prowadzeniu. To na nich uczymy się jak bezpiecznie żeglować i jak czerpać przyjemność z żeglowania.",
               PictureForCourse:"images/imagesForOffer/sailor3.jpg"},
 
-              {idOfOffer:"65", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
+              {idOfOffer:"65", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"J. Żywieckie", PriceOfCourse:"777", 
               DateOfStart:"2020.08.30", DateOfEnd:"2020.10.04",TypeOfCourse:"Weekendowy", InformationAboutCourse:"Zapraszamy kurs na Jeziorze Żywieckim, "+
               "patent Żeglarza Jachtowego daje ogromne możliwości i uprawnienia, jest pierwszym i najważniejszym patentem w karierze żeglarskiej.Uprawnia do "+
               "prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów żaglowych do 12m po wodach morskich wewnętrznych oraz "+
@@ -1506,7 +1506,7 @@ var sourceTable=[
               "w prowadzeniu. To na nich uczymy się jak bezpiecznie żeglować i jak czerpać przyjemność z żeglowania.",
               PictureForCourse:"images/imagesForOffer/sailor4.jpg"},
 
-              {idOfOffer:"66", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+              {idOfOffer:"66", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
               DateOfStart:"2020.07.12", DateOfEnd:"2020.07.18", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
               "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
               "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
@@ -1532,7 +1532,7 @@ var sourceTable=[
               "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
                PictureForCourse:"images/imagesForOffer/sailor5.jpg"},
 
-               {idOfOffer:"67", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+               {idOfOffer:"67", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
                DateOfStart:"2020.07.19", DateOfEnd:"2020.07.25", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
                "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
                "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
@@ -1558,7 +1558,7 @@ var sourceTable=[
                "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
                 PictureForCourse:"images/imagesForOffer/sailor6.jpg"},
 
-              {idOfOffer:"68", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+              {idOfOffer:"68",OfferActive:true, CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Lipiec", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
               DateOfStart:"2020.07.26", DateOfEnd:"2020.08.01", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
               "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
               "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
@@ -1584,7 +1584,7 @@ var sourceTable=[
               "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
                 PictureForCourse:"images/imagesForOffer/sailor7.jpg"},
 
-              {idOfOffer:"69", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+              {idOfOffer:"69", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
               DateOfStart:"2020.08.02", DateOfEnd:"2020.08.08", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
               "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
               "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
@@ -1610,7 +1610,7 @@ var sourceTable=[
               "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
                 PictureForCourse:"images/imagesForOffer/sailor1.jpg"},
               
-              {idOfOffer:"70", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+              {idOfOffer:"70", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
               DateOfStart:"2020.08.09", DateOfEnd:"2020.08.15", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
               "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
               "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+
@@ -1636,7 +1636,7 @@ var sourceTable=[
               "organizacja i aprowizacja, doświadczona i miła kadra, wygoda uczestników dopasowana do ich potrzeb, bezpieczeństwo zarówno sprzętu jak i podejmowanych działań.",
                 PictureForCourse:"images/imagesForOffer/sailor2.jpg"},
 
-              {idOfOffer:"71", CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
+              {idOfOffer:"71", OfferActive:true,CategoryOfProduct: "Żeglarz Jachtowy", TimingOfCourse:"Sierpień", PlaceOfCourse:"Mazury-J. Święcajty", PriceOfCourse:"990", 
               DateOfStart:"2020.08.16", DateOfEnd:"2020.08.22", TypeOfCourse:"Dzienny", InformationAboutCourse: "Zapraszamy na kurs żeglarski na Mazury w "+
               "okolicach Węgorzewa na Jeziorze Święcajty, pozwalające opanować umiejętności niezbędne do skutecznego podejścia do egzaminu na państwowy "+
               "patent żeglarski –  żeglarza jachtowego.Uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych bez ograniczeń, prowadzenia jachtów "+

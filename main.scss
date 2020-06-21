@@ -672,14 +672,16 @@ width: 100%;
 .classMainOfferMainInformation {
   flex-grow: 1;
   height: auto;
-  text-align: justify;
+  text-align: center;
   line-height: 1.35;
   font-size: 1.2em;
   font-weight: bold;
-  color: black;
+  font-style: italic;
+  color: #1c1d1d;
   margin: 0px;
   padding-top: 12px;
-  border-bottom: 1px gray dashed;
+  padding-bottom: 12px;
+  border-bottom: #a09c99 1px solid;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -710,8 +712,8 @@ width: 100%;
 // background: $background_main;
 background: #e6e4c7;
 height: auto;
-border: green 3px solid;
-transition: 1s;
+border: grey 1px solid;
+// transition: 1s;
 position: relative;
 z-index: 2;
 }
@@ -1310,6 +1312,11 @@ width: 75%;
   .classLogoContact {
     width: 425px;
   }
+  .classMainOfferMainInformation {
+
+    font-size: 1.1em;
+   
+  }
   }
 
   @media (max-width: 675px) {
@@ -1360,7 +1367,7 @@ width: 75%;
   }
   .classParametersofChoose {
    
-    height: 320px;
+    height: 295px;
 }
 
   }
